@@ -1,6 +1,6 @@
 package seleniumSquad.cucumberdsAlgo;
 
-public class draft {
+public class draftTest {
 
 	public void testSample() {
 		System.out.println("Hello world");
