@@ -4,6 +4,6 @@ public class draftTest {
 
 	public void testSample() {
 		System.out.println("Hello world");
-		System.out.println("Ready to start");
+		System.out.println("Final Check");
 	}
 }
