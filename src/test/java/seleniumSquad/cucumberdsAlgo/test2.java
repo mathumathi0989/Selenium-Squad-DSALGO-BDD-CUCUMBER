@@ -9,3 +9,17 @@ public class test2 {
 		System.out.println("Added all testers");
 	}
 }
+
+/*
+git checkout main 
+git pull origin main
+check if changes are reflected (refresh)
+git checkout urBranch 
+git merge main 
+--- now you can see main code in your branch 
+-- do your changes 
+git add .
+git commit -m ""
+git push 
+---- raise pull request and merge to main
+*/
