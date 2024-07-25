@@ -1,2 +1,4 @@
-seleniumSquad/cucumberdsAlgo/draft.class
-seleniumSquad/cucumberdsAlgo/AppTest.class
+testrunner/TestRunner.class
+seleniumSquad/cucumberdsAlgo/test2.class
+seleniumSquad/cucumberdsAlgo/draftTest.class
+stepdefinition/loginStepDefinition.class
