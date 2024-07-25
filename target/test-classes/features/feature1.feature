@@ -1,6 +1,6 @@
 #Author: your.email@your.domain.com
 
-@tag
+@sanity
 Feature: Verify login
 
   Scenario: Login with positive 

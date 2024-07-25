@@ -1,4 +1,4 @@
 $(document).ready(function() {
-CucumberHTML.timelineItems.pushArray([{"id":"7ce94ab7-6466-4584-9863-f57d9cad9eaa","feature":"Verify login","scenario":"Login with positive","start":1721874706193,"group":1,"content":"","tags":"@tag,","end":1721874706226,"className":"passed"}]);
+CucumberHTML.timelineItems.pushArray([{"id":"9bf621e1-7812-4fbd-8c81-a30275e97609","feature":"Verify login","scenario":"Login with positive","start":1721925786853,"group":1,"content":"","tags":"@tag,","end":1721925786870,"className":"undefined"}]);
 CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
 });
