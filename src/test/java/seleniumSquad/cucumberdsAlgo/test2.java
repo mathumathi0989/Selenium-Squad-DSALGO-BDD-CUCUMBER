@@ -10,7 +10,9 @@ public class test2 {
 	}
 }
 
-/*
+/* Collaborator pulling the code change made by Mathu
+ git status
+ git branch
 git checkout main 
 git pull origin main
 check if changes are reflected (refresh)
