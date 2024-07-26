@@ -1,4 +1,4 @@
-package stepdefinition;
+package dsalgostepdefinition;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
