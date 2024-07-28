@@ -5,7 +5,7 @@ Feature: Queue page
 
 # Implementation of Queue in Python
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Queue  page
+    Given The  user is on the "Queue" page
     When The user clicks a "Implementation of Queue in Python" link
     Then The user should be redirected to "Implementation of Queue in Python" Page
 
@@ -34,7 +34,7 @@ Scenario: Verify if user able to validate the python editor with valid data
     
 # Implementation using collections.deque
  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Queue page
+    Given The  user is on the "Queue" page
     When The user clicks a "Implementation using collections.deque" link
     Then The user should be redirected to "Implementation using collections.deque" Page
 
@@ -63,7 +63,7 @@ Scenario: Verify if user able to validate the python editor with valid data
  
 # Implementation using array
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Queue page
+    Given The  user is on the "Queue" page
     When The user clicks a "Implementation using array" link
     Then The user should be redirected to "Implementation using array" Page
 
@@ -92,7 +92,7 @@ Scenario: Verify if user able to validate the python editor with valid data
     
 # Queue Operations
  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Queue page
+    Given The  user is on the "Queue" page
     When The user clicks a "Queue Operations" link
     Then The user should be redirected to "Queue Operations" Page
 

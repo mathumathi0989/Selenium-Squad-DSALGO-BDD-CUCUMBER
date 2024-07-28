@@ -5,7 +5,7 @@ Feature: Array page
 
 # Arrays in Python
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Array  page
+    Given The  user is on the "Array" page
     When The user clicks a "Arrays in Python" link
     Then The user should be redirected to "Arrays in Python" Page
 
@@ -34,7 +34,7 @@ Scenario: Verify if user able to validate the python editor with valid data
     
 # Arrays Using List  
  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Array  page
+    Given The  user is on the "Array" page
     When The user clicks a "Arrays Using List" link
     Then The user should be redirected to "Arrays Using List" Page
 
@@ -63,7 +63,7 @@ Scenario: Verify if user able to validate the python editor with valid data
  
 # Basic Operations in Lists
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Array  page
+    Given The  user is on the "Array" page
     When The user clicks a "Basic Operations in Lists" link
     Then The user should be redirected to "Basic Operations in Lists" Page
 
@@ -92,7 +92,7 @@ Scenario: Verify if user able to validate the python editor with valid data
     
 # Application of Array
  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the Array  page
+    Given The  user is on the "Array" page
     When The user clicks a "Application of Array" link
     Then The user should be redirected to "Application of Array" Page
 
