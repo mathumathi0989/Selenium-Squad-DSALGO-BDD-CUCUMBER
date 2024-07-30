@@ -1,17 +1,22 @@
-#Author: Mathumathi Balakrishnan
+#Author: Mathumathi Balakrishnan and Anusuya Selvaraj
 
 @sanity
-Feature: Data Structures-Introduction page
+Feature: Data Structures Home page
 
-#Time Complexity
+
+Scenario: Verify if user able to access each data structure list
+Given The user is on the Data Structures Home page
+When The user clicks on each "Get Started" button
+Then The user should be redirected to the selected data structure page
+
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the "Data Structures-Introduction page"  page
-    When The user clicks a "Time Complexity" link
-    Then The user should be redirected to "Time Complexity" Page
+    Given The  user is on the selected data structure page
+    When The user clicks on Topics covered 
+    Then The user should be redirected to selected topic covered page
 
 Scenario: Verify if user able to view the python editor page from topics covered section
-    Given The user is on the "Time Complexity" Page
-    When The user clicks "Try Here" button of "Time Complexity" Page
+    Given The user is on the selected topic covered page
+    When The user clicks "Try Here" button
     Then The user should be redirected to a page having an Python Editor 
     
  Scenario: Verify if user able to validate the python editor with empty data
