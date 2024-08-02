@@ -11,10 +11,15 @@ Given The user is on the Home page
 When  The user clicks on DataStructure Get Started button
 Then  The user should be redirected to the data structure homepage
 
+
   Scenario: Verify if user able to access topics covered section
-    Given The  user is on the data structure homepage
+  Given The user is on the Home page
+	When  The user clicks on DataStructure Get Started button
+	Then  The user should be redirected to the data structure homepage
     When  The user clicks on Topics covered 
     Then  The user should be redirected to selected topic covered page
+    
+    
 
 Scenario: Verify if user able to view the python editor page from topics covered section
     Given The user is on the selected topic covered page

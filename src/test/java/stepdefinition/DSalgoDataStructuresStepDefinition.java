@@ -1,5 +1,7 @@
 package stepdefinition;
 
+import java.time.Duration;
+
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -9,14 +11,16 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import hooks.hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class DSalgoDataStructuresStepDefinition {
 	
-	public WebDriver driver;
-	private WebDriverWait wait;
+	WebDriver driver = hooks.getDriver();
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+
 	public String code;
 	//Background-   Given Open the application
 	@Given("Open the application")
@@ -24,6 +28,9 @@ public class DSalgoDataStructuresStepDefinition {
 		driver.get("http://dsportalapp.herokuapp.com/");
 		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn']")));
 		button.click();
+		DSalgoSignInStepDefinition dsSignIn = new DSalgoSignInStepDefinition();
+		dsSignIn.the_user_is_on_the_ds_algo_sign_in_page();
+		dsSignIn.the_user_clicks_login_button_after_entering_valid_username_and_valid_password();
 	}
 		
 	//Scenario: Verify if user able to access data structure homepage
@@ -51,9 +58,9 @@ public class DSalgoDataStructuresStepDefinition {
 		
 		@Given("The  user is on the data structure homepage")
 		public void the_user_is_on_the_data_structure_homepage() {
-		  
-			String dsPageTitle=driver.getTitle();
-			System.out.println(dsPageTitle);
+			driver.findElement(By.xpath("//a[@href='data-structures-introduction']")).click();
+		//	String dsPageTitle=driver.getTitle();
+		//	System.out.println(dsPageTitle);
 			
 		}
 		@When("The user clicks on Topics covered")
@@ -71,6 +78,7 @@ public class DSalgoDataStructuresStepDefinition {
 		//Scenario: Verify if user able to view the python editor page from topics covered section
 		@Given("The user is on the selected topic covered page")
 		public void the_user_is_on_the_selected_topic_covered_page() {
+			//driver.findElement(By.xpath("//a[@href='data-structures-introduction']")).click();
 			String dsPageTitle=driver.getTitle();
 			System.out.println(dsPageTitle);
 		
