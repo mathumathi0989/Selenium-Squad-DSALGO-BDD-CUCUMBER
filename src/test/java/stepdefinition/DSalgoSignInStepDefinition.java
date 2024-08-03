@@ -14,6 +14,7 @@ import hooks.hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import dsUtilities.LoggerLoad;
 
 public class DSalgoSignInStepDefinition {
 	WebDriver driver = hooks.getDriver();
@@ -201,6 +202,7 @@ public class DSalgoSignInStepDefinition {
 		String expectedMessage = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']"))).getText();
 		Assert.assertEquals("You are logged in", expectedMessage);
+		LoggerLoad.info("user signed in successfully");
 	}
 	
 }

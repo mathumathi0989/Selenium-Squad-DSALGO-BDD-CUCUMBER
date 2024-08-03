@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
+import dsUtilities.LoggerLoad;
 import hooks.hooks;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -50,7 +51,7 @@ public class DSalgoDataStructuresStepDefinition {
 			String actualdDsTitle=driver.getTitle();
 			String expectedDsTitle="Data Structures-Introduction";
 	      Assert.assertEquals(actualdDsTitle, expectedDsTitle, "Values are not equal!");
-	     
+	      LoggerLoad.info("Data Structure home page displayed successfully");
 		}
 			
 		//Scenario: Verify if user able to access topics covered section
@@ -72,6 +73,7 @@ public class DSalgoDataStructuresStepDefinition {
 			String actualTcTitle=driver.getTitle();
 			String expectedTcTitle="Time Complexity";
 	      Assert.assertEquals(actualTcTitle, expectedTcTitle, "Values are not equal!");
+	      LoggerLoad.info("User redirected to DS - Topic covered successfully");
 			
 		}
 			
