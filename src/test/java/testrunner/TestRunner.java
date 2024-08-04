@@ -12,12 +12,10 @@ import io.cucumber.testng.CucumberOptions;
 import dsUtilities.ConfigReader;
 
 
-
-@CucumberOptions(plugin = { "pretty", "html:target/cucumber-reports/.html" },
-
-features = { "src/test/resources/features/DSAlgoSignin.feature" }, glue = { "stepdefinition", "hooks" })
-
-
+@CucumberOptions(
+        features = {"src/test/resources/features/DSAlgoSignin.feature"},
+        glue = {"stepdefinition","hooks"},
+        plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	// Provide data for parallel execution of scenarios
