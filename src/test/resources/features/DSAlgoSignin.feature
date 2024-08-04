@@ -4,10 +4,6 @@
 @signin
 Feature: SignIn
 
-
-Background:
-    Given Open the application for Signin
-  
 Scenario: Verify if user able to signIn with both username and password blank
     Given The user is on the DS Algo SignIn Page
     When  The user clicks login button after leaving the username textbox and password textbox blank

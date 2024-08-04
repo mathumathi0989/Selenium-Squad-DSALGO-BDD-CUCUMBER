@@ -22,9 +22,12 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
-		return super.scenarios(); }
+		return super.scenarios();
+		}
 	
+}
 	
+	/*
 	 // Define the browser parameter before tests
 	@BeforeTest
 	@Parameters({ "browser" })
@@ -32,9 +35,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 		// Set the browser type in configReader
 	ConfigReader.setBrowserType(browser);
 	}
-	    
-	
-
-	
 	
 }
+*/

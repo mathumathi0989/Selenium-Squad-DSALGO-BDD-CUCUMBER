@@ -6,31 +6,50 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import hooks.hooks;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import dsUtilities.DriverManager;
+import dsUtilities.ConfigReader;
 import dsUtilities.LoggerLoad;
 
 public class DSalgoSignInStepDefinition {
-	WebDriver driver = hooks.getDriver();
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+	
 
+	
+    public WebDriver driver ;
+    public WebDriverWait wait;
+   ConfigReader configReader = new ConfigReader();
+  
+  public DSalgoSignInStepDefinition() {
+      this.driver = driver;
+      driver = DriverManager.getDriver(configReader.getProperty("browser"));
+      wait=new WebDriverWait(driver, Duration.ofSeconds(30));
+      
+  }
 
-	@Given("Open the application for Signin")
+  
+  
+	/*@Given("Open the application for Signin")
 	public void open_the_application_for_Signin() {
-		driver.get("http://dsportalapp.herokuapp.com/");
+		driver.get(configReader.getProperty("baseUrl") + "/login");
 		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn']")));
 		button.click();
 	}
-		
+	*/	
 
 	@Given("The user is on the DS Algo SignIn Page")
 	public void the_user_is_on_the_ds_algo_sign_in_page() {
+		driver.get(configReader.getProperty("baseUrl"));		
+		driver.findElement(By.xpath("//button[@class='btn']")).click();
+		//WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn']")));
+		//button.click();
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		Boolean isElementPresent = (Boolean) js.executeScript(
 				"return document.evaluate(\"//a[normalize-space()='Sign in']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue != null;");
@@ -41,6 +60,8 @@ public class DSalgoSignInStepDefinition {
 		} else {
 			System.out.println("Element not found");
 		}
+		
+		
 	}
 
 //Scenario: Verify if user able to signIn with both username and password blank 	
@@ -82,6 +103,7 @@ public class DSalgoSignInStepDefinition {
 		String validationMessage = (String) js.executeScript(script, passwordField);
 		System.out.println("Validation Error Message: " + validationMessage);
 		Assert.assertEquals(pwdError, validationMessage);
+
 	}
 
 //Scenario: Verify if user able to signIn with only username blank 
@@ -99,6 +121,7 @@ public class DSalgoSignInStepDefinition {
 		} catch (Exception e) {
 
 		}
+
 	}
 
 
@@ -122,6 +145,7 @@ public class DSalgoSignInStepDefinition {
 		} catch (Exception e) {
 
 		}
+
 	}
 
 
@@ -145,6 +169,7 @@ public class DSalgoSignInStepDefinition {
 		} catch (Exception e) {
 
 		}
+
 	}
 
 	@Then("The user should able to see an error message {string}.")
@@ -203,6 +228,7 @@ public class DSalgoSignInStepDefinition {
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']"))).getText();
 		Assert.assertEquals("You are logged in", expectedMessage);
 		LoggerLoad.info("user signed in successfully");
+
 	}
 	
 }
