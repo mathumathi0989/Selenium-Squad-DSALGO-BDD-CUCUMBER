@@ -39,7 +39,7 @@ Scenario: Verify if user able to signIn invalid username and valid password
     
               
 Scenario: Verify if user able to signIn valid username and valid password
-    Given The user is on the DS Algo SignIn Page
+   Given The user is on the DS Algo SignIn Page
     When  The user clicks login button after entering valid username and valid password
     Then  The user should land in Data Structure Home Page   
     
