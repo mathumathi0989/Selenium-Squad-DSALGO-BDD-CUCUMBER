@@ -3,3 +3,6 @@
 [INFO ] 2024-08-02 22:54:20.083 [main] LoggerLoad - Data Structure home page displayed successfully
 [INFO ] 2024-08-02 22:54:20.419 [main] LoggerLoad - User redirected to DS - Topic covered successfully
 [INFO ] 2024-08-02 22:59:34.339 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-03 19:20:19.191 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-03 19:41:23.673 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-03 20:31:37.078 [TestNG-tests-1] LoggerLoad - user signed in successfully

@@ -12,19 +12,24 @@ import io.cucumber.testng.CucumberOptions;
 import dsUtilities.ConfigReader;
 
 
-@CucumberOptions(
-        features = {"src/test/resources/features/DSAlgoSignin.feature"},
-        glue = {"stepdefinition","hooks"},
-        plugin = {"pretty", "html:target/cucumber-reports.html"})
+
+@CucumberOptions(plugin = { "pretty", "html:target/cucumber-reports/.html" },
+
+features = { "src/test/resources/features/DSAlgoSignin.feature" }, glue = { "stepdefinition", "hooks" })
+
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	// Provide data for parallel execution of scenarios
 	@Override
 	@DataProvider(parallel = false)
 	public Object[][] scenarios() {
-		return super.scenarios(); }
+		return super.scenarios();
+		}
 	
+}
 	
+	/*
 	 // Define the browser parameter before tests
 	@BeforeTest
 	@Parameters({ "browser" })
@@ -32,9 +37,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 		// Set the browser type in configReader
 	ConfigReader.setBrowserType(browser);
 	}
-	    
-	
-
-	
 	
 }
+*/

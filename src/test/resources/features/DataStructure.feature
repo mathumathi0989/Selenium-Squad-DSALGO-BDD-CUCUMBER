@@ -16,8 +16,8 @@ Then  The user should be redirected to the data structure homepage
   Given The user is on the Home page
 	When  The user clicks on DataStructure Get Started button
 	Then  The user should be redirected to the data structure homepage
-    When  The user clicks on Topics covered 
-    Then  The user should be redirected to selected topic covered page
+   When  The user clicks on Topics covered 
+   Then  The user should be redirected to selected topic covered page
     
     
 

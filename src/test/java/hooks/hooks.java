@@ -1,15 +1,36 @@
 package hooks;
 
-import org.openqa.selenium.WebDriver;
 
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
+
 import dsUtilities.ConfigReader;
-import dsUtilities.driverFactory;
+import dsUtilities.DriverManager;
+import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
+import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
+
+import org.openqa.selenium.WebDriver;
 
 public class hooks {
 
 
+	 WebDriver driver;
+
+	    @Before
+	    public void setUp() {
+	        driver = DriverManager.getDriver(new ConfigReader().getProperty("browser"));
+	    }
+
+	    @After
+	    public void tearDown() {
+	        DriverManager.quitDriver();
+	        
+	    }
+	    
+	    
+}
+
+	/*
 	  // ThreadLocal for WebDriver instances
   private static final ThreadLocal<WebDriver> driver = new ThreadLocal<>();
   
@@ -45,3 +66,4 @@ public class hooks {
 	
 	    
 }
+*/
