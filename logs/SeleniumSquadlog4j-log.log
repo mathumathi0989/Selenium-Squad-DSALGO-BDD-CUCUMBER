@@ -10,3 +10,7 @@
 =======
 [INFO ] 2024-08-03 00:43:18.075 [main] LoggerLoad - user signed in successfully
 >>>>>>> dd6bb25dbcd84857ae72b8918fd2d7cd86dca1df
+[INFO ] 2024-08-03 20:50:34.971 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-03 20:52:45.742 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-05 15:52:53.937 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-07 12:45:49.574 [TestNG-tests-1] LoggerLoad - user signed in successfully

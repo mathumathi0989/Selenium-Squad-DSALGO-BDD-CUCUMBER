@@ -20,14 +20,14 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 
 	// Provide data for parallel execution of scenarios
 	@Override
-	@DataProvider(parallel = false)
+	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
 		return super.scenarios();
 		}
 	
 }
 	
-	/*
+/*
 	 // Define the browser parameter before tests
 	@BeforeTest
 	@Parameters({ "browser" })
