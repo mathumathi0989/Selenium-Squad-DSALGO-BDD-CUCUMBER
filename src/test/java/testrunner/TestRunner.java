@@ -15,7 +15,7 @@ import dsUtilities.ConfigReader;
 @CucumberOptions(
         features = {"src/test/resources/features/DSAlgoSignin.feature"},
         glue = {"stepdefinition","hooks"},
-        plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"})
+        plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	// Provide data for parallel execution of scenarios

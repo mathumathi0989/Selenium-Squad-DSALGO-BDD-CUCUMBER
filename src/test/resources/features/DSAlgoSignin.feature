@@ -22,7 +22,6 @@ Scenario: Verify if user able to signIn with only username blank
     
             
 Scenario: Verify if user able to signIn with invalid username and invalid password
-    Given The user is on the DS Algo SignIn Page 
     When  The user clicks login button after entering invalid username and invalid password
     Then  The user should able to see an error message "Invalid Username and Password".
     
@@ -38,6 +37,7 @@ Scenario: Verify if user able to signIn invalid username and valid password
     
               
 Scenario: Verify if user able to signIn valid username and valid password
+
     When  The user clicks login button after entering valid username and valid password
     Then  The user should land in Data Structure Home Page   
     
