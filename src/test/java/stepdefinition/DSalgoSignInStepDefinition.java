@@ -7,6 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
@@ -18,38 +19,30 @@ import io.cucumber.java.en.When;
 import dsUtilities.DriverManager;
 import dsUtilities.ConfigReader;
 import dsUtilities.LoggerLoad;
+import dsalgoPOM.SignInPage;
 
 public class DSalgoSignInStepDefinition {
 	
 
-	
     public WebDriver driver ;
     public WebDriverWait wait;
-   ConfigReader configReader = new ConfigReader();
+    ConfigReader configReader = new ConfigReader();
+    SignInPage signInPage = PageFactory.initElements(driver, SignInPage.class);
   
   public DSalgoSignInStepDefinition() {
-      this.driver = driver;
+  
+
       driver = DriverManager.getDriver(configReader.getProperty("browser"));
-      wait=new WebDriverWait(driver, Duration.ofSeconds(30));
-      
+      signInPage=new SignInPage(driver);
+       wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+       
   }
-
   
-  
-	/*@Given("Open the application for Signin")
-	public void open_the_application_for_Signin() {
-		driver.get(configReader.getProperty("baseUrl") + "/login");
-		WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn']")));
-		button.click();
-	}
-	*/	
-
 	@Given("The user is on the DS Algo SignIn Page")
 	public void the_user_is_on_the_ds_algo_sign_in_page() {
-		driver.get(configReader.getProperty("baseUrl"));		
-		driver.findElement(By.xpath("//button[@class='btn']")).click();
-		//WebElement button = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn']")));
-		//button.click();
+		
+		
+        driver.get(configReader.getProperty("baseUrl") + "/login");
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		Boolean isElementPresent = (Boolean) js.executeScript(
 				"return document.evaluate(\"//a[normalize-space()='Sign in']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue != null;");
