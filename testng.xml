@@ -1,27 +1,14 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite" parallel="tests" thread-count="2">
-    <test name="TestChrome">
-        <classes>
-            <class name="testrunner.TestRunner"></class>
-        </classes>
-    </test>
-    
-    
 
   
-    
-    
-    
- <!-- Define a test for Firefox browser 
-    <test thread-count="1" name="TestFirefox">
-        <parameter name="browser" value="firefox" />
+       <test name="Chrome tests">
+		 <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testrunner.TestRunner"></class>
         </classes>
     </test>
-   
-
- -->
 
 </suite>
+  
