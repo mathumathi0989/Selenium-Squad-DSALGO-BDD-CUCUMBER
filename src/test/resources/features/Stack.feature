@@ -4,6 +4,13 @@
 Feature: Stack
 
 # Stack
+
+Scenario: Verify if user is logged in
+   Given The user is on the DS Algo SignIn Page
+   When  User enters "validUsername" and "validPassword" 
+   And   User clicks on Login button
+   Then  User is navigated to the home page 
+
   Scenario: Verify if user able to direct to "Operations in Stack" Page
     Given The user is in the Stack page after logged in
     When  The user clicks "Operations in Stack" button

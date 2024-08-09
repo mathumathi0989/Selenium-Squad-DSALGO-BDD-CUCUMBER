@@ -1,83 +1,40 @@
 package dsUtilities;
 
 
-import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverManager {
 	
-	private static WebDriver driver;
+	private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
 
-  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+    public static void initializeDriver() {
+        String browser = ConfigReader.getProperty("browser");
 
-	
-    public static  WebDriver getDriver(String browser) {
-        if (driver == null) {
-            switch (browser.toLowerCase()) {
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    break;
-                case "chrome":
-                default:
-                    WebDriverManager.chromedriver().setup();
-                    driver = new ChromeDriver();
-                    break;       
-            }
+        if (browser.equalsIgnoreCase("chrome")) {
+            WebDriverManager.chromedriver().setup();
+            driver.set(new ChromeDriver());
+        } else if (browser.equalsIgnoreCase("firefox")) {
+            WebDriverManager.firefoxdriver().setup();
+            driver.set(new FirefoxDriver());
         }
-     // Set page load timeout and maximize window
-        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-        driver.manage().window().maximize();
-        return driver;
+        driver.get().manage().window().maximize();
+    }
+
+    public static WebDriver getDriver() {
+        return driver.get();
     }
 
     public static void quitDriver() {
-        if (driver != null) {
-            driver.quit();
-            driver = null;
+        if (driver.get() != null) {
+            driver.get().quit();
+            driver.remove();
         }
     }
-}
-
 
 	
-	/*
-
-	public WebDriver driver;
-	 // Initialize WebDriver based on the browser type
-	@Parameters("browser")
-	public WebDriver initializeDrivers(String browser) {
-
-		 if (browser.equalsIgnoreCase("firefox")) {
-	            WebDriverManager.firefoxdriver().setup();
-	            driver = new FirefoxDriver();
-	        } else if (browser.equalsIgnoreCase("chrome")) {
-	            WebDriverManager.chromiumdriver();	 
-	            driver = new ChromeDriver();
-	        } else if (browser.equalsIgnoreCase("safari")) {
-	        	SafariOptions options = new SafariOptions();
-	        	options.setCapability("automaticInspection", false);
-	        	options.setCapability("automaticProfiling", false);
-
-	        	driver = new SafariDriver(options);
-	         //   driver = new SafariDriver();
-	        } else if (browser.equalsIgnoreCase("edge")) {
-	            WebDriverManager.edgedriver().setup();
-	            driver = new EdgeDriver();
-	        }
-		 // Set page load timeout and maximize window
-	        driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
-	        driver.manage().window().maximize();
-	        
-	        return driver;
-
-	}
-	
 }
-*/
