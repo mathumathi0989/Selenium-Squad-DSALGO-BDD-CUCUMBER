@@ -1,4 +1,4 @@
-#Author: Mathumathi Balakrishnan and Anusuya Selvaraj
+#Author:  Anusuya Selvaraj
 
 @sanity
 Feature: Data Structures Home page
