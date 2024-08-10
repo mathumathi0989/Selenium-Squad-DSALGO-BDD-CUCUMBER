@@ -2,6 +2,7 @@ package stepdefinition;
 
 import java.time.Duration;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -84,6 +85,8 @@ public class DSalgoSignInStepDefinition {
 		WebElement signInButton = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 		signInButton.click();
+		
+		
 	}
 
 	@Then("The error message {string} appears below Pwd textbox")
@@ -104,11 +107,15 @@ public class DSalgoSignInStepDefinition {
 		try {
 
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
-			//passwordField.sendKeys(password);
 			signInPage.enterPassword(configReader.getProperty("password"));
 			WebElement signInButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 			signInButton.click();
+			
+			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+            System.out.println("Alert message: " + alert.getText());
+          
+			
 		} catch (Exception e) {
 
 		}
@@ -230,3 +237,4 @@ public class DSalgoSignInStepDefinition {
 	}
 
 }
+
