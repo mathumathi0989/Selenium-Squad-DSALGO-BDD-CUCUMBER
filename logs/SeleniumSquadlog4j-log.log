@@ -16,3 +16,5 @@
 [INFO ] 2024-08-08 19:53:43.803 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-09 11:53:03.212 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-09 12:12:56.454 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-09 22:39:05.247 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-10 08:10:14.046 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
