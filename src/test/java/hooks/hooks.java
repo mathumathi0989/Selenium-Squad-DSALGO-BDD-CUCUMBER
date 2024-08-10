@@ -8,7 +8,6 @@ import dsUtilities.DriverManager;
 public class hooks {
 	
 	@Before
-
 	   
     public void setUp(Scenario scenario) {
         DriverManager.initializeDriver();

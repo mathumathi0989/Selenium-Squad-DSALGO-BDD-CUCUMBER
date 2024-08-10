@@ -8,6 +8,7 @@ public class HomePage {
 	    By dataStructuresLink = By.linkText("Data Structures");
 	    By stackLink = By.linkText("Stack");
 	    By queueLink = By.linkText("Queue");
+	    By stackstart= By.xpath("//a[@href='stack']");
 	    By logoutButton = By.xpath("//a[text()='Sign out']");
 
 
@@ -17,10 +18,15 @@ public class HomePage {
 
 	    public void selectDataStructures() {
 	        driver.findElement(dataStructuresLink).click();
+	        
+	        //Add in select stack()-// driver.findElement(stackLink).click();
+
 	    }
 
 	    public void selectStack() {
-	        driver.findElement(stackLink).click();
+	       	  driver.findElement(stackstart).click();
+	          System.out.println(driver.getTitle());
+	        
 	    }
 
 	    public void clickLogoutButton() {
