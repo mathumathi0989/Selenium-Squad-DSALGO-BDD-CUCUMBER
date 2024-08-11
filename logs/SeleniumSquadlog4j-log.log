@@ -63,3 +63,62 @@
 [INFO ] 2024-08-09 22:31:22.518 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-09 22:31:49.190 [TestNG-tests-1] LoggerLoad - user signed in successfully
 
+[INFO ] 2024-08-11 20:10:28.682 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:10:55.010 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:11:36.922 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:12:16.258 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:13:16.948 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:13:39.756 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:14:19.925 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:15:03.976 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:16:04.737 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:16:35.320 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:17:13.786 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:17:58.131 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:24:09.993 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:24:31.547 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:25:01.288 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 20:25:25.607 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:01:00.474 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:01:27.031 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:01:57.505 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:03:32.554 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:03:54.627 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:08:03.558 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:08:22.634 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:08:52.819 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:09:25.583 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:09:49.630 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:10:10.354 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:10:30.811 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:18:15.446 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:18:36.079 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:19:17.687 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:19:48.328 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:20:37.279 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:21:16.689 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:25:27.594 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:25:51.483 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:26:43.390 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 22:28:28.903 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:01:40.490 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:02:14.741 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:03:04.534 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:04:06.531 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:05:05.749 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:05:31.375 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:06:09.209 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:06:55.818 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.720 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.720 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.721 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.720 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.720 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:19.720 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:22.663 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:34.772 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-11 23:17:52.079 [TestNG-PoolService-0] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-11 23:18:02.309 [TestNG-PoolService-4] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-11 23:19:24.773 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-11 23:19:47.991 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-11 23:19:49.707 [TestNG-PoolService-6] LoggerLoad - user validated valid code in graph page
