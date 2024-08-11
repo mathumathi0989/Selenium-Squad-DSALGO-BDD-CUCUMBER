@@ -1,101 +1,58 @@
-#Author: Mathumathi
+#Author: Mathumathi Balakrishnan
 
 @sanity
 Feature: Graph
 
-#Graph home page
-  
-Scenario: Verify if user able to redirect to "Introduction" page.
-    Given The user is on the "Graph" home page
-    When  The user clicks "Graph" link
-    Then  The user should be redirected to "Graph" page.
+# Graph
+Background: Verify if user is logged in
+     Given The user is on the DS Algo SignIn Page
+     When  The user clicks login button after entering valid "username" and valid "password"
+     Then   The user should land in Data Structure Home Page  
 
-#Graph
-  
-Scenario: Verify if user able to 
-    Given The user is on the "Graph" page
-    When  The user clicks "Try Here" button
-    Then  The user should be redirected to a page having Editor and run button
+  Scenario: Verify if user able to direct to "Graph" Page
+    Given The user is in the Graph page after logged in
+    When  The user clicks Graph link in Topics covered section
+    Then  The user should be directed to Graph Page
+
+Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+    Given The user is in the Graph page 
+    When  The user clicks Try Here button in the graph page
+    Then  The user should be redirected to a graph page having an tryEditor with a Run button to test
     
-#Python Editor page without data
-  
-Scenario: Verify if user able to 
-    Given The user is on the Python Editor
-    When  The user clicks the Run Button without entring the code in the Editor
-    Then  Nothing happens to the page and no error message is displayed
+ Scenario: Verify if user able to see the output in console
+    Given The user is on the Graph tryEditor page 
+    When  The User writes Valid python code in graph page
+    And   Click the Run button in graph page
+    Then  User is able to see the output in console of graph page
     
-#Python Editor page with valid data
+ Scenario: Verify if user able to see the error msg in pop up window
+   Given The user is on the Graph tryEditor page 
+   When The user writes invalid python code in graph page
+   And  Click the Run button in graph page
+   Then  User is able to see the error msg in graph page pop up window 
   
-Scenario: Verify if user able to 
-    Given The user is on the editor page
-    When  The user writes the valid python code 
-    And   click run button
-    Then  The user is able to see the output inside the console.
-    
- #Python Editor page with invalid data
+   
+  Scenario: Verify if user able to direct to "Graph Representations" page
+   Given The user is in the Graph page after logged in
+   When The user clicks Graph representations link in Topics covered section
+   Then The user should be directed to Graph representations Page
   
-Scenario: Verify if user able to 
-    Given The user is on the editor page
-    When  The user writes the invalid python code
-    And   click run button
-    Then  The user see error msg in alert window
-    
- #Python Editor page with alert message  
+   Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+   Given The user is in the Graph representations page
+   When The user clicks Try Here button in the graph page
+   Then The user should be redirected to a graph page having an tryEditor with a Run button to test
   
- Scenario: Verify if user able to 
-    Given The user is on the editor page with Alert  error message
-    When  The user click the ok button in the alert window
-    Then  The user is on the same page having Editor and Run button 
-    
-  # Graph page
+   Scenario: Verify if user able to see the output in console
+   Given The user is on the Graph representations tryEditor page
+   When The User writes Valid python code in graph page
+   And  Click the Run button in graph page
+   Then User is able to see the output in console of graph page
   
- Scenario: Verify if user able to 
-    Given The user is on the "Graph" page
-    When  The user clicks "Graph Representations" link
-    Then  The user should be redirected to "Graph Representations" page.    
- 
-   # Graph Representations
-  
- Scenario: Verify if user able to 
-    Given  The user is on the "Graph Representations" page
-    When   The user clicks "Try Here" button
-    Then   The user should be redirected to a page having Editor and run button 
-    
-  #Python Editor page without data
-  
-Scenario: Verify if user able to 
-    Given The user is on the Python Editor
-    When  The user clicks the Run Button without entring the code in the Editor
-    Then  Nothing happens to the page and no error message is displayed
-    
-#Python Editor page with valid data
-  
-Scenario: Verify if user able to 
-    Given The user is on the editor page
-    When  The user writes the valid python code 
-    And   click run button
-    Then  The user is able to see the output inside the console.
-    
- #Python Editor page with invalid data
-  
-Scenario: Verify if user able to 
-    Given The user is on the editor page
-    When  The user writes the invalid python code
-    And   click run button
-    Then  The user see error msg in alert window
-    
- #Python Editor page with alert message  
-  
- Scenario: Verify if user able to 
-    Given The user is on the editor page with Alert  error message
-    When  The user click the ok button in the alert window
-    Then  The user is on the same page having Editor and Run button 
-    
-   # Graph 
-  
- Scenario: Verify if user able to 
-    Given  The user is on the "Graph" page
-    When   The user clicks "Practice Questions" link
-    Then   The user should be redirected to "Practice Questions" page.
-    
+   Scenario: Verify if user to see the error msg in pop up window
+   Given The user is on the Graph representations tryEditor page
+   When The user writes invalid python code in graph page
+   And  Click the Run button in graph page
+   Then User is able to see the error msg in graph page pop up window 
+   
+   
    
