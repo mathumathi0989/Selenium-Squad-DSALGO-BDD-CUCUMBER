@@ -9,7 +9,8 @@ public class HomePage {
 	    By stackLink = By.linkText("Stack");
 	    By queueLink = By.linkText("Queue");
 	    By stackstart= By.xpath("//a[@href='stack']");
-	    By graphstart= By.xpath("//a[@href='graph']"); ///
+	    By graphstart= By.xpath("//a[@href='graph']"); 
+	    By arraystart= By.xpath("//a[@href='array']"); 
 	    By logoutButton = By.xpath("//a[text()='Sign out']");
 
 
@@ -36,6 +37,11 @@ public class HomePage {
 	        
 	    }
 	    
+	    public void selectArray() {
+	       	  driver.findElement(arraystart).click();
+	          System.out.println(driver.getTitle());
+	        
+	    }
 
 	    public void clickLogoutButton() {
 	        driver.findElement(logoutButton).click();

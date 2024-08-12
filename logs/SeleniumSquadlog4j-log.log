@@ -122,3 +122,81 @@
 [INFO ] 2024-08-11 23:19:24.773 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-11 23:19:47.991 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-11 23:19:49.707 [TestNG-PoolService-6] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-12 23:20:48.605 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:20:52.774 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-12 23:21:06.647 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:21:27.271 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:21:41.898 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:21:55.936 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:21:58.806 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-12 23:22:12.651 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:22:34.416 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:22:48.368 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:22:59.322 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:23:12.461 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:23:15.540 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-12 23:23:27.931 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:23:48.468 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:24:09.344 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:24:21.412 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:24:30.875 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:24:44.022 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:24:47.088 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-12 23:24:59.305 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:25:28.640 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:25:40.850 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:25:53.031 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:26:01.190 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:29:54.046 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:29:57.256 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-12 23:30:10.424 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:30:32.821 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:30:46.114 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:31:00.175 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:31:04.058 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-12 23:31:15.958 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:31:37.010 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:31:58.019 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:32:07.414 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:32:20.647 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:32:23.564 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-12 23:32:36.080 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:32:54.963 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:33:11.230 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:33:24.216 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:33:34.183 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:33:46.289 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:33:50.492 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-12 23:34:03.522 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:34:26.866 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:34:40.120 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:34:52.657 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:35:02.279 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:38:34.040 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:38:37.968 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-12 23:38:50.531 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:39:09.210 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:39:20.855 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:39:33.119 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:39:44.242 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:39:57.419 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:40:00.309 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-12 23:40:13.093 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:40:33.066 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:40:44.372 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:40:57.623 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:41:06.782 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:41:19.924 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:41:22.996 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-12 23:41:35.720 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:41:55.380 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:42:09.143 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:42:21.492 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:42:36.495 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
+[INFO ] 2024-08-12 23:42:49.719 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:42:52.396 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-12 23:43:05.443 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:43:25.053 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:43:38.864 [TestNG-tests-1] LoggerLoad - user validated valid code in array page
+[INFO ] 2024-08-12 23:43:52.762 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 23:44:10.142 [TestNG-tests-1] LoggerLoad - user validated invalid code in array page
