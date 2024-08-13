@@ -10,6 +10,7 @@ import org.testng.Assert;
 
 import dsUtilities.ConfigReader;
 import dsUtilities.DriverManager;
+import dsUtilities.LoggerLoad;
 import dsalgoPOM.HomePage;
 import dsalgoPOM.SignInPage;
 import dsalgoPOM.StackPage;
@@ -56,6 +57,8 @@ public class DSalgoStackStepDefinition {
 		System.out.println(driver.getTitle());
 		String actual = driver.findElement(By.xpath("//p[text()='Operations in Stack']")).getText();
 		Assert.assertEquals(actual, "Operations in Stack");
+		LoggerLoad.info("user redirected to Operations in Stack Page");	   
+
 	}
 
 	// Scenario: Verify if user able to redirect to a page having an tryEditor with
@@ -105,6 +108,7 @@ public class DSalgoStackStepDefinition {
 	@Then("User is able to see the output in console")
 	public void user_is_able_to_see_the_output_in_console() {
 		stackpage.outputconsole();
+		LoggerLoad.info("user validated valid code in stack page");
 
 	}
 	
@@ -120,7 +124,9 @@ public class DSalgoStackStepDefinition {
 	@Then("User is able to see the error msg in pop up window")
 	public void user_is_able_to_see_the_error_msg_in_pop_up_window()  {
 		
-	    stackpage.outputt();
+	    stackpage.output();
+		LoggerLoad.info("user validated invalid code in stack page");
+
   	
 	}
 	
@@ -136,6 +142,8 @@ public class DSalgoStackStepDefinition {
 		System.out.println(driver.getTitle());
 		String actual = driver.findElement(By.xpath("//p[text()='Implementation']")).getText();
 		Assert.assertEquals(actual, "Implementation"); 
+		LoggerLoad.info("user is directed to Implementation Page");
+
 	}
 	
 	
@@ -162,7 +170,7 @@ public class DSalgoStackStepDefinition {
 		
 
 
-		//   Scenario: Verify if user able to see the error msg in pop up window
+	//   Scenario: Verify if user able to see the error msg in pop up window
 		
 	
 	//   Scenario: Verify if user able to direct to "Applications" Page
@@ -178,6 +186,8 @@ public class DSalgoStackStepDefinition {
 			System.out.println(driver.getTitle());
 			String actual = driver.findElement(By.xpath("//p[text()='Applications']")).getText();
 			Assert.assertEquals(actual, "Applications");
+			LoggerLoad.info("user is directed to Applications Stackpage");
+
 		}
 		
 	//   Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test

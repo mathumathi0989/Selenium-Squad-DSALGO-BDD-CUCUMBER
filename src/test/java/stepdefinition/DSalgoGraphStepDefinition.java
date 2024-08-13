@@ -32,7 +32,6 @@ public class DSalgoGraphStepDefinition {
 		graphpage = new GraphPage(driver);
 
 	}
-
 	// Scenario: Verify if user able to direct to "Graph" Page
 
 	@Given("The user is in the Graph page after logged in")
@@ -140,10 +139,6 @@ public class DSalgoGraphStepDefinition {
 		Assert.assertEquals(actual, "Graph Representations"); 
 		LoggerLoad.info("user redirected to graph representation page");
 	}
-
-
-	
-	
 	
 //  Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
 	
@@ -153,9 +148,7 @@ public class DSalgoGraphStepDefinition {
 		   graphpage.verifyGraphRepresentationsPage();
 
 	}
-	
-
-	
+		
 	// Scenario: Verify if user able to see the output in console
 	@Given("The user is on the Graph representations tryEditor page")
 	public void the_user_is_on_the_graph_representations_tryeditor_page() {
@@ -164,13 +157,6 @@ public class DSalgoGraphStepDefinition {
 			graphpage.tryhereButton();
 			System.out.println(driver.getTitle());
 
-		}
-		
-
-
-
-	
-	
-	
+		}	
 	
 }

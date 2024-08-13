@@ -51,7 +51,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
     
   Scenario: Verify if user able to see the error msg in pop up window
    Given The user is on the Implementation tryEditor page
-   When The User writes Valid python code
+   When The user writes invalid python code
    And  Click the Run button
    Then User is able to see the error msg in pop up window 
   
@@ -74,7 +74,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   
    Scenario: Verify if user to see the error msg in pop up window
    Given The user is on the Applications tryEditor page
-   When The User writes Valid python code
+   When The user writes invalid python code
    And  Click the Run button
    Then User is able to see the error msg in pop up window
   

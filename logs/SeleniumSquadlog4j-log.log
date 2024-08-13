@@ -122,3 +122,92 @@
 [INFO ] 2024-08-11 23:19:24.773 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-11 23:19:47.991 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-11 23:19:49.707 [TestNG-PoolService-6] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-12 11:13:13.150 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:13:25.684 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:13:36.877 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:13:51.510 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:04.201 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:16.904 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:27.737 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:38.381 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:48.928 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:14:59.669 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:15:10.491 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:15:21.263 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:15:31.755 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:15:42.625 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:15:53.538 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 11:16:04.691 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:43:17.321 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:43:18.878 [TestNG-tests-1] LoggerLoad - user redirected to QueuePage
+[INFO ] 2024-08-12 14:43:32.295 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:43:48.550 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:43:55.143 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-12 14:44:06.528 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:44:14.715 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-12 14:44:28.278 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:44:29.661 [TestNG-tests-1] LoggerLoad - user redirected to QueuePage
+[INFO ] 2024-08-12 14:44:42.712 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:44:59.042 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:45:04.172 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-12 14:45:17.712 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:45:23.649 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-12 14:45:36.996 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:45:38.792 [TestNG-tests-1] LoggerLoad - user redirected to QueuePage
+[INFO ] 2024-08-12 14:45:49.960 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:46:03.826 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:46:13.326 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-12 14:46:24.460 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:46:29.867 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-12 14:46:40.972 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:46:42.673 [TestNG-tests-1] LoggerLoad - user redirected to QueuePage
+[INFO ] 2024-08-12 14:46:53.534 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:47:11.657 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:47:18.809 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-12 14:47:30.552 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 14:47:36.396 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-12 15:29:16.139 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:29:31.391 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:29:44.300 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:29:57.414 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:30:09.466 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:30:20.545 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:30:31.313 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:30:42.386 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:30:53.066 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:31:04.633 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:31:16.648 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:31:28.626 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:31:40.491 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:31:51.571 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:32:02.185 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:34:05.195 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:36:46.161 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:37:03.395 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:37:18.607 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:37:32.124 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:37:45.435 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:37:58.379 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:38:11.270 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:38:24.359 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:38:36.431 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:38:50.943 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:39:04.478 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:39:16.076 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:39:27.036 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:39:37.765 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:39:48.916 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:40:00.022 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:40:11.068 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:40:22.513 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:40:36.191 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:40:49.193 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:41:00.429 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 15:41:11.050 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 16:28:18.365 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:08:07.626 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:08:25.593 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:08:41.334 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:08:54.443 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:09:10.149 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-12 17:09:24.251 [main] LoggerLoad - user signed in successfully
