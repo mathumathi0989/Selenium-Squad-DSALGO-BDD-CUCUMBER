@@ -13,8 +13,9 @@ public class HomePage {
 	    By arraystart= By.xpath("//a[@href='array']");
 	    By linkedliststart= By.xpath("//a[@href='linked-list']"); 
 	    By treestart= By.xpath("//a[@href='tree']"); 
+	    By datastructurestart= By.xpath("//a[@href='data-structures-introduction']"); 
 
-	    By logoutButton = By.xpath("//a[text()='Sign out']");
+	    By signout=By.linkText("Sign out");
 	    private By register=By.xpath("//a[text()=' Register ']");
 
 
@@ -22,7 +23,7 @@ public class HomePage {
 	        this.driver = driver;
 	    }
 
-	    public void selectDataStructures() {
+	    public void selectDataStructuresdropdwon() {
 	        driver.findElement(dataStructuresLink).click();
 	        
 	        //Add in select stack()-// driver.findElement(stackLink).click();
@@ -64,11 +65,15 @@ public class HomePage {
 	        
 	    } 
 	    
-
-	    public void clickLogoutButton() {
-	        driver.findElement(logoutButton).click();
+	    public void selectDataStructure() {
+	       	  driver.findElement(datastructurestart).click();
+	          System.out.println(driver.getTitle());
+	        
 	    }
-	    public void registert() {
+	    public void clickSignoutButton() {
+	        driver.findElement(signout).click();
+	    }
+	    public void register() {
 	        driver.findElement(register).click();
 	    } 
 	  
