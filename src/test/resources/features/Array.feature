@@ -1,244 +1,103 @@
 #Author: Mathumathi Balakrishnan
 
 @sanity
-Feature: Array page
+Feature: Array
 
-# Arrays in Python
-  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the "Array" page
-    When The user clicks a "Arrays in Python" link
-    Then The user should be redirected to "Arrays in Python" Page
+# Array
+Background: Verify if user is logged in
+     Given The user is on the DS Algo SignIn Page
+     When  The user clicks login button after entering valid "username" and valid "password"
+     Then   The user should land in Data Structure Home Page  
 
-Scenario: Verify if user able to view the python editor page from topics covered section
-    Given The user is on the "Arrays in Python" Page
-    When The user clicks "Try Here" button of "Arrays in Python" Page
-    Then The user should be redirected to a page having an Python Editor 
-    
- Scenario: Verify if user able to validate the python editor with empty data
-    Given The user is on the Python Editor
-    When The user clicks the Run button without entering the code in the Editor
-    And Click the Run button
-    Then Nothing happens to the page and no error message should be displayed
-    
-Scenario: Verify if user able to validate the python editor with invalid data
-    Given The user is on the Python Editor
-    When The user write the invalid code in Editor
-    And Click the Run button
-    Then The user should able to see an error message in alert window
-    
-Scenario: Verify if user able to validate the python editor with valid data
-    Given The user is on the Python Editor
-    When The user write the valid code in Editor
-    And Click the Run button
-    Then The user should able to see output in the console
-    
-# Arrays Using List  
- Scenario: Verify if user able to access topics covered section
-    Given The  user is on the "Array" page
-    When The user clicks a "Arrays Using List" link
-    Then The user should be redirected to "Arrays Using List" Page
+  Scenario: Verify if user able to direct to "Arrays in Python" Page
+    Given The user is in the Array page after logged in
+    When  The user clicks Arrays in Python link in Topics covered section
+    Then  The user should be directed to Arrays in Python Page
 
-Scenario: Verify if user able to view the python editor page from topics covered section
-    Given The user is on the "Arrays Using List" Page
-    When The user clicks "Try Here" button of "Arrays Using List" Page
-    Then The user should be redirected to a page having an Python Editor 
+Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+    Given The user is in the Arrays in Python page 
+    When  The user clicks Try Here button in the Array page
+    Then  The user should be redirected to a array page having an tryEditor with a Run button to test
     
- Scenario: Verify if user able to validate the python editor with empty data
-    Given The user is on the Python Editor
-    When The user clicks the Run button without entering the code in the Editor
-    And Click the Run button
-    Then Nothing happens to the page and no error message should be displayed
+ Scenario: Verify if user able to see the output in console
+    Given The user is on the Array tryEditor page 
+    When  The User writes Valid python code in array page
+    And   Click the Run button in array page
+    Then  User is able to see the output in console of array page
+    
+ Scenario: Verify if user able to see the error msg in pop up window
+   Given The user is on the Array tryEditor page 
+   When The user writes invalid python code in array page
+   And  Click the Run button in array page
+   Then  User is able to see the error msg in array page pop up window 
   
-Scenario: Verify if user able to validate the python editor with invalid data
-    Given The user is on the Python Editor
-    When The user write the invalid code in Editor
-    And Click the Run button
-    Then The user should able to see an error message in alert window
-    
-Scenario: Verify if user able to validate the python editor with valid data
-    Given The user is on the Python Editor
-    When The user write the valid code in Editor
-    And Click the Run button
-    Then The user should able to see output in the console
+   
+  Scenario: Verify if user able to direct to "Arrays Using List" page
+   Given The user is in the Array page after logged in
+   When The user clicks Arrays Using List link in Topics covered section
+   Then The user should be directed to Arrays Using List Page
+  
+   Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+   Given The user is in the Arrays Using List page
+   When The user clicks Try Here button in the Array page
+   Then The user should be redirected to a array page having an tryEditor with a Run button to test
+  
+   Scenario: Verify if user able to see the output in console
+   Given The user is on the Arrays Using List tryEditor page
+   When The User writes Valid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the output in console of array page
+  
+   Scenario: Verify if user to see the error msg in pop up window
+   Given The user is on the Arrays Using List tryEditor page
+   When The user writes invalid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the error msg in array page pop up window 
+   
  
-# Basic Operations in Lists
-  Scenario: Verify if user able to access topics covered section
-    Given The  user is on the "Array" page
-    When The user clicks a "Basic Operations in Lists" link
-    Then The user should be redirected to "Basic Operations in Lists" Page
-
-Scenario: Verify if user able to view the python editor page from topics covered section
-    Given The user is on the "Basic Operations in Lists" Page
-    When The user clicks "Try Here" button of "Basic Operations in Lists" Page
-    Then The user should be redirected to a page having an Python Editor 
-    
- Scenario: Verify if user able to validate the python editor with empty data
-    Given The user is on the Python Editor
-    When The user clicks the Run button without entering the code in the Editor
-    And Click the Run button
-    Then Nothing happens to the page and no error message should be displayed
+   Scenario: Verify if user able to direct to "Basic Operations in Lists" page
+   Given The user is in the Array page after logged in
+   When The user clicks Basic Operations in Lists link in Topics covered section
+   Then The user should be directed to Basic Operations in Lists Page
   
-Scenario: Verify if user able to validate the python editor with invalid data
-    Given The user is on the Python Editor
-    When The user write the invalid code in Editor
-    And Click the Run button
-    Then The user should able to see an error message in alert window
-    
-Scenario: Verify if user able to validate the python editor with valid data
-    Given The user is on the Python Editor
-    When The user write the valid code in Editor
-    And Click the Run button
-    Then The user should able to see output in the console
-    
-# Application of Array
- Scenario: Verify if user able to access topics covered section
-    Given The  user is on the "Array" page
-    When The user clicks a "Application of Array" link
-    Then The user should be redirected to "Application of Array" Page
-
-Scenario: Verify if user able to view the python editor page from topics covered section
-    Given The user is on the "Application of Array" Page
-    When The user clicks "Try Here" button of "Application of Array" Page
-    Then The user should be redirected to a page having an Python Editor 
-    
-Scenario: Verify if user able to validate the python editor with empty data
-    Given The user is on the Python Editor
-    When The user clicks the Run button without entering the code in the Editor
-    And Click the Run button
-    Then Nothing happens to the page and no error message should be displayed
+   Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+   Given The user is in the Basic Operations in Lists page
+   When The user clicks Try Here button in the Array page
+   Then The user should be redirected to a array page having an tryEditor with a Run button to test
   
-Scenario: Verify if user able to validate the python editor with invalid data
-    Given The user is on the Python Editor
-    When The user write the invalid code in Editor
-    And Click the Run button
-    Then The user should able to see an error message in alert window
+   Scenario: Verify if user able to see the output in console
+   Given The user is on the Basic Operations in Lists tryEditor page
+   When The User writes Valid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the output in console of array page
+  
+   Scenario: Verify if user to see the error msg in pop up window
+   Given The user is on the Basic Operations in Lists tryEditor page
+   When The user writes invalid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the error msg in array page pop up window 
+   
+   
+   Scenario: Verify if user able to direct to "Applications of Array" page
+   Given The user is in the Array page after logged in
+   When The user clicks Applications of Array link in Topics covered section
+   Then The user should be directed to Applications of Array Page
+  
+   Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+   Given The user is in the Applications of Array page
+   When The user clicks Try Here button in the Array page
+   Then The user should be redirected to a array page having an tryEditor with a Run button to test
+  
+   Scenario: Verify if user able to see the output in console
+   Given The user is on the Applications of Array tryEditor page
+   When The User writes Valid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the output in console of array page
+  
+   Scenario: Verify if user to see the error msg in pop up window
+   Given The user is on the Applications of Array tryEditor page
+   When The user writes invalid python code in array page
+   And  Click the Run button in array page
+   Then User is able to see the error msg in array page pop up window 
+   
     
-Scenario: Verify if user able to validate the python editor with valid data
-    Given The user is on the Python Editor
-    When The user write the valid code in Editor
-    And Click the Run button
-    Then The user should able to see output in the console
-    
-# Practice Questions
-Scenario: Verify if user able to view practice page
- 		Given The  user is on the "Applications of Array" page
- 		When The user clicks "Practice Questions" link
- 		Then The user should be redirected to "Practice" page having links like "Search the array" ,"Max Consecutive Ones","Find Numbers with Even Number of Digits" and "Squares of a Sorted Array"
- 		
- # Practice Questions - search the array
-Scenario: Verify if user able to validate the python editor from practice page links
- 		Given The user is on "Practice" page 
- 		When The user clicks "search the array" link
- 		Then The user should be redirected to "QUESTION" page contains a question,an tryEditor with Run and Submit buttons
- 		
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user clicks the Run button without entering the code in the Editor
- 		Then Nothing happens to the page and no error message is displayed
- 	
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the invalid code in Editor
-		And Click the Run button
-		Then The user should able to see an error message in alert window
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Run button
-		Then The user should able to see output in the console
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Submit button
-		Then The user see an message "Submission Successful"
-		
-# Practice Questions - Max consecutive ones
-Scenario: Verify if user able to validate the python editor from practice page links
- 		Given The user is on "Practice" page 
- 		When The user clicks "Max consecutive ones" link
- 		Then The user should be redirected to "QUESTION" page contains a question,an tryEditor with Run and Submit buttons
- 		
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user clicks the Run button without entering the code in the Editor
- 		Then Nothing happens to the page and no error message is displayed
- 	
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the invalid code in Editor
-		And Click the Run button
-		Then The user should able to see an error message in alert window
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Run button
-		Then The user should able to see output in the console
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Submit button
-		Then The user see an message "Submission Successful"
-		
-# Practice Questions - Find numbers with even number of digits 
-Scenario: Verify if user able to validate the python editor from practice page links
- 		Given The user is on "Practice" page 
- 		When The user clicks "Find numbers with even number of digits" link
- 		Then The user should be redirected to "QUESTION" page contains a question,an tryEditor with Run and Submit buttons
- 		
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user clicks the Run button without entering the code in the Editor
- 		Then Nothing happens to the page and no error message is displayed
- 	
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the invalid code in Editor
-		And Click the Run button
-		Then The user should able to see an error message in alert window
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Run button
-		Then The user should able to see output in the console
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Submit button
-		Then The user see an message "Submission Successful"				
- 		
-# Practice Questions - squared of the sorted array 
-Scenario: Verify if user able to validate the python editor from practice page links
- 		Given The user is on "Practice" page 
- 		When The user clicks "squared of the sorted array" link
- 		Then The user should be redirected to "QUESTION" page contains a question,an tryEditor with Run and Submit buttons
- 		
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user clicks the Run button without entering the code in the Editor
- 		Then Nothing happens to the page and no error message is displayed
- 	
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the invalid code in Editor
-		And Click the Run button
-		Then The user should able to see an error message in alert window
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Run button
-		Then The user should able to see output in the console
-
-Scenario: Verify if user able to validate the python editor from practice page links
-		Given The user is on the Python Editor
-		When The user write the valid code in Editor
-		And Click the Submit button
-		Then The user see an message "Submission Successful"	 		
- 		
- 
