@@ -96,3 +96,20 @@
 [INFO ] 2024-08-13 16:32:06.115 [TestNG-PoolService-0] LoggerLoad - user validated invalid code
 [INFO ] 2024-08-13 16:32:06.925 [TestNG-PoolService-6] LoggerLoad - user validated valid code
 [INFO ] 2024-08-13 16:32:09.691 [TestNG-PoolService-7] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 13:35:07.813 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 13:35:09.401 [main] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-13 13:35:25.401 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 14:55:44.229 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 14:55:59.126 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 14:56:14.030 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 14:56:28.142 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:10:50.534 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:10:52.013 [TestNG-tests-1] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-13 17:11:07.083 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:11:23.054 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:11:31.095 [TestNG-tests-1] LoggerLoad - user validated valid code in datastructures page
+[INFO ] 2024-08-13 17:11:43.194 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:11:47.931 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-13 17:34:27.149 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:41:54.068 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 17:43:19.746 [TestNG-tests-1] LoggerLoad - user signed in successfully
