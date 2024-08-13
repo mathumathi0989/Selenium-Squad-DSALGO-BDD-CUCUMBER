@@ -1,7 +1,5 @@
 package testrunner;
 
-
-
 import org.testng.annotations.DataProvider;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
