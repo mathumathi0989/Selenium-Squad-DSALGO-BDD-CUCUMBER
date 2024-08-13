@@ -10,7 +10,8 @@ public class HomePage {
 	    By stackstart= By.xpath("//a[@href='stack']");
 	    By queuestart= By.xpath("//a[@href='queue']");
 	    By graphstart= By.xpath("//a[@href='graph']"); 
-	    By arraystart= By.xpath("//a[@href='array']"); 
+	    By arraystart= By.xpath("//a[@href='array']");
+	    By linkedliststart= By.xpath("//a[@href='linked-list']"); 
 	    By treestart= By.xpath("//a[@href='tree']"); 
 
 	    By logoutButton = By.xpath("//a[text()='Sign out']");
@@ -56,6 +57,13 @@ public class HomePage {
 	          System.out.println(driver.getTitle());
 	        
 	    }  
+	    
+	    public void selectLinkedList() {
+	       	  driver.findElement(linkedliststart).click();
+	          System.out.println(driver.getTitle());
+	        
+	    } 
+	    
 
 	    public void clickLogoutButton() {
 	        driver.findElement(logoutButton).click();

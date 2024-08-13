@@ -105,7 +105,7 @@ public class DSalgoArraysStepDefinition {
 	@Then("User is able to see the output in console of array page")
 	public void user_is_able_to_see_the_output_in_console_of_array_page() {
 		arraypage.outputconsole();
-		LoggerLoad.info("user validated valid code in array page");
+		LoggerLoad.info("user validated valid code");
 
 	}
 	
@@ -122,7 +122,7 @@ public class DSalgoArraysStepDefinition {
 	public void user_is_able_to_see_the_error_msg_in_array_page_pop_up_window()  {
 		
 		arraypage.outputt();
-		LoggerLoad.info("user validated invalid code in array page");
+		LoggerLoad.info("user validated invalid code");
   	
 	}
 
