@@ -3,6 +3,10 @@
 @sanity
 Feature: Tree
 
+Background: Verify if user is logged in
+    Given The user is on the DS Algo SignIn Page
+    When The user clicks login button after entering valid "username" and valid "password"
+    Then  The user should land in Data Structure Home Page 
 
  Scenario: Verify if user able to direct "Overview of Trees" page
     Given The  user is on the Tree page after logged in	

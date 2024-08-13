@@ -15,6 +15,7 @@ public class HomePage {
 	    By treestart= By.xpath("//a[@href='tree']"); 
 
 	    By logoutButton = By.xpath("//a[text()='Sign out']");
+	    private By register=By.xpath("//a[text()=' Register ']");
 
 
 	    public HomePage(WebDriver driver) {
@@ -67,6 +68,8 @@ public class HomePage {
 	    public void clickLogoutButton() {
 	        driver.findElement(logoutButton).click();
 	    }
-	    
+	    public void registert() {
+	        driver.findElement(register).click();
+	    } 
 	  
 }
