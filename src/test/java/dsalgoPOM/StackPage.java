@@ -23,7 +23,6 @@ public class StackPage {
 	By practiceQues = By.linkText("Practice Questions");
 
 	By tryhere = By.xpath("//a[@class='btn btn-info']");
-	// By textEditor=By.xpath("//div[@class='CodeMirror cm-s-default']");
 	By RunButton = By.xpath("//button[@type='button']");
 	By output = By.xpath("//pre[@id='output']");
 
@@ -33,7 +32,6 @@ public class StackPage {
 
 	}
 
-	
 
 	public void verifyOperationsinStackPage() {
 
@@ -94,7 +92,7 @@ public class StackPage {
 	}
 	
 	
-	public void outputt()
+	public void output()
 	{
 
 		try {
