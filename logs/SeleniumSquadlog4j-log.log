@@ -47,3 +47,52 @@
 [INFO ] 2024-08-13 16:18:21.486 [TestNG-tests-1] LoggerLoad - user validated valid code in Introduction page
 [INFO ] 2024-08-13 16:18:33.691 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-13 16:18:43.281 [TestNG-tests-1] LoggerLoad - user validated invalid code in introduction page
+[INFO ] 2024-08-13 16:29:15.941 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.942 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.941 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.942 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.941 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.941 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.942 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.943 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.942 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:15.941 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:29:32.127 [TestNG-PoolService-4] LoggerLoad - user redirected to Creating Linked LIst page
+[INFO ] 2024-08-13 16:29:32.127 [TestNG-PoolService-0] LoggerLoad - user redirected to Introduction page
+[INFO ] 2024-08-13 16:29:32.350 [TestNG-PoolService-8] LoggerLoad - user redirected to Types of Linked List page
+[INFO ] 2024-08-13 16:29:49.569 [TestNG-PoolService-7] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:29:51.494 [TestNG-PoolService-3] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:29:55.945 [TestNG-PoolService-2] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:29:57.329 [TestNG-PoolService-6] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:30:16.168 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:19.029 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:19.128 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:35.477 [TestNG-PoolService-8] LoggerLoad - user redirected to Implement Linked List in Python page
+[INFO ] 2024-08-13 16:30:43.550 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:43.550 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:43.549 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:44.334 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:44.829 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:47.450 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:47.867 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:30:49.005 [TestNG-PoolService-4] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:30:52.181 [TestNG-PoolService-0] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:30:52.180 [TestNG-PoolService-3] LoggerLoad - user redirected to Traversal page
+[INFO ] 2024-08-13 16:31:07.985 [TestNG-PoolService-6] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:31:09.055 [TestNG-PoolService-7] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:31:09.842 [TestNG-PoolService-9] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:31:10.583 [TestNG-PoolService-2] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:31:32.859 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:33.001 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:33.114 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:33.121 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:43.207 [TestNG-PoolService-8] LoggerLoad - user redirected to Insertion page
+[INFO ] 2024-08-13 16:31:49.877 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:49.954 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:50.186 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:50.593 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-13 16:31:57.685 [TestNG-PoolService-1] LoggerLoad - user redirected to Deletion page
+[INFO ] 2024-08-13 16:31:58.261 [TestNG-PoolService-3] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:32:06.115 [TestNG-PoolService-0] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-13 16:32:06.925 [TestNG-PoolService-6] LoggerLoad - user validated valid code
+[INFO ] 2024-08-13 16:32:09.691 [TestNG-PoolService-7] LoggerLoad - user validated invalid code
