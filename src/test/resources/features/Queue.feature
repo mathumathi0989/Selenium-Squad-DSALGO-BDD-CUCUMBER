@@ -1,6 +1,6 @@
 #Author: Anusuya Selvaraj
 
-@sanity
+@regression
 Feature: Queue
 
 Background: Verify if user is logged in

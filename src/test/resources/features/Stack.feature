@@ -1,6 +1,6 @@
 #Author: Anusuya Selvaraj
 
-@sanity
+@regression
 Feature: Stack
 
 # Stack

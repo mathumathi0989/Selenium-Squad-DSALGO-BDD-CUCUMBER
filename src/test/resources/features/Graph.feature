@@ -1,6 +1,6 @@
 #Author: Mathumathi Balakrishnan
 
-@sanity
+@regression
 Feature: Graph
 
 # Graph
