@@ -113,3 +113,5 @@
 [INFO ] 2024-08-13 17:34:27.149 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-13 17:41:54.068 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-13 17:43:19.746 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-15 15:58:29.459 [TestNG-tests-1] LoggerLoad - user registered successfully
+[INFO ] 2024-08-15 16:01:43.661 [TestNG-tests-1] LoggerLoad - user registered successfully
