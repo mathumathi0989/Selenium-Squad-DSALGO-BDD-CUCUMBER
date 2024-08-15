@@ -1,6 +1,6 @@
 #Author:Anusuya Selvaraj
 
-@sanity
+@regression
 Feature: Tree
 
 Background: Verify if user is logged in

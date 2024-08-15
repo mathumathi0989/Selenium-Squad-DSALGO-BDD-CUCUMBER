@@ -1,6 +1,7 @@
 #Author: Mathumathi Balakrishnan
 
 @sanity
+@regression
 Feature: Array
 
 # Array

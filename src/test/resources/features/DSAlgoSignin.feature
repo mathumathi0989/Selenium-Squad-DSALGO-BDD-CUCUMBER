@@ -1,7 +1,7 @@
 #Author: AnusuyaSelvaraj
 
 @sanity
-@signin
+@regression
 Feature: SignIn Page 
    
 Background: User is on SignIn Page

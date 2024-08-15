@@ -1,6 +1,7 @@
 #Author: Anusuya Selvaraj
 
 @sanity
+@regression
 Feature: Signout
 
 #Signout
