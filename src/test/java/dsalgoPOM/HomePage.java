@@ -1,14 +1,21 @@
 package dsalgoPOM;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
 	public WebDriver driver;
+	 WebDriverWait wait;
 	    By prepareinterviestart=By.xpath("//a[@href='/home']");
 	
-	    By dataStructuresLink = By.linkText("Data Structures");
+	    By dataStructuresdrop = By.xpath("//a[@class='nav-link dropdown-toggle']");
 	
 	    By stackstart= By.xpath("//a[@href='stack']");
 	    By queuestart= By.xpath("//a[@href='queue']");
@@ -21,106 +28,46 @@ public class HomePage {
 	    By signout=By.linkText("Sign out");
 	    By register=By.xpath("//a[text()=' Register ']");
 
-     // Drop down  DS list elements
-		By dropDS = By.xpath("//a[text()='Data Structures']");
-		By dropArray = By.xpath("//a[text()='Arrays']");
-		By dropLinkedlist = By.xpath("//a[text()='Linked List']");
-		By dropStack = By.xpath("//a[text()='Stack']");
-		By dropQueue = By.xpath("//a[text()='Queue']");
-		By dropTree = By.xpath("//a[text()='Tree']");
-		By dropgraph = By.xpath("//a[text()='Graph']");
+   
 		
-		By alertmsg=By.xpath("//div[@class='alert alert-primary']") ;
-
-	    
 	    public HomePage(WebDriver driver) {
 	        this.driver = driver;
+			this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	    }
-
 	    
-	    public void dropdown(String string) {
-
-	        driver.findElement(dropDS).click();
-
-			switch (string) {
-			case "Arrays":
-				
-				 driver.findElement(dropArray).click();
-				break;
-			case "Linkedlist":
-				
-				 driver.findElement(dropLinkedlist).click();
-				break;
-			case "Stack":
-				
-				 driver.findElement(dropStack).click();
-				break;
-			case "Queue":
-				
-				 driver.findElement(dropQueue).click();
-				break;
-			case "Tree":
-				
-				 driver.findElement(dropTree).click();
-				break;
-			case "Graph":
-				
-				 driver.findElement(dropgraph).click();
-				break;
-			}
-
-		}
+	  
 	    
-	    public void getStartedForModule(String string) {
-			switch(string){
-			case "Datastructures":
-		        driver.findElement(dropDS).click();
-				break;
-			case "Arrays":
-				
-				 driver.findElement(dropArray).click();
-				break;
-			case "Linkedlist":
-				
-				 driver.findElement(dropLinkedlist).click();
-				break;
-			case "Stack":
-				
-				 driver.findElement(dropStack).click();
-				break;
-			case "Queue":
-				
-				 driver.findElement(dropQueue).click();
-				break;
-			case "Tree":
-				
-				 driver.findElement(dropTree).click();
-				break;
-			case "Graph":
-				
-				 driver.findElement(dropgraph).click();
-				break;
-			}
-			}
-	    
-	    public void alertmsg(String msg) {
-			 msg=driver.findElement(alertmsg).getText();
-			System.out.println(msg);
-		}
-		
 		
 	    public void clickstart() {
 	    	
 	    	WebElement prepstart= driver.findElement(prepareinterviestart);
 	    	prepstart.click();
 	    }
-	    public void selectDataStructuresdropdwon() {
-	        driver.findElement(dataStructuresLink).click();
-	        
-	        //Add in select stack()-// driver.findElement(stackLink).click();
-
+	    
+	   
+	    public void selectDataStructuresrequired() {
+		    String[] dslist= {"Arrays","Linked List","Stack","Queue","Tree","Graph"};
+            for(String dsselect:dslist) {
+	    	WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(dataStructuresdrop)));
+		     dropdown.click();
+		     dropdown.findElement(By.xpath("//a[normalize-space()='"+dsselect+"']")).click();
+		     
+            }   
 	    }
-
+	    
+	    public void selectDataStructuresmodule() {
+		    String[] ds= {"data-structures-introduction","array","linked-list","stack","queue","tree","graph"};
+		    
+		    for(String select:ds) {
+	    	WebElement ele = driver.findElement(By.xpath("//a[@href='"+select+"']"));
+		    JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("arguments[0].scrollIntoView({ behavior: 'smooth', block: 'center' });", ele);
+            js.executeScript("arguments[0].click();", ele);
+	    	
+		    }
+             
+	    }
+	    
 	    public void selectStack() {
 	       	  driver.findElement(stackstart).click();
 	          System.out.println(driver.getTitle());
