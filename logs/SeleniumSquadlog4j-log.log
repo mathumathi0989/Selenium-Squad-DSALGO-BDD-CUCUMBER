@@ -1,0 +1,311 @@
+[INFO ] 2024-08-15 12:36:50.729 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:36:53.901 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:36:54.627 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:01.686 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:04.733 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:05.437 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:11.446 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:14.180 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:14.862 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:20.730 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:23.405 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:24.157 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:29.876 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:32.566 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:33.246 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:38.977 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:41.869 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:42.547 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:48.262 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:37:50.991 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:37:51.664 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:37:57.377 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:00.290 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:00.303 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:08.782 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:11.683 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:11.695 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:19.178 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:22.156 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:22.165 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:29.245 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:32.072 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:32.082 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:39.370 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:42.101 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:42.115 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:50.047 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:38:52.720 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:38:52.732 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:38:59.768 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:39:03.494 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:39:03.516 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:39:09.376 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:39:19.989 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:39:22.144 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 12:39:27.947 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:39:30.368 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:39:32.229 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 12:41:06.499 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:41:09.535 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:41:10.239 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:41:19.860 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:41:22.719 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:41:23.456 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:41:31.469 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:41:34.415 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:41:35.099 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:41:44.261 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:41:50.375 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:41:51.135 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:41:59.700 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:42:02.636 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:42:03.380 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:42:12.349 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:42:15.380 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:42:16.129 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:42:23.463 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:42:27.252 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:42:27.921 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 12:42:36.518 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:42:39.267 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:42:39.283 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:42:48.043 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:42:50.683 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:42:50.698 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:42:56.983 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:43:00.903 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:43:00.924 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 12:43:08.206 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 12:43:10.643 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 12:43:10.656 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:00:39.600 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:00:42.330 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:00:42.345 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:00:49.906 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:00:52.516 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:00:52.537 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:01:00.230 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:01:02.572 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:01:04.105 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 13:10:02.315 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:04.850 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:05.823 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:10:14.076 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:16.547 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:17.545 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:10:23.925 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:26.161 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:27.122 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:10:33.345 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:35.742 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:36.697 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:10:42.604 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:44.783 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:45.702 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:10:51.341 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:10:53.598 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:10:54.652 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:11:00.384 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:02.731 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:03.671 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:11:09.325 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:11.527 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:11.546 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:17.134 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:19.418 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:19.427 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:25.000 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:27.305 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:27.317 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:32.936 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:35.224 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:35.241 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:40.858 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:43.181 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:43.192 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:48.791 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:50.994 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:51.010 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:11:56.570 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:11:58.836 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:11:58.848 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 13:12:07.281 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:12:09.843 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:12:11.562 [main] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 13:12:19.131 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:12:21.523 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:12:23.352 [main] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 13:14:31.458 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:14:34.554 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:14:35.208 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:14:42.813 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:14:45.685 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:14:46.373 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:14:53.934 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:14:56.993 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:14:57.696 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:18:00.153 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:18:03.398 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:18:04.094 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:18:12.293 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:18:15.291 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:18:16.112 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:18:23.748 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:18:26.620 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:18:27.305 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:18:34.771 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:18:37.655 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:18:38.470 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:46:26.453 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:46:29.300 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:46:29.942 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:48:59.719 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:49:02.657 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:49:03.322 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:49:21.069 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:49:23.515 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:49:24.474 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:50:23.896 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:50:26.988 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:50:27.653 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:50:45.281 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:50:47.672 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 13:50:48.643 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 13:51:05.834 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 13:51:08.305 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:16:46.792 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:16:49.764 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:16:59.527 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:17:02.650 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:17:04.136 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:17:11.087 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:17:14.070 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:17:15.964 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:18:47.498 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:18:50.599 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:18:59.884 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:19:02.782 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:19:04.251 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:19:11.329 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:19:13.807 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:19:15.731 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:24:42.143 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:24:45.245 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:24:53.901 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:24:56.333 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:24:57.855 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:25:03.752 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:25:06.008 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:25:07.870 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:30:30.797 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:30:33.712 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:30:43.421 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:30:45.915 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:30:47.533 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:34:08.557 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:34:11.431 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:34:13.111 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 17:34:22.864 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:34:26.063 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:34:27.617 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:34:36.918 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:34:39.411 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:34:41.306 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:37:10.480 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:37:12.911 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:37:14.746 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 17:37:22.829 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:37:25.167 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:37:26.789 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:37:33.435 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:37:36.026 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:37:38.042 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:42:12.922 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:42:16.034 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:42:17.746 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 17:42:24.833 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:42:27.642 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:42:29.135 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:42:35.092 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:42:37.492 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:42:39.454 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 17:50:27.166 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:50:30.343 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:50:34.974 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 17:50:43.375 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:50:46.056 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:50:47.620 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 17:50:55.296 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 17:50:58.058 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 17:50:59.996 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 18:25:26.786 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:25:29.823 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:25:33.896 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 18:25:41.011 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:25:43.920 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:25:47.672 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 18:25:53.867 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:25:56.897 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:25:58.404 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 18:26:04.568 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:26:07.216 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:26:08.858 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 18:31:26.633 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:31:29.521 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:31:33.547 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 18:31:40.634 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:31:43.545 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:31:47.178 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 18:31:54.559 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:31:57.307 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:31:58.824 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 18:32:06.267 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:32:08.718 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:32:11.237 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 18:34:07.057 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:34:10.702 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:34:14.787 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 18:34:23.398 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:34:26.498 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:34:30.274 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 18:34:38.007 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:34:40.531 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:34:42.210 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 18:34:49.823 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:34:52.245 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:34:54.382 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 18:36:43.323 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:36:46.422 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:36:50.386 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 18:36:57.150 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:37:00.036 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:37:03.213 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 18:37:09.265 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:37:12.162 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:37:13.740 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 18:37:19.806 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:42:15.255 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:42:17.723 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:42:21.213 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 18:42:26.825 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:42:28.938 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:42:31.611 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 18:42:37.174 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:42:39.230 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:42:40.354 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 18:42:45.839 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 18:42:47.904 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 18:42:49.179 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-15 20:06:11.267 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 20:06:13.730 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 20:06:17.223 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-15 20:06:23.979 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 20:06:26.150 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 20:06:28.876 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-15 20:06:35.026 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 20:06:37.303 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 20:06:38.530 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-15 20:06:44.118 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-15 20:06:46.321 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-15 20:06:47.985 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
