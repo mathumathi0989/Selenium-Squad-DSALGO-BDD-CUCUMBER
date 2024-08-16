@@ -23,17 +23,17 @@ Scenario: Verify if user able to register with valid username and valid password
 Scenario: Verify if user able to register with special characters in username 
     Given The user is on the new user registration page 
     When The user clicks Register button after entering a username with spacebar characters
-    Then The user is not able to see error msg after entering invalid data and The user redirected to empty password textbox 
+    Then The user should see error msg after entering invalid data in username field
     
 Scenario: Verify if user able to register with numeric data in password
     Given The user is on the new user registration page 
     When The user clicks Register button after entering a password with numeric data 
-    Then The user is not able to see error msg after entering invalid data and The user redirected to empty password confirmation textbox 
+    Then The user should see error msg after entering invalid data in password field
     
 Scenario: Verify if user able to register with password less than 8
     Given The user is on the new user registration page 
     When The user clicks Register button after entering a Password with characters less than 8
-    Then The user is not able to see error msg after entering invalid data and The user redirected to empty password confirmation textbox
+    Then The user should see error msg after entering invalid data in password field
     
 Scenario: Verify if user able to register with different passwords in password and password confirmation fields
     Given The user is on the new user registration page 

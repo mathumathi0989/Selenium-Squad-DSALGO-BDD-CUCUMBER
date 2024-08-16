@@ -309,3 +309,4 @@
 [INFO ] 2024-08-15 20:06:44.118 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
 [INFO ] 2024-08-15 20:06:46.321 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
 [INFO ] 2024-08-15 20:06:47.985 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-16 11:24:47.009 [TestNG-tests-1] LoggerLoad - user registered successfully

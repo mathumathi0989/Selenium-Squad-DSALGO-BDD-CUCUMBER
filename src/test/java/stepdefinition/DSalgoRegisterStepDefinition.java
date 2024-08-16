@@ -119,21 +119,33 @@ public void then_the_error_message_appears_below_password_confirmation_textbox(S
 @When("The user clicks Register button after entering a username with spacebar characters")
 public void the_user_clicks_register_button_after_entering_a_username_with_spacebar_characters() {
 
-	registerPage.enterUsername("invalid.username");
+	registerPage.enterUsername("invalid-username");
 	registerPage.registerButton();
 	
 	
 }
 
-@Then("The user is not able to see error msg after entering invalid data and The user redirected to empty password textbox")
-public void the_user_is_not_able_to_see_error_msg_after_entering_invalid_data_and_the_user_redirected_to_empty_password_textbox() {
+@Then("The user should see error msg after entering invalid data in username field")
+public void the_user_should_see_error_msg_after_entering_invalid_data_in_username_field() {
+
+	WebElement usernameField = driver.findElement(By.xpath("//input[@id='id_username']"));
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	String script = "return arguments[0].validationMessage;";
+	String validationMessage = (String) js.executeScript(script, usernameField);
+	System.out.println("Validation Error Message: " + validationMessage);
+	Assert.assertEquals(validationMessage, "Please fill out this field.");
+	
+}
+
+@Then("The user should see error msg after entering invalid data in password field")
+public void the_user_should_see_error_msg_after_entering_invalid_data_in_password_field() {
 
 	WebElement usernameField = driver.findElement(By.xpath("//input[@id='id_password1']"));
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	String script = "return arguments[0].validationMessage;";
 	String validationMessage = (String) js.executeScript(script, usernameField);
 	System.out.println("Validation Error Message: " + validationMessage);
-	Assert.assertEquals("Please fill out this field.", validationMessage);
+	Assert.assertEquals(validationMessage, "Please fill out this field.");
 	
 }
 
@@ -148,17 +160,7 @@ public void the_user_clicks_register_button_after_entering_a_password_with_numer
 	registerPage.registerButton();
 }
 
-@Then("The user is not able to see error msg after entering invalid data and The user redirected to empty password confirmation textbox")
-public void the_user_is_not_able_to_see_error_msg_after_entering_invalid_data_and_the_user_redirected_to_empty_password_confirmation_textbox() {
 
-	WebElement usernameField = driver.findElement(By.xpath("//input[@id='id_password2']"));
-	JavascriptExecutor js = (JavascriptExecutor) driver;
-	String script = "return arguments[0].validationMessage;";
-	String validationMessage = (String) js.executeScript(script, usernameField);
-	System.out.println("Validation Error Message: " + validationMessage);
-	Assert.assertEquals("Please fill out this field.", validationMessage);
-	
-}
 
 
 
