@@ -15,6 +15,12 @@ public class DriverManager {
     public static void initializeDriver() {
         String browser = ConfigReader.getProperty("browser");
 
+        
+        if (browser == null || browser.isEmpty()) {
+            browser = ConfigReader.getProperty("browser");
+        }
+        
+        
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             driver.set(new ChromeDriver());

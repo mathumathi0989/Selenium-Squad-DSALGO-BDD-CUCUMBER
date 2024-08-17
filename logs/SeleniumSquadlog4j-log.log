@@ -310,3 +310,145 @@
 [INFO ] 2024-08-15 20:06:46.321 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
 [INFO ] 2024-08-15 20:06:47.985 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
 [INFO ] 2024-08-16 11:24:47.009 [TestNG-tests-1] LoggerLoad - user registered successfully
+[INFO ] 2024-08-17 14:05:17.662 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 14:50:00.347 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:27:32.730 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:27:44.756 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-17 15:27:55.511 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-17 15:28:12.418 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-17 15:28:24.535 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-17 15:28:30.244 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-17 15:28:44.906 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-17 15:29:13.504 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-17 15:29:21.783 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-17 15:29:24.285 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-17 15:29:38.665 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-17 15:29:44.212 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-17 15:29:46.925 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-17 15:30:10.522 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:30:15.124 [TestNG-tests-1] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-17 15:30:34.551 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:32:53.845 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:34:38.001 [TestNG-tests-1] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-17 15:34:59.081 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:36:43.575 [TestNG-tests-1] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-17 15:37:17.215 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:38:37.947 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-17 15:41:19.803 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:42:39.046 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:43:46.193 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 15:44:15.164 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:45:18.045 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 15:45:40.129 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:45:44.057 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-17 15:46:03.366 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:47:19.671 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:48:24.514 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 15:48:48.686 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:49:49.836 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 15:50:12.529 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:50:16.719 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-17 15:51:54.712 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:58:46.288 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 15:59:48.231 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:00:10.260 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:01:11.414 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:01:32.692 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:01:36.411 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-17 16:01:55.605 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:03:14.116 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:04:16.163 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:04:37.223 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:05:42.997 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:06:04.781 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:06:08.186 [TestNG-tests-1] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-17 16:06:27.515 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:07:43.723 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:08:48.774 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 16:09:08.548 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:10:16.671 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-17 16:10:37.470 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:10:44.455 [TestNG-tests-1] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-17 16:11:05.968 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:12:29.461 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:13:42.158 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 16:14:07.479 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:15:19.560 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-17 16:15:42.310 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:15:50.113 [TestNG-tests-1] LoggerLoad - user redirected to Introduction page
+[INFO ] 2024-08-17 16:17:36.268 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:19:15.114 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:20:27.823 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:26:55.047 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:27:05.036 [TestNG-tests-1] LoggerLoad - user redirected to Creating Linked LIst page
+[INFO ] 2024-08-17 16:27:29.000 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:28:54.797 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:30:06.188 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:30:29.381 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:31:33.767 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:31:57.279 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:32:07.822 [TestNG-tests-1] LoggerLoad - user redirected to Types of Linked List page
+[INFO ] 2024-08-17 16:33:46.970 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:35:14.831 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:36:35.894 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:36:59.675 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:38:09.156 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:38:29.584 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:38:36.319 [TestNG-tests-1] LoggerLoad - user redirected to Implement Linked List in Python page
+[INFO ] 2024-08-17 16:44:04.136 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:46:53.535 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:48:07.953 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:48:32.412 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:49:51.328 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:50:14.603 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:50:21.797 [TestNG-tests-1] LoggerLoad - user redirected to Traversal page
+[INFO ] 2024-08-17 16:50:41.687 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:52:19.732 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:53:28.767 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:53:49.096 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:54:56.296 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 16:55:15.088 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:55:23.598 [TestNG-tests-1] LoggerLoad - user redirected to Insertion page
+[INFO ] 2024-08-17 16:55:40.818 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:57:01.335 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:58:13.742 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 16:58:33.836 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 16:59:38.535 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 17:01:08.634 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:01:15.428 [TestNG-tests-1] LoggerLoad - user redirected to Deletion page
+[INFO ] 2024-08-17 17:02:49.864 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:05:38.427 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:07:04.788 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-17 17:07:29.913 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:08:46.828 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-17 17:10:36.018 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:10:41.762 [TestNG-tests-1] LoggerLoad - user redirected to Implementation of Queue in Python Page
+[INFO ] 2024-08-17 17:11:15.228 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:24:37.348 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:24:40.542 [TestNG-tests-1] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-17 17:24:56.471 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:25:18.897 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:25:31.238 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 17:25:48.684 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:26:21.878 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-17 17:26:38.605 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:26:42.679 [TestNG-tests-1] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-17 17:26:57.259 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:27:25.495 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:27:47.225 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 17:28:03.009 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:28:33.824 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-17 17:29:53.665 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:29:55.954 [main] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-17 17:30:01.341 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:30:11.711 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:30:17.562 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 17:30:22.723 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:30:34.761 [main] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-17 17:30:39.622 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:30:42.379 [main] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-17 17:30:47.266 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:30:58.953 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:31:10.977 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-17 17:31:15.795 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-17 17:31:23.020 [main] LoggerLoad - user validated invalid code in graph page

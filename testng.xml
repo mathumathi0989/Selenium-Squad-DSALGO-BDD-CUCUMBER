@@ -3,10 +3,15 @@
 <suite name="Suite" parallel="tests" thread-count="2">
 
   
-       <test name="Chrome tests">
+       <test name="DSAlgo Project Execution">
 		 <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testrunner.TestRunner"></class>
+            <class name="testrunner.TestRunner">
+			
+				
+				
+				
+			</class>
         </classes>
     </test>
     
