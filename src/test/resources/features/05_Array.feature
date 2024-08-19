@@ -1,4 +1,4 @@
-#Author: Mathumathi Balakrishnan
+#Author: Anusuya Selvaraj and Mathumathi Balakrishnan
 
 @sanity
 @regression
