@@ -452,17 +452,3 @@
 [INFO ] 2024-08-17 17:31:10.977 [main] LoggerLoad - user validated valid code in graph page
 [INFO ] 2024-08-17 17:31:15.795 [main] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-17 17:31:23.020 [main] LoggerLoad - user validated invalid code in graph page
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:08.137 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
-[INFO ] 2024-08-18 10:59:18.598 [TestNG-PoolService-0] LoggerLoad - user redirected to Graph page
-[INFO ] 2024-08-18 10:59:22.293 [TestNG-PoolService-4] LoggerLoad - user redirected to graph representation page
-[INFO ] 2024-08-18 10:59:34.505 [TestNG-PoolService-6] LoggerLoad - user validated valid code in graph page
-[INFO ] 2024-08-18 10:59:34.506 [TestNG-PoolService-2] LoggerLoad - user validated valid code in graph page
-[INFO ] 2024-08-18 10:59:34.512 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in graph page
-[INFO ] 2024-08-18 10:59:41.826 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in graph page
