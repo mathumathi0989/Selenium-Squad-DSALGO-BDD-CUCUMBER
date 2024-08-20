@@ -869,3 +869,5 @@
 [INFO ] 2024-08-19 20:40:02.934 [main] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-19 20:40:04.867 [main] LoggerLoad - user redirected to trees Practice page
 [INFO ] 2024-08-19 20:40:14.897 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-2] LoggerLoad - user signed in successfully
