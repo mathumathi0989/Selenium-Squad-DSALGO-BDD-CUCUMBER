@@ -23,6 +23,6 @@ Key Topics:
 #allure generate Reports_Screenshots/allure-results -o Reports_Screenshots/allure-report
 #allure serve Reports_Screenshots/allure-results
 
-# for maven -> mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml -Dbrowser=chrome
+**# for maven -> mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml -Dbrowser=chrome**
 
 
