@@ -481,3 +481,113 @@
 [INFO ] 2024-08-19 14:51:18.922 [main] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-19 14:51:23.788 [main] LoggerLoad - user validated invalid code in DataStructures page
 [INFO ] 2024-08-19 14:51:33.859 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:50:56.970 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:50:59.920 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-20 08:51:11.523 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:51:29.486 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:51:40.086 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 08:51:51.786 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:52:02.248 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 08:52:15.235 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:52:18.310 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-20 08:52:30.335 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:52:49.564 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:53:00.940 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 08:53:13.019 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:53:22.220 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 08:53:34.396 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:53:36.717 [TestNG-tests-1] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-20 08:53:48.583 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:54:06.975 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:54:17.895 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 08:54:30.344 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:54:38.740 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 08:54:50.711 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 08:54:54.483 [TestNG-tests-1] LoggerLoad - user redirected to stack Practice page
+[INFO ] 2024-08-20 09:02:46.209 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:02:49.895 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-20 09:03:01.868 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:03:20.735 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:03:33.920 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:03:48.173 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:03:57.780 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:04:10.341 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:04:13.889 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-20 09:04:25.710 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:04:45.636 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:04:55.177 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:05:07.697 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:05:16.799 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:05:28.946 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:07:29.883 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:07:34.539 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-20 09:07:48.278 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:08:11.306 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:08:26.989 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:08:41.211 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:08:50.259 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:09:03.842 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:09:06.737 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-20 09:09:19.564 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:09:40.504 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:09:53.592 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:10:06.090 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:10:14.479 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:10:27.386 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:10:30.463 [TestNG-tests-1] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-20 09:10:43.594 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:11:04.215 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:11:17.150 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:11:30.616 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:11:42.001 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:11:59.138 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:12:03.625 [TestNG-tests-1] LoggerLoad - user redirected to stack Practice page
+[INFO ] 2024-08-20 09:18:30.036 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:18:32.808 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-20 09:18:45.390 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:19:06.316 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:19:21.043 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 09:19:33.676 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:19:43.966 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 09:19:58.060 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 09:20:03.765 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-20 09:20:16.924 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 10:59:05.829 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 10:59:09.598 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-20 10:59:23.004 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 10:59:42.668 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 10:59:54.261 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 11:00:07.263 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:00:17.572 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 11:00:30.782 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:00:33.470 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-20 11:00:46.262 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:01:05.224 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:01:17.493 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 11:01:30.824 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:01:39.968 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 11:01:52.886 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:01:59.170 [TestNG-tests-1] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-20 11:02:12.004 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:02:31.602 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:02:43.599 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-20 11:02:56.876 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:03:10.710 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-20 11:03:24.144 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:03:29.964 [TestNG-tests-1] LoggerLoad - user redirected to stack Practice page
+[INFO ] 2024-08-20 11:08:45.349 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:08:48.632 [TestNG-tests-1] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-20 11:09:02.183 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:09:22.476 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:09:39.589 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-20 11:09:53.764 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:10:11.263 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-20 11:10:25.798 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:10:30.890 [TestNG-tests-1] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-20 11:10:44.963 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:11:12.114 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:11:29.648 [TestNG-tests-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-20 11:11:44.078 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:12:19.003 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-20 11:12:33.489 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 11:12:45.175 [TestNG-tests-1] LoggerLoad - user redirected to Practice page

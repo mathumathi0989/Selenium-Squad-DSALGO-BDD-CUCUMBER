@@ -44,7 +44,7 @@ public class hooks {
                  
                 
                  File screenshotFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
-                 Files.copy(screenshotFile.toPath(), Paths.get("target/screenshots", screenshotFileName));
+                 Files.copy(screenshotFile.toPath(), Paths.get("Reports_Screenshots/screenshots", screenshotFileName));
                  
              } catch (IOException e) {
                  e.printStackTrace();
