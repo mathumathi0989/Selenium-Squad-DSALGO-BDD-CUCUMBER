@@ -8,7 +8,9 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 
-        features = {"src/test/resources/features/01_DSAlgoRegister.feature"},
+
+        features = {"src/test/resources/features/02_DSAlgoSignin.feature"},
+
         glue = {"stepdefinition","hooks"},
         plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner extends AbstractTestNGCucumberTests {
