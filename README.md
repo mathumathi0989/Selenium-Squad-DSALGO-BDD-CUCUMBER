@@ -13,16 +13,30 @@ Tree
 Graph
 
 
-Key Topics:
+**Framework:** BDD (Behavior Data driven)
 
 
-**How to run the project:**
+**DsAlgo Project Sprint Tasks**
+1. POM file - Added dependancies
+2. Gherkin scenarios added in feature files
+3. Step definition in JAVA to respective feature files
+4. Test Runner file
+5. TestNG.XML file 
+6. Hooks file - Browser launch and tear down
+7. Config Properties file - to fetch login related data
+8. Reports - Cucumber default, Extent Report and Allure Reports
+9. Logs - Log4J
+10. Screenshots for failed scenarios (Added in Hooks)
 
+
+**How to run the project/reports:**
+
+**# for maven -> mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml -Dbrowser=chrome**
 
 #allure --version
 #allure generate Reports_Screenshots/allure-results -o Reports_Screenshots/allure-report
 #allure serve Reports_Screenshots/allure-results
 
-**# for maven -> mvn clean test -DsuiteXmlFile=src/test/resources/testng.xml -Dbrowser=chrome**
+
 
 
