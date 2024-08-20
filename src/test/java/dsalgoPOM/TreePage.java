@@ -32,6 +32,8 @@ public class TreePage {
 	By tryhere = By.xpath("//a[@class='btn btn-info']");
 	By RunButton = By.xpath("//button[@type='button']");
 	By output = By.xpath("//pre[@id='output']");
+	By practiceQues = By.linkText("Practice Questions");
+
 
 	public TreePage(WebDriver driver) {
 		this.driver = driver;
@@ -147,7 +149,12 @@ public class TreePage {
 		js.executeScript(script, code);
 
 	}
+	public void verifyPracticePage() {
 
+		WebElement element = driver.findElement(practiceQues);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
 	public void runButton() {
 		WebElement runButton = driver.findElement(RunButton);
 		runButton.click();

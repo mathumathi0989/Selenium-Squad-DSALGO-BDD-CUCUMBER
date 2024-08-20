@@ -404,4 +404,20 @@ public class DSalgoTreeStepDefinition {
 
 	}
 
+	//Scenario: Verify if user able to view practice page
+	 
+
+	  @When("The user clicks Trees Practice Questions link") 
+	  public void the_user_clicks_trees_practice_questions_link() {
+		  
+	 treepage.verifyPracticePage();
+	  
+	  }
+	  @Then ("The user is redirected to Trees Practice Questions page")
+	  public void the_user_is_redirected_to_trees_practice_questions_page() { 
+			System.out.println(driver.getTitle());
+			LoggerLoad.info("user redirected to trees Practice page");
+
+	 }
+
 }

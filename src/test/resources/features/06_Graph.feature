@@ -54,5 +54,11 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    And  Click the Run button in graph page
    Then User is able to see the error msg in graph page pop up window 
    
+      
+   #Practice Questions
    
+   Scenario: The user is able to click and navigate to "Practice Questions"
+    Given The user is in the Graph page 
+    When  The user clicks Graph Practice Questions link
+    Then  The user is redirected to Graph Practice Questions page
    

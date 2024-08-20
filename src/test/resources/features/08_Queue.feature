@@ -101,6 +101,14 @@ Background: Verify if user is logged in
    When  The user writes invalid python code in Queue Page
    And   Click the Run button in Queue Page
    Then  User is able to see the error msg in  Queue Page pop up window
+   
+      #Practice Questions
+   
+   Scenario: The user is able to click and navigate to "Practice Questions"
+    Given The user is in the Implementation of Queue Page
+    When  The user clicks Queue Practice Questions link
+    Then  The user is redirected to Queue Practice Questions page
+   
     
 
  		
