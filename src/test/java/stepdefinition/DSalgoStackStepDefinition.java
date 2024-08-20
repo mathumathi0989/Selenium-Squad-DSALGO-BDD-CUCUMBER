@@ -213,7 +213,23 @@ public class DSalgoStackStepDefinition {
 		//    Scenario: Verify if user to see the error msg in pop up window
         //repeat steps
 		
-	 
+		//Scenario: Verify if user able to view practice page
+		 
+
+		  @When("The user clicks stack Practice Questions link") 
+		  public void the_user_clicks_stack_practice_questions_link() {
+			  
+		 stackpage.verifyPracticePage();
+		  
+		  }
+		  @Then ("The user is redirected to stack Practice Questions page")
+		  public void the_user_is_redirected_to_stack_practice_questions_page() { 
+				System.out.println(driver.getTitle());
+				LoggerLoad.info("user redirected to stack Practice page");
+
+		 }
+		
+	
 		
 }
 	

@@ -159,4 +159,22 @@ public class DSalgoGraphStepDefinition {
 
 		}	
 	
-}
+	
+	//Scenario: Verify if user able to view practice page
+	 
+
+	  @When("The user clicks Graph Practice Questions link") 
+	  public void the_user_clicks_graph_practice_questions_link() {
+		  
+	 graphpage.verifyPracticePage();
+	  
+	  }
+	  @Then ("The user is redirected to Graph Practice Questions page")
+	  public void the_user_is_redirected_to_graph_practice_questions_page() { 
+			System.out.println(driver.getTitle());
+			LoggerLoad.info("user redirected to Practice page");
+
+	 }
+	}
+	
+

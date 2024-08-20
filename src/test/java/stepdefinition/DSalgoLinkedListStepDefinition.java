@@ -342,4 +342,20 @@ public class DSalgoLinkedListStepDefinition {
 
 		}		
 	
+	//Scenario: Verify if user able to view practice page
+	 
+
+	  @When("The user clicks linked list Practice Questions link") 
+	  public void the_user_clicks_linked_list_practice_questions_link() {
+		  
+	 linkedlistpage.verifyPracticePage();
+	  
+	  }
+	  @Then ("The user is redirected to linked list Practice Questions page")
+	  public void the_user_is_redirected_to_linked_list_practice_questions_page() { 
+			System.out.println(driver.getTitle());
+			LoggerLoad.info("user redirected to linked list Practice page");
+
+	 }
+	
 }

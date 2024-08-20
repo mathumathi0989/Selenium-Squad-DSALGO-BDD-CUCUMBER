@@ -297,4 +297,13 @@ Scenario: Verify if user able to see the error msg in pop up window
   And  Click the Run button in Tree Page
   Then User is able to see the error msg in  Tree Page pop up window	 
     
+    
+    
+       #Practice Questions
+   
+   Scenario: The user is able to click and navigate to "Practice Questions"
+    Given The user is in the Overview of Trees Page
+    When  The user clicks Trees Practice Questions link
+    Then  The user is redirected to Trees Practice Questions page
+   
  

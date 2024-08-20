@@ -12,22 +12,26 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ArrayPage {
 
-
 	WebDriver driver;
-	 WebDriverWait wait;
-
+	WebDriverWait wait;
 
 	By arrayTitle = By.xpath("//a[@href='Array']");
 	By arraysinpython = By.xpath("//a[normalize-space()='Arrays in Python']");
 	By arraysusinglist = By.xpath("//a[normalize-space()='Arrays Using List']");
 	By basicoperationsinlists = By.xpath("//a[normalize-space()='Basic Operations in Lists']");
 	By applicationsofarray = By.xpath("//a[normalize-space()='Applications of Array']");
-	
+
 	By practiceQues = By.linkText("Practice Questions");
+
+	By searchArray = By.linkText("Search the array");
+	By maxConsecutive = By.xpath("//a[normalize-space()='Max Consecutive Ones']");
+	By findNumbers = By.xpath("//a[normalize-space()='Find Numbers with Even Number of Digits']");
+	By squaresOf = By.xpath("//a[contains(text(),'Squares of')]");
 
 	By tryhere = By.xpath("//a[@class='btn btn-info']");
 	By RunButton = By.xpath("//button[@type='button']");
 	By output = By.xpath("//pre[@id='output']");
+	By submit = By.xpath("//input[@type='submit']");
 
 	public ArrayPage(WebDriver driver) {
 		this.driver = driver;
@@ -35,7 +39,70 @@ public class ArrayPage {
 
 	}
 
-	
+	public void selectArraysinpythonPracticeQues() {
+
+		WebElement element = driver.findElement(practiceQues);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
+
+	public void selectsearchArrayprac() {
+
+		WebElement element = driver.findElement(searchArray);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
+
+	public void selectmaxConsecutive() {
+
+		WebElement element = driver.findElement(maxConsecutive);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
+
+	public void selectfindNumbers() {
+
+		WebElement element = driver.findElement(findNumbers);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
+
+	public void selectsquaresOf() {
+
+		WebElement element = driver.findElement(squaresOf);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
+
+	public void clearTryeditorAndExecuteCode(String code) {
+
+		WebElement codeMirrorElement = wait
+				.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@class='CodeMirror-scroll']")));
+
+		// JavaScript to clear the CodeMirror editor
+		String clearScript = "var editor = document.querySelector('.CodeMirror').CodeMirror;" + "editor.setValue('');";
+		// Sets the value to an empty string, effectively clearing it
+		// Execute the script to clear the editor
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript(clearScript);
+
+		// python code to enter into the CodeMirror editor
+		System.out.println("Executing: " + code);
+		// JavaScript to set the code in the CodeMirror editor
+		String enterCodeScript = "var editor = document.querySelector('.CodeMirror').CodeMirror;"
+				+ "editor.setValue(arguments[0]);";
+
+		// Execute the script to enter the code
+		js.executeScript(enterCodeScript, code);
+
+	}
+
+	public void submit() {
+
+		WebElement element = driver.findElement(submit);
+		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
+		element.click();
+	}
 
 	public void verifyArraysInPythonPage() {
 
@@ -66,7 +133,6 @@ public class ArrayPage {
 		element.click();
 	}
 
-	
 	public void verifyPracticePage() {
 
 		WebElement element = driver.findElement(practiceQues);
@@ -99,29 +165,24 @@ public class ArrayPage {
 
 		String executed = driver.findElement(output).getText();
 		System.out.println(executed);
-		
-	
+
 	}
-	
-	
-	public void outputt()
-	{
+
+	public void output() {
 
 		try {
-           Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-           System.out.println("Alert message: " + alert.getText());
-           alert.accept();
-       } catch (Exception e) {
-           try {
-               wait.until(ExpectedConditions.visibilityOfElementLocated(output));
-               String codeOutput = driver.findElement(output).getText();
-               System.out.println("Code output: " + codeOutput);
-           } catch (Exception ex) {
-               System.out.println("No output element found or no output generated.");
-           }
-       }
+			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+			System.out.println("Alert message: " + alert.getText());
+			alert.accept();
+		} catch (Exception e) {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(output));
+				String codeOutput = driver.findElement(output).getText();
+				System.out.println("Code output: " + codeOutput);
+			} catch (Exception ex) {
+				System.out.println("No output element found or no output generated.");
+			}
+		}
 	}
-	
-	
-	
+
 }
