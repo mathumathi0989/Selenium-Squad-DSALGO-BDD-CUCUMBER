@@ -77,6 +77,15 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user writes invalid python code
    And  Click the Run button
    Then User is able to see the error msg in pop up window
+   
+   
+      #Practice Questions
+   
+   Scenario: The user is able to click and navigate to "Practice Questions"
+    Given The user is in the Operations in Stack page 
+    When  The user clicks stack Practice Questions link
+    Then  The user is redirected to stack Practice Questions page
+   
   
   
   

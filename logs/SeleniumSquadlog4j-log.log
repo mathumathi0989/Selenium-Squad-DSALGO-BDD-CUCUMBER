@@ -465,3 +465,19 @@
 [INFO ] 2024-08-19 15:51:47.653 [TestNG-PoolService-2] LoggerLoad - user validated valid code in graph page
 [INFO ] 2024-08-19 15:51:53.055 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-19 15:51:56.301 [TestNG-PoolService-6] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-19 14:46:28.428 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:46:28.428 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:46:28.428 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:46:28.428 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:46:28.428 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:46:32.358 [TestNG-PoolService-0] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-19 14:46:43.469 [TestNG-PoolService-3] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-19 14:46:43.869 [TestNG-PoolService-2] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-19 14:50:35.301 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:50:36.513 [main] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-19 14:50:47.992 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:51:03.174 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:51:07.726 [main] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-19 14:51:18.922 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 14:51:23.788 [main] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-19 14:51:33.859 [main] LoggerLoad - user signed in successfully

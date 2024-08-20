@@ -170,6 +170,12 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    And  Click the Run button in Linked List page
    Then  User is able to see the error msg in Linked List page pop up window      
    
+    #Practice Questions
+   
+   Scenario: The user is able to click and navigate to "Practice Questions"
+     Given The user is in the Introduction page 
+     When  The user clicks linked list Practice Questions link
+    Then   The user is redirected to linked list Practice Questions page
    
    
    

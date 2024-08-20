@@ -33,3 +33,8 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    Then  User is able to see the error msg in DataStructure page pop up window 
    
    #Practice Questions
+   
+   Scenario: The user is able to click and navigate to "Practice Questions"
+    Given The user is in the Time Complexity page
+    When  The user clicks DataStructurtures Practice Questions link
+    Then  The user is redirected to Practice Questions page

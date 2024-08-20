@@ -193,6 +193,20 @@ public class DSalgoQueueStepDefinition {
 	}
 	
 	
-	
+	//Scenario: Verify if user able to view practice page
+	 
 
+	  @When("The user clicks Queue Practice Questions link") 
+	  public void the_user_clicks_queue_practice_questions_link() {
+		  
+	 queuepage.verifyPracticePage();
+	  
+	  }
+	  @Then ("The user is redirected to Queue Practice Questions page")
+	  public void the_user_is_redirected_to_queue_practice_questions_page() { 
+			System.out.println(driver.getTitle());
+			LoggerLoad.info("user redirected to queue Practice page");
+
+	 }
+	
 }
