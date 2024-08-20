@@ -20,13 +20,14 @@ Graph
 1. POM file - Added dependancies
 2. Gherkin scenarios added in feature files
 3. Step definition in JAVA to respective feature files
-4. Test Runner file
+4. Test Runner file -- Included parallel testing
 5. TestNG.XML file 
 6. Hooks file - Browser launch and tear down
 7. Config Properties file - to fetch login related data
-8. Reports - Cucumber default, Extent Report and Allure Reports
-9. Logs - Log4J
-10. Screenshots for failed scenarios (Added in Hooks)
+8. Cross Broswer testing - Implemented via testngXML, Maven command and Jenkins build parameters
+9. Reports - Cucumber default, Extent Report and Allure Reports
+10. Logs - Log4J
+11. Screenshots for failed scenarios (Added in Hooks)
 
 
 **How to run the project/reports:**
