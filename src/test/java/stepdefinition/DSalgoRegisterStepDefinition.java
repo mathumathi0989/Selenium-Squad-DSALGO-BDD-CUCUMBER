@@ -30,9 +30,9 @@ public class DSalgoRegisterStepDefinition {
 	 
 
 public DSalgoRegisterStepDefinition() {
-	driver = DriverManager.getDriver();
-	registerPage = new RegisterPage(driver);
-	homepage  =new HomePage(driver);
+	 driver = DriverManager.getDriver();
+	    registerPage = new RegisterPage(driver);
+	    homepage = new HomePage(driver);
 }
 
 
