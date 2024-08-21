@@ -22,22 +22,17 @@ import io.cucumber.java.Scenario;
 
 public class hooks {
 	
-<<<<<<< HEAD
-	
-=======
->>>>>>> mathumathi
+
 	@Before
 	public void setUp(Scenario scenario) {
         DriverManager.initializeDriver();
     }
 
 
-<<<<<<< HEAD
-   
-	@After
-=======
+
+
     @After
->>>>>>> mathumathi
+
 	public void tearDown(Scenario scenario) {
     	 takeScreenshot(scenario);
         DriverManager.quitDriver();
