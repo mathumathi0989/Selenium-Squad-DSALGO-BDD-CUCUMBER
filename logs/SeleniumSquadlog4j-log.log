@@ -481,6 +481,7 @@
 [INFO ] 2024-08-19 14:51:18.922 [main] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-19 14:51:23.788 [main] LoggerLoad - user validated invalid code in DataStructures page
 [INFO ] 2024-08-19 14:51:33.859 [main] LoggerLoad - user signed in successfully
+<<<<<<< HEAD
 [INFO ] 2024-08-20 08:50:56.970 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-20 08:50:59.920 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
 [INFO ] 2024-08-20 08:51:11.523 [TestNG-tests-1] LoggerLoad - user signed in successfully
@@ -591,3 +592,395 @@
 [INFO ] 2024-08-20 11:12:19.003 [TestNG-tests-1] LoggerLoad - user validated invalid code in graph page
 [INFO ] 2024-08-20 11:12:33.489 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-20 11:12:45.175 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+=======
+[INFO ] 2024-08-19 19:40:16.005 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:40:21.508 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-19 19:40:23.310 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-19 19:40:26.927 [main] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-19 19:40:32.533 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-19 19:40:34.315 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-19 19:40:37.006 [main] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-19 19:40:42.731 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-19 19:40:44.522 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-19 19:40:45.854 [main] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-19 19:40:51.880 [main] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-19 19:40:54.686 [main] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-19 19:40:56.184 [main] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-19 19:41:07.950 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:41:09.213 [main] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-19 19:41:20.587 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:41:34.967 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:41:40.554 [main] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-19 19:41:50.465 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:41:53.998 [main] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-19 19:42:03.537 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:42:05.154 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 19:42:14.877 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:42:16.387 [main] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-19 19:42:26.338 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:42:39.767 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:42:47.977 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 19:42:57.707 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:43:02.456 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 19:43:12.386 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:43:13.584 [main] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-19 19:43:23.819 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:43:38.260 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:43:47.524 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 19:44:00.584 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:44:06.940 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 19:44:19.137 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:44:20.617 [main] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-19 19:44:31.493 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:44:45.482 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:44:53.760 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 19:45:04.992 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:45:10.128 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 19:45:21.469 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:45:22.642 [main] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-19 19:45:32.861 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:45:47.083 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:45:54.915 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 19:46:06.280 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:46:11.430 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 19:46:21.558 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:46:23.028 [main] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-19 19:46:23.658 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 19:46:33.373 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:46:36.862 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:46:46.929 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:46:57.800 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:47:08.945 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:47:30.929 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:47:48.740 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:48:09.501 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:48:13.636 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:48:25.275 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:48:33.973 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:48:45.487 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:49:07.184 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:49:25.434 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:49:46.357 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:49:50.106 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:50:00.785 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:50:08.877 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:50:19.503 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:50:39.000 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:50:56.689 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:51:17.667 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:51:21.259 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:51:31.513 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:51:39.250 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:51:49.278 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:52:09.595 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:52:27.973 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:52:48.480 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:52:49.718 [main] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-19 19:52:50.299 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 19:53:00.426 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:53:04.198 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:53:14.252 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:53:22.554 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:53:32.313 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:53:51.510 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:54:06.560 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:54:27.510 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:54:31.205 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:54:42.924 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:54:49.234 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:55:00.668 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:55:22.288 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:55:38.829 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:56:00.030 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:56:03.711 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:56:15.090 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:56:23.423 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:56:33.317 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:56:53.218 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:57:09.725 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:57:28.962 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:57:32.406 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:57:42.486 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:57:53.044 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:58:02.844 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:58:22.449 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:58:37.579 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:58:57.834 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:58:59.454 [main] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-19 19:58:59.984 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 19:59:09.941 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:59:13.524 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 19:59:23.287 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 19:59:33.007 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 19:59:43.205 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:00:03.062 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:00:19.177 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:00:38.195 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:00:42.093 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:00:52.187 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:01:03.222 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:01:13.794 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:01:35.072 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:01:52.104 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:02:13.240 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:02:16.922 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:02:27.011 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:02:35.771 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:02:46.103 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:03:06.971 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:03:26.011 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:03:46.994 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:03:50.637 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:04:01.557 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:04:10.695 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:04:21.924 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:04:43.330 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:05:00.428 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:05:19.896 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:05:21.000 [main] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-19 20:05:21.557 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 20:05:31.355 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:05:34.722 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:05:44.705 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:05:53.761 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:06:03.893 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:06:23.777 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:06:41.836 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:07:01.586 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:07:05.358 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:07:15.637 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:07:24.219 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:07:34.107 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:07:53.786 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:08:10.211 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:08:29.338 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:08:33.163 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:08:43.955 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:08:49.873 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:09:00.263 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:09:21.276 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:09:39.610 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:09:59.745 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:10:03.273 [main] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-19 20:10:13.442 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:10:24.126 [main] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-19 20:10:36.001 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:10:57.357 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:11:15.427 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:11:35.128 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:11:36.312 [main] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-19 20:11:46.080 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:11:58.810 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:12:05.261 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-19 20:12:15.074 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:12:20.401 [main] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-19 20:12:30.303 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:12:31.637 [main] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-19 20:12:41.623 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:12:54.020 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:13:01.923 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-19 20:13:11.885 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:13:16.651 [main] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-19 20:13:26.608 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:13:28.132 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-19 20:13:38.487 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:13:40.115 [main] LoggerLoad - user redirected to Introduction page
+[INFO ] 2024-08-19 20:13:50.239 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:14:02.998 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:14:11.349 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:14:21.324 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:14:27.167 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:14:37.769 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:14:38.902 [main] LoggerLoad - user redirected to Creating Linked LIst page
+[INFO ] 2024-08-19 20:14:49.362 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:15:03.136 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:15:09.010 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:15:19.025 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:15:24.109 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:15:33.970 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:15:35.253 [main] LoggerLoad - user redirected to Types of Linked List page
+[INFO ] 2024-08-19 20:15:45.168 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:15:57.438 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:16:04.208 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:16:14.512 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:16:19.758 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:16:29.597 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:16:30.661 [main] LoggerLoad - user redirected to Implement Linked List in Python page
+[INFO ] 2024-08-19 20:16:40.614 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:16:52.847 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:17:00.205 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:17:10.224 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:17:15.465 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:17:25.594 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:17:26.684 [main] LoggerLoad - user redirected to Traversal page
+[INFO ] 2024-08-19 20:17:36.945 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:17:49.405 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:17:57.363 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:18:07.063 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:18:11.706 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:18:21.687 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:18:22.772 [main] LoggerLoad - user redirected to Insertion page
+[INFO ] 2024-08-19 20:18:32.805 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:18:47.413 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:18:55.980 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:19:07.056 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:19:12.246 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:19:23.522 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:19:24.637 [main] LoggerLoad - user redirected to Deletion page
+[INFO ] 2024-08-19 20:19:34.998 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:19:47.242 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:19:53.274 [main] LoggerLoad - user validated valid code
+[INFO ] 2024-08-19 20:20:03.245 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:20:08.090 [main] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-19 20:20:18.229 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:20:19.912 [main] LoggerLoad - user redirected to linked list Practice page
+[INFO ] 2024-08-19 20:20:29.672 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:20:30.938 [main] LoggerLoad - user redirected to Implementation of Queue in Python Page
+[INFO ] 2024-08-19 20:20:41.108 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:20:53.750 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:21:01.686 [main] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-19 20:21:12.572 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:21:18.395 [main] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-19 20:21:30.558 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:21:31.963 [main] LoggerLoad - user redirected to Implementation using collections.deque Page
+[INFO ] 2024-08-19 20:21:42.547 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:21:55.005 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:22:02.628 [main] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-19 20:22:12.736 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:22:17.842 [main] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-19 20:22:27.985 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:22:29.373 [main] LoggerLoad - user redirected to Implementation using array Page
+[INFO ] 2024-08-19 20:22:41.346 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:22:55.125 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:23:03.308 [main] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-19 20:23:13.745 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:23:18.804 [main] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-19 20:23:28.467 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:23:29.852 [main] LoggerLoad - user redirected to Queue Operations Page
+[INFO ] 2024-08-19 20:23:39.620 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:23:53.355 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:24:02.043 [main] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-19 20:24:13.985 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:24:19.134 [main] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-19 20:24:29.329 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:24:30.952 [main] LoggerLoad - user redirected to queue Practice page
+[INFO ] 2024-08-19 20:24:41.105 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:24:42.792 [main] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-19 20:24:52.646 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:25:06.891 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:25:12.560 [main] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-19 20:25:22.567 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:25:28.174 [main] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-19 20:25:38.111 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:25:39.344 [main] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-19 20:25:48.985 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:26:01.232 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:26:07.186 [main] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-19 20:26:17.879 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:26:22.870 [main] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-19 20:26:33.027 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:26:34.300 [main] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-19 20:26:44.338 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:26:56.883 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:27:02.954 [main] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-19 20:27:12.980 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:27:17.937 [main] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-19 20:27:28.019 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:27:29.884 [main] LoggerLoad - user redirected to stack Practice page
+[INFO ] 2024-08-19 20:27:39.670 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:27:41.258 [main] LoggerLoad - user redirected to Overview of Trees page
+[INFO ] 2024-08-19 20:27:50.965 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:28:03.867 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:28:09.168 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:28:19.089 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:28:23.927 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:28:33.564 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:28:35.174 [main] LoggerLoad - user redirected to Terminologies page
+[INFO ] 2024-08-19 20:28:45.558 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:28:58.363 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:29:04.042 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:29:14.030 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:29:19.306 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:29:29.390 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:29:30.741 [main] LoggerLoad - user redirected to Types of Trees page
+[INFO ] 2024-08-19 20:29:40.656 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:29:54.411 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:30:01.877 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:30:11.958 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:30:16.968 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:30:26.835 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:30:28.350 [main] LoggerLoad - user redirected to Tree Traversals page
+[INFO ] 2024-08-19 20:30:37.888 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:30:50.809 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:30:55.306 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:31:05.165 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:31:10.510 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:31:21.408 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:31:22.968 [main] LoggerLoad - user redirected to Traversals-Illustration page
+[INFO ] 2024-08-19 20:31:33.083 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:31:45.996 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:31:52.991 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:32:02.688 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:32:08.051 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:32:17.711 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:32:19.175 [main] LoggerLoad - user redirected to Binary Trees page
+[INFO ] 2024-08-19 20:32:28.953 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:32:41.681 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:32:50.196 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:33:01.563 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:33:06.919 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:33:16.964 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:33:18.601 [main] LoggerLoad - user redirected to Types of Binary Trees page
+[INFO ] 2024-08-19 20:33:28.324 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:33:42.343 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:33:46.778 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:33:57.848 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:34:01.822 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:34:13.472 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:34:15.043 [main] LoggerLoad - user redirected to Implementation in Python page
+[INFO ] 2024-08-19 20:34:26.141 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:34:38.991 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:34:47.715 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:34:59.536 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:35:04.628 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:35:14.670 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:35:16.323 [main] LoggerLoad - user redirected to Binary Tree Traversals page
+[INFO ] 2024-08-19 20:35:26.228 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:35:39.019 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:35:44.685 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:35:54.547 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:35:59.989 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:36:10.291 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:36:12.242 [main] LoggerLoad - user redirected to Implementation of Binary Trees page
+[INFO ] 2024-08-19 20:36:22.524 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:36:35.285 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:36:42.641 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:36:52.348 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:36:56.762 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:37:06.964 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:37:08.623 [main] LoggerLoad - user redirected to Applications of Binary trees page
+[INFO ] 2024-08-19 20:37:18.587 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:37:31.205 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:37:38.802 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:37:48.592 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:37:54.019 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:38:03.682 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:38:05.683 [main] LoggerLoad - user redirected to Binary Search Trees page
+[INFO ] 2024-08-19 20:38:16.107 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:38:29.714 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:38:34.730 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:38:46.607 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:38:52.714 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:39:04.089 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:39:05.588 [main] LoggerLoad - user redirected to Implementation Of BST page
+[INFO ] 2024-08-19 20:39:16.001 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:39:28.855 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:39:37.648 [main] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-19 20:39:47.489 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:39:52.622 [main] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-19 20:40:02.934 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-19 20:40:04.867 [main] LoggerLoad - user redirected to trees Practice page
+[INFO ] 2024-08-19 20:40:14.897 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-2] LoggerLoad - user signed in successfully
+>>>>>>> 733fbd18693472d1193c795b3c5dd21e291b4cf9
