@@ -20,13 +20,13 @@ import io.cucumber.java.Scenario;
 
 public class hooks {
 	
-	@BeforeMethod
+	@Before
 	public void setUp(Scenario scenario) {
         DriverManager.initializeDriver();
     }
 
 
-    @AfterMethod
+    @After
 	public void tearDown(Scenario scenario) {
     	 takeScreenshot(scenario);
         DriverManager.quitDriver();
