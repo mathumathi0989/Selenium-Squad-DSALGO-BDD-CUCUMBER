@@ -9,10 +9,10 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(
 
 
-        features = {"src/test/resources/features/10_Tree.feature"},
+        features = {"src/test/resources/features"},
 
         glue = {"stepdefinition","hooks"},
-        tags =  "@regression" ,
+        tags =  "@sanity" ,
         plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class TestRunner extends AbstractTestNGCucumberTests {
 
