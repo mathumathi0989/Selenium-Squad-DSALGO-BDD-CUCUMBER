@@ -1,18 +1,14 @@
 package testrunner;
 
 import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
-
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(
-
-
-        features = {"src/test/resources/features/02_DSAlgoSignin.feature"},
-
+@CucumberOptions(features = {"src/test/resources/features/01_DSAlgoRegister.feature"},
         glue = {"stepdefinition","hooks"},
         plugin = {"pretty", "html:target/cucumber-reports.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+
+
 public class TestRunner extends AbstractTestNGCucumberTests {
 
 	@Override
@@ -21,12 +17,4 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 	return super.scenarios();
 	}
 
-
-	 
-	
-	
-	
-	
-	
-	
 	}
