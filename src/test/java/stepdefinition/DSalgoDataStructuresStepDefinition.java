@@ -70,7 +70,9 @@ public class DSalgoDataStructuresStepDefinition {
 
 	@Then("The user should be redirected to a DataStructure page having an tryEditor with a Run button to test")
 	public void the_user_should_be_redirected_to_a_data_structure_page_having_an_try_editor_with_a_run_button_to_test() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Assessment");
+		LoggerLoad.info("User is in tryEditor page");
 
 	}
 
@@ -98,7 +100,7 @@ public class DSalgoDataStructuresStepDefinition {
 
 	@Then("User is able to see the output in console of DataStructure page")
 	public void user_is_able_to_see_the_output_in_console_of_data_structure_page() {
-		datastructurespage.outputconsole();
+		Assert.assertEquals(datastructurespage.outputconsole(), "hello");
 		LoggerLoad.info("user validated valid code in Datastructures page");
 
 	}
@@ -112,23 +114,23 @@ public class DSalgoDataStructuresStepDefinition {
 	@Then("User is able to see the error msg in DataStructure page pop up window")
 	public void user_is_able_to_see_the_error_msg_in_data_structure_page_pop_up_window() {
 		datastructurespage.output();
+		Assert.assertNotNull(datastructurespage.alert, "Alert is not present.");
 		LoggerLoad.info("user validated invalid code in DataStructures page");
 
 	}
 
- 
-  //Scenario: Verify if user able to view practice page
- 
+	// Scenario: Verify if user able to view practice page
 
-  @When("The user clicks DataStructurtures Practice Questions link") 
-  public void the_user_clicks_DataStructurtures_practice_questions_link() {
-	  
- datastructurespage.verifyPracticePage();
-  
-  }
-  @Then ("The user is redirected to Practice Questions page")
-  public void the_user_is_redirected_to_practice_questions_page() { 
-	  System.out.println(driver.getTitle());
+	@When("The user clicks DataStructurtures Practice Questions link")
+	public void the_user_clicks_DataStructurtures_practice_questions_link() {
+
+		datastructurespage.verifyPracticePage();
+
+	}
+
+	@Then("The user is redirected to Practice Questions page")
+	public void the_user_is_redirected_to_practice_questions_page() {
+		Assert.assertEquals(driver.getTitle(), "Practice Questions");
 		LoggerLoad.info("user redirected to Practice page");
- }
+	}
 }

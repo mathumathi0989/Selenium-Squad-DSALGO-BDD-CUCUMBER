@@ -61,7 +61,8 @@ public class DSalgoArraysStepDefinition {
 		LoggerLoad.info("user redirected to Arrays in Python page");
 	}
 
-	// Scenario: Verify if user able to redirect to a page having an tryEditor with a Run button to test
+	// Scenario: Verify if user able to redirect to a page having an tryEditor with
+	// a Run button to test
 	@Given("The user is in the Arrays in Python page")
 	public void the_user_is_in_the_Arrays_in_Python_page() {
 		homepage.selectArray();
@@ -77,9 +78,8 @@ public class DSalgoArraysStepDefinition {
 
 	@Then("The user should be redirected to a array page having an tryEditor with a Run button to test")
 	public void the_user_should_be_redirected_to_a_array_page_having_an_try_editor_with_a_run_button_to_test() {
-
-		System.out.println(driver.getTitle());
-
+		Assert.assertEquals(driver.getTitle(), "Assessment");
+		LoggerLoad.info("User is in tryEditor page");
 	}
 
 //  Scenario: Verify if user able to see the output in console 
@@ -107,6 +107,7 @@ public class DSalgoArraysStepDefinition {
 	@Then("User is able to see the output in console of array page")
 	public void user_is_able_to_see_the_output_in_console_of_array_page() {
 		arraypage.outputconsole();
+		Assert.assertEquals(arraypage.outputconsole(), "hello");
 		LoggerLoad.info("user validated valid code");
 
 	}
@@ -123,6 +124,7 @@ public class DSalgoArraysStepDefinition {
 	public void user_is_able_to_see_the_error_msg_in_array_page_pop_up_window() {
 
 		arraypage.output();
+		Assert.assertNotNull(arraypage.alert, "Alert is not present.");
 		LoggerLoad.info("user validated invalid code");
 
 	}
@@ -244,7 +246,8 @@ public class DSalgoArraysStepDefinition {
 
 	@Then("The user should be redirected to Practice page")
 	public void the_user_should_be_redirected_to_practice_page() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Practice Questions");
 		LoggerLoad.info("user redirected to Practice page");
 
 	}
@@ -270,7 +273,8 @@ public class DSalgoArraysStepDefinition {
 	@Then("The user should be redirected to array practice page having program question with tryEditor and a Run button to test")
 	public void the_user_should_be_redirected_to_array_practice_page_having_program_question_with_try_editor_and_a_run_button_to_test() {
 
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Assessment");
 		LoggerLoad.info("user redirected to array practice page with try editor");
 	}
 
@@ -296,6 +300,7 @@ public class DSalgoArraysStepDefinition {
 	public void user_is_able_to_see_the_output_in_console_of_arrays_practice_page() {
 
 		arraypage.outputconsole();
+		// Assert.assertEquals(arraypage.outputconsole(), "hello");
 		LoggerLoad.info("user validated valid code in console of Arrays practice page");
 
 	}
@@ -396,56 +401,52 @@ public class DSalgoArraysStepDefinition {
 		arraypage.clearTryeditorAndExecuteCode(pythonCodes.get(4));
 	}
 
-	/* #Practice Question: Arrays Using List
-
-	// Scenario: Verify if user able to redirect to Practice page
-
-//	@When("The user clicks Arrays Using List in Topics covered section")
-//	public void The_user_clicks_Arrays_Using_List_in_Topics_covered_section() {
-//		arraypage.verifyArraysUsingListPage();
-//
-//	}
-
-//	@Then("The user should be directed to Arrays Using List Page")
-//	public void The_user_should_be_directed_to_Arrays_Using_List_Page() {
-//		System.out.println(driver.getTitle());
-//		String actual = driver.findElement(By.xpath("//p[normalize-space()='Arrays Using List']")).getText();
-//		Assert.assertEquals(actual, "Arrays Using List");
-//		LoggerLoad.info("user redirected to Arrays Using List");
-//	}
-
-	// #Practice Question: Basic Operations in Lists
-
-	// Scenario: Verify if user able to redirect to Practice page
-//	@When("The user clicks Basic Operations in Lists in Topics covered section")
-//	public void The_user_clicks_Basic_Operations_in_Lists_in_Topics_covered_section() {
-//		arraypage.verifyBasicOperationsInListsPage();
-//	}
-
-//	@Then("The user should be directed to Basic Operations in Lists Page")
-//	public void _The_user_should_be_directed_to_Basic_Operations_in_Lists_Page() {
-//		System.out.println(driver.getTitle());
-//		String actual = driver.findElement(By.xpath("//p[normalize-space()='Basic Operations in Lists']")).getText();
-//		Assert.assertEquals(actual, "Basic Operations in Lists");
-//		 LoggerLoad.info("user redirected to Basic Operations in Lists");
-//	}
-
-	// #Practice Question: Applications of Array
-
-	// Scenario: Verify if user able to redirect to Practice page
-
-//	@When("The user clicks Applications of Array link in Topics covered section")
-//	public void The_user_clicks_applications_of_array_link_in_topics_covered_section() {
-//
-//		arraypage.verifyApplicationsOfArrayPage();
-//	}
-
-//	@Then("The user should be directed to Applications of Array Page")
-//	public void The_user_should_be_directed_to_Applications_of_Array_Page() {
-//		System.out.println(driver.getTitle());
-//		String actual = driver.findElement(By.xpath("//p[normalize-space()='Applications of Array']")).getText();
-//		Assert.assertEquals(actual, "Applications of Array");
-//		 LoggerLoad.info("user redirected to Applications of Array ");
-//	}
-*/
+	/*
+	 * #Practice Question: Arrays Using List
+	 * 
+	 * // Scenario: Verify if user able to redirect to Practice page
+	 * 
+	 * // @When("The user clicks Arrays Using List in Topics covered section") //
+	 * public void The_user_clicks_Arrays_Using_List_in_Topics_covered_section() {
+	 * // arraypage.verifyArraysUsingListPage(); // // }
+	 * 
+	 * // @Then("The user should be directed to Arrays Using List Page") // public
+	 * void The_user_should_be_directed_to_Arrays_Using_List_Page() { //
+	 * System.out.println(driver.getTitle()); // String actual =
+	 * driver.findElement(By.xpath("//p[normalize-space()='Arrays Using List']")).
+	 * getText(); // Assert.assertEquals(actual, "Arrays Using List"); //
+	 * LoggerLoad.info("user redirected to Arrays Using List"); // }
+	 * 
+	 * // #Practice Question: Basic Operations in Lists
+	 * 
+	 * // Scenario: Verify if user able to redirect to Practice page
+	 * // @When("The user clicks Basic Operations in Lists in Topics covered section"
+	 * ) // public void
+	 * The_user_clicks_Basic_Operations_in_Lists_in_Topics_covered_section() { //
+	 * arraypage.verifyBasicOperationsInListsPage(); // }
+	 * 
+	 * // @Then("The user should be directed to Basic Operations in Lists Page") //
+	 * public void _The_user_should_be_directed_to_Basic_Operations_in_Lists_Page()
+	 * { // System.out.println(driver.getTitle()); // String actual =
+	 * driver.findElement(By.
+	 * xpath("//p[normalize-space()='Basic Operations in Lists']")).getText(); //
+	 * Assert.assertEquals(actual, "Basic Operations in Lists"); //
+	 * LoggerLoad.info("user redirected to Basic Operations in Lists"); // }
+	 * 
+	 * // #Practice Question: Applications of Array
+	 * 
+	 * // Scenario: Verify if user able to redirect to Practice page
+	 * 
+	 * // @When("The user clicks Applications of Array link in Topics covered section"
+	 * ) // public void
+	 * The_user_clicks_applications_of_array_link_in_topics_covered_section() { //
+	 * // arraypage.verifyApplicationsOfArrayPage(); // }
+	 * 
+	 * // @Then("The user should be directed to Applications of Array Page") //
+	 * public void The_user_should_be_directed_to_Applications_of_Array_Page() { //
+	 * System.out.println(driver.getTitle()); // String actual =
+	 * driver.findElement(By.xpath("//p[normalize-space()='Applications of Array']")
+	 * ).getText(); // Assert.assertEquals(actual, "Applications of Array"); //
+	 * LoggerLoad.info("user redirected to Applications of Array "); // }
+	 */
 }

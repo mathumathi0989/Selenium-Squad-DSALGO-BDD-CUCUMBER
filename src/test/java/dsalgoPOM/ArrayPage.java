@@ -14,6 +14,7 @@ public class ArrayPage {
 
 	WebDriver driver;
 	WebDriverWait wait;
+	public Alert alert;
 
 	By arrayTitle = By.xpath("//a[@href='Array']");
 	By arraysinpython = By.xpath("//a[normalize-space()='Arrays in Python']");
@@ -161,17 +162,17 @@ public class ArrayPage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
+		return driver.findElement(output).getText();
+		// System.out.println(executed);
 
 	}
 
 	public void output() {
 
 		try {
-			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+			alert = wait.until(ExpectedConditions.alertIsPresent());
 			System.out.println("Alert message: " + alert.getText());
 			alert.accept();
 		} catch (Exception e) {

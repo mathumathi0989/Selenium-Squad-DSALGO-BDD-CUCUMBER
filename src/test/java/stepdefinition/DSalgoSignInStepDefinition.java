@@ -22,25 +22,23 @@ import dsalgoPOM.SignInPage;
 
 public class DSalgoSignInStepDefinition {
 
-	
-	 
-	     WebDriver driver;
-	     ConfigReader configReader = new ConfigReader();
-		 WebDriverWait   wait;
-		 SignInPage signInPage;
-		 HomePage  homepage;
+	WebDriver driver;
+	ConfigReader configReader = new ConfigReader();
+	WebDriverWait wait;
+	SignInPage signInPage;
+	HomePage homepage;
 
 	public DSalgoSignInStepDefinition() {
 		driver = DriverManager.getDriver();
 		signInPage = new SignInPage(driver);
-		homepage  =new HomePage(driver);
+		homepage = new HomePage(driver);
 	}
 
 	@Given("The user is on the DS Algo SignIn Page")
 	public void the_user_is_on_the_ds_algo_sign_in_page() {
-		
+
 		driver.get(configReader.getProperty("baseUrl") + "/login");
-		wait= new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		Boolean isElementPresent = (Boolean) js.executeScript(
 				"return document.evaluate(\"//a[normalize-space()='Sign in']\", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue != null;");
@@ -71,21 +69,17 @@ public class DSalgoSignInStepDefinition {
 		String validationMessage = (String) js.executeScript(script, passwordField);
 		System.out.println("Validation Error Message: " + validationMessage);
 		Assert.assertEquals(uNameError, validationMessage);
+		LoggerLoad.info("username textbox validation");
 	}
 
 //Scenario: Verify if user able to signIn with only password blank
 	@When("The user clicks login button after entering the {string} and leaves password textbox blank")
 	public void the_user_clicks_login_button_after_entering_the_and_leaves_password_textbox_blank(String username) {
-
-		 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
 		signInPage.enterUsername(configReader.getProperty("username"));
-        
-//usernameField.sendKeys(username);
 		WebElement signInButton = wait
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 		signInButton.click();
-		
-		
 	}
 
 	@Then("The error message {string} appears below Pwd textbox")
@@ -96,6 +90,7 @@ public class DSalgoSignInStepDefinition {
 		String validationMessage = (String) js.executeScript(script, passwordField);
 		System.out.println("Validation Error Message: " + validationMessage);
 		Assert.assertEquals(pwdError, validationMessage);
+		LoggerLoad.info("password textbox validation");
 
 	}
 
@@ -105,16 +100,15 @@ public class DSalgoSignInStepDefinition {
 	public void the_user_clicks_login_button_after_entering_the_only(String password) {
 		try {
 
-			 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
 			signInPage.enterPassword(configReader.getProperty("password"));
 			WebElement signInButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 			signInButton.click();
-			
+
 			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-            System.out.println("Alert message: " + alert.getText());
-          
-			
+			System.out.println("Alert message: " + alert.getText());
+
 		} catch (Exception e) {
 
 		}
@@ -138,10 +132,10 @@ public class DSalgoSignInStepDefinition {
 			WebElement signInButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 			signInButton.click();
-			
+
 			String invalidmessage = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@role='alert']"))).getText();
-					System.out.println(invalidmessage);
+			System.out.println(invalidmessage);
 		} catch (Exception e) {
 
 		}
@@ -153,8 +147,8 @@ public class DSalgoSignInStepDefinition {
 	@When("The user clicks login button after entering valid {string} and invalid password")
 	public void the_user_clicks_login_button_after_entering_valid_and_invalid_password(String username) {
 		try {
-			 wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
-				signInPage.enterUsername(configReader.getProperty("username"));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
+			signInPage.enterUsername(configReader.getProperty("username"));
 
 			WebElement passwordField = wait
 					.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
@@ -165,7 +159,7 @@ public class DSalgoSignInStepDefinition {
 			signInButton.click();
 			String invalidmessage = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@role='alert']"))).getText();
-					System.out.println(invalidmessage);
+			System.out.println(invalidmessage);
 		} catch (Exception e) {
 
 		}
@@ -176,6 +170,7 @@ public class DSalgoSignInStepDefinition {
 	public void the_user_should_able_to_see_an_error_message(String invalidmessage) {
 		String invalidActualMessage = driver.findElement(By.xpath("//div[@role='alert']")).getText();
 		Assert.assertEquals(invalidActualMessage, invalidmessage);
+		LoggerLoad.info("invalid error message validation");
 
 	}
 
@@ -188,16 +183,16 @@ public class DSalgoSignInStepDefinition {
 					.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
 			usernameField.sendKeys("invalidusername");
 
- wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
-	signInPage.enterPassword(configReader.getProperty("password"));
+			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
+			signInPage.enterPassword(configReader.getProperty("password"));
 
 			WebElement signInButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 			signInButton.click();
-			
+
 			String invalidmessage = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@role='alert']"))).getText();
-					System.out.println(invalidmessage);
+			System.out.println(invalidmessage);
 		} catch (Exception e) {
 
 		}
@@ -207,14 +202,13 @@ public class DSalgoSignInStepDefinition {
 //Scenario: Verify if user able to signIn valid username and valid password
 
 	@When("The user clicks login button after entering valid {string} and valid {string}")
-	public void the_user_clicks_login_button_after_entering_valid_and_valid(String username , String password ) {
-		try { 
+	public void the_user_clicks_login_button_after_entering_valid_and_valid(String username, String password) {
+		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
 			signInPage.enterUsername(configReader.getProperty("username"));
-	
+
 			wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_password']")));
 			signInPage.enterPassword(configReader.getProperty("password"));
-
 
 			WebElement signInButton = wait
 					.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
@@ -230,10 +224,9 @@ public class DSalgoSignInStepDefinition {
 		String actualMessage = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']"))).getText();
 		System.out.println(actualMessage);
-		//Assert.assertEquals(actualMessage,"You are logged in");
+		Assert.assertEquals(actualMessage, "You are logged in");
 		LoggerLoad.info("user signed in successfully");
 
 	}
 
 }
-

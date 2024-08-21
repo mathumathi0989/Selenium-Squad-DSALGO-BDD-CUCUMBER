@@ -17,10 +17,6 @@ public class SignOutPage {
     }
     
     
-//    public void clickSignout() {
-//        driver.findElement(signOut).click();
-//    }
 
-   
 
 }

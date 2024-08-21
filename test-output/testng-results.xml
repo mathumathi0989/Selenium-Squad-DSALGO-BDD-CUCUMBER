@@ -1,594 +1,875 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="7" skipped="0">
+<testng-results ignored="0" total="53" passed="53" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T13:03:33 IST" name="Suite" finished-at="2024-08-21T13:03:35 IST" duration-ms="2514">
+  <suite started-at="2024-08-21T19:53:49 IST" name="Suite" finished-at="2024-08-21T20:23:11 IST" duration-ms="1762499">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-08-21T13:03:33 IST" name="Chrome Tests" finished-at="2024-08-21T13:03:35 IST" duration-ms="2514">
+    <test started-at="2024-08-21T19:53:49 IST" name="Chrome Tests" finished-at="2024-08-21T20:23:11 IST" duration-ms="1762499">
       <class name="testrunner.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:33 IST" name="setUpClass" finished-at="2024-08-21T13:03:34 IST" duration-ms="1044" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:53:49 IST" name="setUpClass" finished-at="2024-08-21T19:53:50 IST" duration-ms="1247" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@31edaa7d]]>
+                <![CDATA[org.testng.TestRunner@7ba8c737]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="517" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:53:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:54:18 IST" duration-ms="28160" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn with both username and password blank"]]>
+                <![CDATA["Verify if user able to direct "Overview of Trees" page"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="91" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:54:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:54:52 IST" duration-ms="33688" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn with only password blank"]]>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="46" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:54:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:55:29 IST" duration-ms="37021" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn with only username blank"]]>
+                <![CDATA["Verify if user able to see the output in console"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="32" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:55:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:56:20 IST" duration-ms="51165" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn with invalid username and invalid password"]]>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="34" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:56:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:56:40 IST" duration-ms="20296" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn valid username and invalid password"]]>
+                <![CDATA["Verify if user able to direct to "Terminologies""]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="39" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:56:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:57:17 IST" duration-ms="36539" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn invalid username and valid "password""]]>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T13:03:35 IST" duration-ms="24" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:57:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:57:52 IST" duration-ms="34724" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Verify if user able to signIn valid username and valid password"]]>
+                <![CDATA["Verify if user able to see the output in console"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["SignIn Page"]]>
+                <![CDATA["Tree"]]>
               </value>
             </param>
           </params>
-          <exception class="io.cucumber.core.exception.CucumberException">
-            <message>
-              <![CDATA[Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.cucumber.core.exception.CucumberException: Failed to instantiate class stepdefinition.DSalgoSignInStepDefinition
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:67)
-at io.cucumber.core.backend.DefaultObjectFactory.getInstance(DefaultObjectFactory.java:45)
-at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
-at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
-at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
-at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)
-at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
-at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)
-at io.cucumber.core.runner.TestStep.run(TestStep.java:56)
-at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
-at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
-at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
-at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
-at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
-at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
-at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
-at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
-at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:840)
-Caused by: java.lang.reflect.InvocationTargetException
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at io.cucumber.core.backend.DefaultObjectFactory.cacheNewInstance(DefaultObjectFactory.java:53)
-... 39 more
-Caused by: java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:93)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at dsalgoPOM.HomePage.<init>(HomePage.java:35)
-at stepdefinition.DSalgoSignInStepDefinition.<init>(DSalgoSignInStepDefinition.java:36)
-... 45 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.cucumber.core.exception.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T13:03:35 IST" name="tearDownClass" finished-at="2024-08-21T13:03:35 IST" duration-ms="592" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:57:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:58:46 IST" duration-ms="54531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:58:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:59:09 IST" duration-ms="22912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Types of Trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:59:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T19:59:37 IST" duration-ms="27378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T19:59:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:00:35 IST" duration-ms="58078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:00:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:01:09 IST" duration-ms="34741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:01:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:01:41 IST" duration-ms="31403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Tree Traversals""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:01:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:02:33 IST" duration-ms="52109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:02:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:03:08 IST" duration-ms="34614" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:03:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:03:45 IST" duration-ms="37230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:03:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:04:07 IST" duration-ms="21793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Traversals-Illustration""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:04:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:04:41 IST" duration-ms="34589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:04:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:05:13 IST" duration-ms="31694" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:05:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:05:47 IST" duration-ms="34186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:05:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:06:14 IST" duration-ms="26874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Binary Trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:06:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:06:41 IST" duration-ms="26937" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:06:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:07:25 IST" duration-ms="44575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:07:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:08:01 IST" duration-ms="35141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:08:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:08:31 IST" duration-ms="30752" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Types of Binary Trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:08:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:09:08 IST" duration-ms="36818" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:09:08 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:09:50 IST" duration-ms="41584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:09:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:10:36 IST" duration-ms="46202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:10:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:11:00 IST" duration-ms="24255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Implementation in Python""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:11:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:11:26 IST" duration-ms="25395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:11:26 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:12:11 IST" duration-ms="44932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:12:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:12:47 IST" duration-ms="36394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:12:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:13:07 IST" duration-ms="19560" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Binary Tree Traversals""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:13:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:13:46 IST" duration-ms="39893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:13:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:14:23 IST" duration-ms="36190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:14:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:14:50 IST" duration-ms="27348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:14:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:15:10 IST" duration-ms="19578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Implementation of Binary Trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:15:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:15:34 IST" duration-ms="24416" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:15:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:16:04 IST" duration-ms="30302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:16:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:16:30 IST" duration-ms="25407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:16:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:16:51 IST" duration-ms="21608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Applications of Binary trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:16:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:17:21 IST" duration-ms="29876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:17:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:17:48 IST" duration-ms="26983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:17:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:18:25 IST" duration-ms="36740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:18:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:18:51 IST" duration-ms="26263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Binary Search Trees""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:18:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:19:18 IST" duration-ms="26943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:19:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:19:57 IST" duration-ms="38395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:19:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:20:50 IST" duration-ms="52991" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:20:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:21:19 IST" duration-ms="29823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to direct to "Implementation Of BST""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:21:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:21:44 IST" duration-ms="24363" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to to redirect to a page having an tryEditor with a Run button to test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:21:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:22:14 IST" duration-ms="30382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the output in console"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:22:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:22:47 IST" duration-ms="33116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify if user able to see the error msg in pop up window"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:22:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-21T20:23:10 IST" duration-ms="22783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["The user is able to click and navigate to "Practice Questions""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Tree"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@69504ae9]" started-at="2024-08-21T20:23:10 IST" name="tearDownClass" finished-at="2024-08-21T20:23:11 IST" duration-ms="1008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

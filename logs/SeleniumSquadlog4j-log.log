@@ -871,3 +871,550 @@
 [INFO ] 2024-08-19 20:40:14.897 [main] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-1] LoggerLoad - user signed in successfully
 [INFO ] 2024-08-20 12:33:06.249 [TestNG-tests-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 13:15:11.229 [TestNG-tests-1] LoggerLoad - For logs verification
+[INFO ] 2024-08-21 15:48:59.157 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:49:13.560 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:49:28.425 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:50:01.482 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:50:17.371 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:50:33.207 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:51:03.012 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:51:21.137 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:51:37.289 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:51:52.783 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:52:07.444 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:52:18.978 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:54:31.835 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:54:51.768 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:55:06.536 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:55:29.344 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:55:44.340 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:56:03.111 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:56:19.021 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:56:36.460 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:56:50.886 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:57:07.129 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:57:21.424 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:57:39.177 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 15:57:53.516 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 15:58:10.444 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:00:01.685 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:00:06.293 [TestNG-tests-1] LoggerLoad - user redirected to Introduction page
+[INFO ] 2024-08-21 16:00:21.366 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:00:46.194 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:01:02.219 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:01:16.577 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:01:31.352 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:01:45.878 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:01:49.196 [TestNG-tests-1] LoggerLoad - user redirected to Creating Linked LIst page
+[INFO ] 2024-08-21 16:02:02.955 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:02:27.370 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:02:40.840 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:02:55.485 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:03:10.737 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:03:25.063 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:03:28.991 [TestNG-tests-1] LoggerLoad - user redirected to Types of Linked List page
+[INFO ] 2024-08-21 16:03:43.576 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:04:08.057 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:04:25.411 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:04:38.773 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:04:52.148 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:05:07.564 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:05:12.317 [TestNG-tests-1] LoggerLoad - user redirected to Implement Linked List in Python page
+[INFO ] 2024-08-21 16:05:26.451 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:05:49.066 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:06:04.979 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:06:18.518 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:06:29.238 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:06:43.535 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:06:47.621 [TestNG-tests-1] LoggerLoad - user redirected to Traversal page
+[INFO ] 2024-08-21 16:07:01.965 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:07:25.128 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:07:37.474 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:07:51.930 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:08:02.011 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:08:16.821 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:08:20.555 [TestNG-tests-1] LoggerLoad - user redirected to Insertion page
+[INFO ] 2024-08-21 16:08:34.354 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:08:56.317 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:09:10.101 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:09:26.484 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:09:40.668 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:09:55.508 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:09:59.670 [TestNG-tests-1] LoggerLoad - user redirected to Deletion page
+[INFO ] 2024-08-21 16:10:13.912 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:10:38.786 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:10:51.556 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 16:11:06.063 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:11:19.048 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 16:11:32.887 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:16:41.362 [TestNG-tests-1] LoggerLoad - For logs verification
+[INFO ] 2024-08-21 16:16:52.828 [TestNG-tests-1] LoggerLoad - password textbox validation
+[INFO ] 2024-08-21 16:17:51.250 [TestNG-tests-1] LoggerLoad - For logs verification
+[INFO ] 2024-08-21 16:18:03.556 [TestNG-tests-1] LoggerLoad - password textbox validation
+[INFO ] 2024-08-21 16:18:15.873 [TestNG-tests-1] LoggerLoad - Confirm password textbox validation
+[INFO ] 2024-08-21 16:19:10.396 [TestNG-tests-1] LoggerLoad - password mismatch validation
+[INFO ] 2024-08-21 16:29:10.775 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:29:14.745 [TestNG-tests-1] LoggerLoad - user redirected to Implementation of Queue in Python Page
+[INFO ] 2024-08-21 16:29:32.692 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:29:43.144 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:29:58.356 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:30:18.081 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-21 16:30:35.979 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:30:48.713 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-21 16:31:04.953 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:31:08.859 [TestNG-tests-1] LoggerLoad - user redirected to Implementation using collections.deque Page
+[INFO ] 2024-08-21 16:31:23.626 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:31:33.116 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:31:49.446 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:32:10.063 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-21 16:32:25.773 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:32:40.352 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-21 16:32:57.039 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:33:00.714 [TestNG-tests-1] LoggerLoad - user redirected to Implementation using array Page
+[INFO ] 2024-08-21 16:33:15.760 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:33:26.485 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:33:41.476 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:34:01.908 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-21 16:34:19.289 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:34:32.356 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-21 16:34:48.708 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:34:52.765 [TestNG-tests-1] LoggerLoad - user redirected to Queue Operations Page
+[INFO ] 2024-08-21 16:35:11.232 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:35:21.495 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:35:36.936 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:35:54.491 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-21 16:36:09.055 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:36:19.589 [TestNG-tests-1] LoggerLoad - user validated invalid code in Queue page
+[INFO ] 2024-08-21 16:36:34.362 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:36:38.992 [TestNG-tests-1] LoggerLoad - user redirected to queue Practice page
+[INFO ] 2024-08-21 16:42:10.672 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-21 16:42:13.910 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-21 16:42:28.499 [TestNG-tests-1] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-21 16:42:28.710 [TestNG-tests-1] LoggerLoad - error message validation
+[INFO ] 2024-08-21 16:42:38.585 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-21 16:42:41.565 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-21 16:42:54.607 [TestNG-tests-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-21 16:42:54.969 [TestNG-tests-1] LoggerLoad - error message validation
+[INFO ] 2024-08-21 16:43:05.937 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-21 16:43:09.586 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-21 16:43:11.811 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-21 16:43:20.653 [TestNG-tests-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-21 16:43:24.231 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-21 16:43:26.474 [TestNG-tests-1] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-21 16:47:41.674 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:47:45.736 [main] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-21 16:48:02.657 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:48:17.882 [main] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:48:37.369 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:48:57.553 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-21 16:49:14.449 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:49:27.450 [main] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-21 16:49:43.295 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:49:48.125 [main] LoggerLoad - user redirected to graph representation page
+[INFO ] 2024-08-21 16:50:04.799 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:50:12.810 [main] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:50:27.614 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:50:43.300 [main] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-21 16:50:58.105 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:51:10.821 [main] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-21 16:51:26.031 [main] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:51:30.715 [main] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 16:55:27.820 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:55:31.269 [TestNG-tests-1] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-21 16:55:47.514 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:55:57.841 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 16:56:16.633 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:56:42.283 [TestNG-tests-1] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-21 16:57:01.297 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:57:12.734 [TestNG-tests-1] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-21 16:57:30.146 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 16:57:33.990 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 17:03:57.079 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:04:02.450 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-21 17:04:19.882 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:04:32.898 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 17:04:48.729 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:05:05.940 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 17:05:25.870 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:05:37.938 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 17:05:55.560 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:06:00.571 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-21 17:06:17.124 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:06:34.987 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 17:06:50.823 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:07:01.349 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 17:07:16.231 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:07:27.943 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 17:07:42.790 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:07:46.641 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-21 17:08:01.338 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:08:10.618 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 17:08:26.184 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:08:43.895 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 17:09:00.967 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:09:16.488 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 17:09:32.164 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:09:36.372 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-21 17:09:51.470 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:10:01.140 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 17:10:19.710 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:10:38.177 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 17:10:53.788 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:11:07.048 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 17:11:25.185 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:11:29.586 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-21 17:11:30.604 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 17:11:45.514 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:11:57.350 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:12:13.714 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:12:29.947 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:12:46.230 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:13:19.936 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:13:48.383 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:14:19.850 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:14:32.090 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:14:46.973 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:15:05.060 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:15:20.787 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:15:54.568 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:16:25.057 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:16:59.981 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:17:10.193 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:17:26.757 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:17:44.058 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:17:59.777 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:18:34.602 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:19:09.319 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:19:44.231 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:19:57.452 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:20:16.056 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:20:36.308 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:20:53.520 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:21:29.509 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:22:04.633 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:22:42.073 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:22:46.579 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-21 17:22:47.759 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 17:23:04.125 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:23:17.130 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:23:35.769 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:23:58.118 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:24:15.375 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:24:50.948 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:25:24.750 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:25:56.916 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:26:09.824 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:26:26.069 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:26:41.018 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:26:57.686 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:27:33.538 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:28:05.882 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:28:40.614 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:28:59.234 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 17:29:15.921 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:29:35.961 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 17:29:53.401 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:30:29.545 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:31:04.338 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:31:39.175 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 17:31:50.743 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:28:56.649 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:29:01.562 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-21 18:29:18.461 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:29:26.904 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 18:29:40.912 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:29:57.313 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 18:30:14.396 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:30:28.715 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 18:30:44.401 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:30:49.624 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-21 18:31:13.907 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:31:21.379 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 18:31:36.587 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:31:54.085 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 18:32:10.000 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:32:29.214 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 18:32:45.843 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:32:53.366 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-21 18:33:08.010 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:33:19.149 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 18:33:33.395 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:33:50.667 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 18:34:07.632 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:34:21.163 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 18:34:36.658 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:34:41.471 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-21 18:34:57.203 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:35:16.207 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 18:35:31.263 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:35:53.340 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-21 18:36:07.983 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:36:19.879 [TestNG-tests-1] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-21 18:36:34.334 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:36:40.781 [TestNG-tests-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-21 18:36:41.789 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 18:36:56.060 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:37:22.313 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:37:37.625 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:37:58.580 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:38:14.956 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:38:50.952 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:39:25.351 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:40:04.293 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:40:46.449 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:41:01.261 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:41:37.543 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:41:54.147 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:42:32.798 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:43:10.872 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:43:54.865 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:44:09.234 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:44:26.869 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:44:45.491 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:45:03.744 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:45:37.366 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:46:06.651 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:46:42.831 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:46:57.892 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:47:12.376 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:47:30.757 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:47:44.411 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:48:29.005 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:49:02.565 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:49:34.274 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:49:40.875 [TestNG-tests-1] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-21 18:49:42.762 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 18:49:55.975 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:50:10.474 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:50:25.710 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:50:51.252 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:51:06.143 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:51:38.568 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:52:22.615 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:53:02.774 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:53:21.763 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:53:36.504 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:53:59.014 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:54:16.162 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:54:52.939 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:55:25.390 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:56:07.080 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:56:28.087 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:56:45.534 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:57:12.113 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 18:57:29.283 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:58:11.956 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:58:43.455 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:59:18.979 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 18:59:36.674 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 18:59:51.150 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:00:36.311 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:00:52.309 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:01:29.742 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:02:00.872 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:02:47.089 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:02:52.106 [TestNG-tests-1] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-21 19:02:53.972 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 19:03:08.717 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:03:26.357 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:03:41.365 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:04:07.470 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:04:21.816 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:04:59.393 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:05:49.015 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:06:33.570 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:06:49.156 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:07:03.541 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:07:29.171 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:07:43.154 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:08:18.405 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:09:01.318 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:09:42.186 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:10:07.031 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:10:22.963 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:10:41.379 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:10:59.573 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:11:44.753 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:12:17.724 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:12:58.540 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:13:15.361 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:13:35.262 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:14:03.930 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:14:21.282 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:14:57.686 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:15:37.089 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:16:23.590 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:16:26.047 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-21 19:16:26.993 [TestNG-tests-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-21 19:16:45.724 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:16:59.571 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:17:17.075 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:17:41.460 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:17:59.919 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:18:44.527 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:19:19.976 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:20:00.739 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:20:12.686 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:20:27.881 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:20:46.958 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:21:02.707 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:21:38.064 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:22:05.827 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:22:48.147 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:23:14.279 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:23:32.191 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:23:49.685 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:24:05.765 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:24:39.695 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:25:08.593 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:25:44.027 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:25:58.653 [TestNG-tests-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-21 19:26:17.976 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:26:49.223 [TestNG-tests-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-21 19:27:10.571 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:27:59.531 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:28:45.098 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:33:15.571 [TestNG-tests-1] LoggerLoad - username textbox validation
+[INFO ] 2024-08-21 19:33:28.796 [TestNG-tests-1] LoggerLoad - password textbox validation
+[INFO ] 2024-08-21 19:33:51.713 [TestNG-tests-1] LoggerLoad - username textbox validation
+[INFO ] 2024-08-21 19:34:05.950 [TestNG-tests-1] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-21 19:34:19.895 [TestNG-tests-1] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-21 19:34:33.694 [TestNG-tests-1] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-21 19:34:48.025 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:37:59.282 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:38:01.232 [TestNG-tests-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-08-21 19:39:28.778 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:39:30.255 [TestNG-tests-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-08-21 19:39:30.277 [TestNG-tests-1] LoggerLoad - After logged out, user landed on Home Page
+[INFO ] 2024-08-21 19:44:32.305 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:44:37.862 [TestNG-tests-1] LoggerLoad - user redirected to Operations in Stack Page
+[INFO ] 2024-08-21 19:44:52.968 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:45:06.434 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 19:45:25.109 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:45:49.103 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-21 19:46:04.632 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:46:20.877 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-21 19:46:38.696 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:46:42.758 [TestNG-tests-1] LoggerLoad - user is directed to Implementation Page
+[INFO ] 2024-08-21 19:47:00.022 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:47:06.898 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 19:47:26.130 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:47:45.017 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-21 19:48:04.428 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:48:16.130 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-21 19:48:33.887 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:48:36.611 [TestNG-tests-1] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-21 19:48:53.712 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:49:10.367 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 19:49:25.155 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:49:45.754 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-21 19:50:00.459 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:50:15.909 [TestNG-tests-1] LoggerLoad - user validated invalid code in stack page
+[INFO ] 2024-08-21 19:50:32.847 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:50:40.753 [TestNG-tests-1] LoggerLoad - user redirected to stack Practice page
+[INFO ] 2024-08-21 19:54:09.394 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:54:18.443 [TestNG-tests-1] LoggerLoad - user redirected to Overview of Trees page
+[INFO ] 2024-08-21 19:54:35.826 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:55:07.470 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:55:29.297 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 19:55:48.306 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:56:20.449 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 19:56:36.104 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:56:40.787 [TestNG-tests-1] LoggerLoad - user redirected to Terminologies page
+[INFO ] 2024-08-21 19:56:57.068 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:57:17.328 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 19:57:34.551 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:57:52.054 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 19:58:09.048 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:58:46.585 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 19:59:04.487 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:59:09.530 [TestNG-tests-1] LoggerLoad - user redirected to Types of Trees page
+[INFO ] 2024-08-21 19:59:24.647 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 19:59:36.925 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 19:59:52.180 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:00:34.959 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:00:52.998 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:01:09.741 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:01:27.100 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:01:41.169 [TestNG-tests-1] LoggerLoad - user redirected to Tree Traversals page
+[INFO ] 2024-08-21 20:01:59.812 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:02:33.264 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:02:51.250 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:03:07.884 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:03:27.252 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:03:45.117 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:04:00.131 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:04:06.939 [TestNG-tests-1] LoggerLoad - user redirected to Traversals-Illustration page
+[INFO ] 2024-08-21 20:04:23.940 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:04:41.527 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:04:56.121 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:05:13.235 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:05:29.194 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:05:47.344 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:06:03.602 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:06:14.322 [TestNG-tests-1] LoggerLoad - user redirected to Binary Trees page
+[INFO ] 2024-08-21 20:06:28.885 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:06:41.287 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:06:55.600 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:07:25.818 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:07:44.247 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:08:00.950 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:08:18.820 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:08:31.782 [TestNG-tests-1] LoggerLoad - user redirected to Types of Binary Trees page
+[INFO ] 2024-08-21 20:08:49.187 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:09:08.612 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:09:25.119 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:09:50.185 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:10:04.625 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:10:36.358 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:10:53.669 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:11:00.663 [TestNG-tests-1] LoggerLoad - user redirected to Implementation in Python page
+[INFO ] 2024-08-21 20:11:14.666 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:11:26.040 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:11:40.880 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:12:11.003 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:12:31.300 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:12:47.356 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:13:02.124 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:13:06.997 [TestNG-tests-1] LoggerLoad - user redirected to Binary Tree Traversals page
+[INFO ] 2024-08-21 20:13:28.683 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:13:46.858 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:14:02.839 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:14:23.080 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:14:37.635 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:14:50.447 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:15:04.858 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:15:10.026 [TestNG-tests-1] LoggerLoad - user redirected to Implementation of Binary Trees page
+[INFO ] 2024-08-21 20:15:24.152 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:15:34.459 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:15:49.103 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:16:04.740 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:16:18.896 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:16:30.191 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:16:46.637 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:16:51.804 [TestNG-tests-1] LoggerLoad - user redirected to Applications of Binary trees page
+[INFO ] 2024-08-21 20:17:05.844 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:17:21.662 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:17:35.751 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:17:48.680 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:18:02.947 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:18:25.401 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:18:42.873 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:18:51.691 [TestNG-tests-1] LoggerLoad - user redirected to Binary Search Trees page
+[INFO ] 2024-08-21 20:19:07.178 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:19:18.631 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:19:38.062 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:19:56.987 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:20:15.943 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:20:50.001 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:21:09.317 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:21:19.873 [TestNG-tests-1] LoggerLoad - user redirected to Implementation Of BST page
+[INFO ] 2024-08-21 20:21:34.243 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:21:44.223 [TestNG-tests-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-21 20:21:59.309 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:22:14.615 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-21 20:22:32.141 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:22:47.705 [TestNG-tests-1] LoggerLoad - user validated invalid code in Tree page
+[INFO ] 2024-08-21 20:23:02.407 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-21 20:23:10.537 [TestNG-tests-1] LoggerLoad - user redirected to trees Practice page

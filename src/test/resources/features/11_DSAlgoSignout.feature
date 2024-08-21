@@ -1,6 +1,6 @@
 #Author: Anusuya Selvaraj
 
-@sanity
+
 @regression
 Feature: Signout
 
@@ -10,7 +10,8 @@ Feature: Signout
      Given The user is on the DS Algo SignIn Page
      When  The user clicks login button after entering valid "username" and valid "password"
      Then   The user should land in Data Structure Home Page  
-     
+   
+    @sanity    
 Scenario: Verify if user able to "signout" 
     When  The user click the Sign out link
     Then  The user able to see successful message :"Logged out successfully"

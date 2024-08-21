@@ -13,9 +13,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class LinkListPage {
 
 	WebDriver driver;
-	 WebDriverWait wait;
-
-
+	WebDriverWait wait;
+	public String executed;
+	public Alert alert;
 	By linklistTitle = By.xpath("//a[@href='linked-list']");
 	By introduction = By.xpath("//a[normalize-space()='Introduction']");
 	By creatinglinkedlist = By.xpath("//a[normalize-space()='Creating Linked LIst']");
@@ -36,8 +36,6 @@ public class LinkListPage {
 
 	}
 
-	
-
 	public void verifyIntroductionPage() {
 
 		WebElement element = driver.findElement(introduction);
@@ -53,43 +51,41 @@ public class LinkListPage {
 		element.click();
 	}
 
-	
 	public void verifyTypesOfLinkedListPage() {
 
 		WebElement element = driver.findElement(typesoflinkedlist);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
+
 	public void verifyImplementLinkedListPage() {
 
 		WebElement element = driver.findElement(implementlinkedlist);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
+
 	public void verifyTraversalPage() {
 
 		WebElement element = driver.findElement(traversal);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
+
 	public void verifyInsertionPage() {
 
 		WebElement element = driver.findElement(insertion);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
+
 	public void verifyDeletionPage() {
 
 		WebElement element = driver.findElement(deletion);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
-	
+
 	public void verifyPracticePage() {
 
 		WebElement element = driver.findElement(practiceQues);
@@ -118,32 +114,27 @@ public class LinkListPage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
-		
-	
+		return executed = driver.findElement(output).getText();
+
 	}
-	
-	
-	public void outputt()
-	{
+
+	public void outputt() {
 
 		try {
-          Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-          System.out.println("Alert message: " + alert.getText());
-          alert.accept();
-      } catch (Exception e) {
-          try {
-              wait.until(ExpectedConditions.visibilityOfElementLocated(output));
-              String codeOutput = driver.findElement(output).getText();
-              System.out.println("Code output: " + codeOutput);
-          } catch (Exception ex) {
-              System.out.println("No output element found or no output generated.");
-          }
-      }
+			alert = wait.until(ExpectedConditions.alertIsPresent());
+			System.out.println("Alert message: " + alert.getText());
+			alert.accept();
+		} catch (Exception e) {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(output));
+				String codeOutput = driver.findElement(output).getText();
+				System.out.println("Code output: " + codeOutput);
+			} catch (Exception ex) {
+				System.out.println("No output element found or no output generated.");
+			}
+		}
 	}
-	
-	
+
 }

@@ -12,10 +12,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GraphPage {
 
-	
 	WebDriver driver;
-	 WebDriverWait wait;
-
+	WebDriverWait wait;
+	public Alert alert;
 
 	By graphTitle = By.xpath("//a[@href='graph']");
 	By graph = By.xpath("//a[@class='list-group-item'][normalize-space()='Graph']");
@@ -32,8 +31,6 @@ public class GraphPage {
 
 	}
 
-	
-
 	public void verifyGraphPage() {
 
 		WebElement element = driver.findElement(graph);
@@ -49,7 +46,6 @@ public class GraphPage {
 		element.click();
 	}
 
-	
 	public void verifyPracticePage() {
 
 		WebElement element = driver.findElement(practiceQues);
@@ -78,32 +74,28 @@ public class GraphPage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
-		
-	
+		return driver.findElement(output).getText();
+		// System.out.println(executed);
+
 	}
-	
-	
-	public void outputt()
-	{
+
+	public void outputt() {
 
 		try {
-           Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-           System.out.println("Alert message: " + alert.getText());
-           alert.accept();
-       } catch (Exception e) {
-           try {
-               wait.until(ExpectedConditions.visibilityOfElementLocated(output));
-               String codeOutput = driver.findElement(output).getText();
-               System.out.println("Code output: " + codeOutput);
-           } catch (Exception ex) {
-               System.out.println("No output element found or no output generated.");
-           }
-       }
+			alert = wait.until(ExpectedConditions.alertIsPresent());
+			System.out.println("Alert message: " + alert.getText());
+			alert.accept();
+		} catch (Exception e) {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(output));
+				String codeOutput = driver.findElement(output).getText();
+				System.out.println("Code output: " + codeOutput);
+			} catch (Exception ex) {
+				System.out.println("No output element found or no output generated.");
+			}
+		}
 	}
-	
-	
+
 }
