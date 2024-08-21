@@ -18,7 +18,8 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
     Given The user is in the Operations in Stack page 
     When  The user clicks Try Here button
     Then  The user should be redirected to a page having an tryEditor with a Run button to test
-    
+  
+   @sanity    
  Scenario: Verify if user able to see the output in console
     Given The user is on the Operations in stack tryEditor page 
     When  The User writes Valid python code
@@ -43,6 +44,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When  The user clicks Try Here button
    Then  The user should be redirected to a page having an tryEditor with a Run button to test
   
+   @sanity  
   Scenario: Verify if user able to see the output in console
    Given The user is on the Implementation tryEditor page
    When The User writes Valid python code
@@ -66,6 +68,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Try Here button
    Then The user should be redirected to a page having an tryEditor with a Run button to test
   
+   @sanity  
    Scenario: Verify if user able to see the output in console
    Given The user is on the Applications tryEditor page
    When The User writes Valid python code

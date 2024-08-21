@@ -13,8 +13,8 @@ import org.testng.Assert;
 
 public class StackPage {
 	WebDriver driver;
-	 WebDriverWait wait;
-
+	WebDriverWait wait;
+	public Alert alert;
 
 	By stackTitle = By.xpath("//h4[text()='Stack']");
 	By Implementationofstack = By.linkText("Implementation");
@@ -31,7 +31,6 @@ public class StackPage {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 
 	}
-
 
 	public void verifyOperationsinStackPage() {
 
@@ -54,7 +53,7 @@ public class StackPage {
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
 		element.click();
 	}
-	
+
 	public void verifyPracticePage() {
 
 		WebElement element = driver.findElement(practiceQues);
@@ -83,32 +82,28 @@ public class StackPage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
-		
-	
+		return driver.findElement(output).getText();
+		// System.out.println(executed);
+
 	}
-	
-	
-	public void output()
-	{
+
+	public void output() {
 
 		try {
-            Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-            System.out.println("Alert message: " + alert.getText());
-            alert.accept();
-        } catch (Exception e) {
-            try {
-                wait.until(ExpectedConditions.visibilityOfElementLocated(output));
-                String codeOutput = driver.findElement(output).getText();
-                System.out.println("Code output: " + codeOutput);
-            } catch (Exception ex) {
-                System.out.println("No output element found or no output generated.");
-            }
-        }
+			alert = wait.until(ExpectedConditions.alertIsPresent());
+			System.out.println("Alert message: " + alert.getText());
+			alert.accept();
+		} catch (Exception e) {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(output));
+				String codeOutput = driver.findElement(output).getText();
+				System.out.println("Code output: " + codeOutput);
+			} catch (Exception ex) {
+				System.out.println("No output element found or no output generated.");
+			}
+		}
 	}
-	
-	
+
 }

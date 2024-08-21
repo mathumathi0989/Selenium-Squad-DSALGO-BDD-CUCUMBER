@@ -17,7 +17,8 @@ Background: Verify if user is logged in
     Given The user is in the Implementation of Queue Page
     When  The user clicks Try Here button in Queue Page
     Then  The user should be redirected to a Queue page having an tryEditor with a Run button to test
-        
+  
+   @sanity        
  Scenario: Verify if user able to see the output in console
     Given The user is on the Queue tryEditor page 
     When  The User writes valid python code in Queue Page
@@ -40,7 +41,8 @@ Background: Verify if user is logged in
     Given The user is on the Implementation using collections.deque Page
     When  The user clicks Try Here button in Queue Page
     Then  The user should be redirected to a Queue page having an tryEditor with a Run button to test
-
+    
+ @sanity  
  Scenario: Verify if user able to see the output in console
     Given The user is on the Queue tryEditor page 
     When  The User writes valid python code in Queue Page
@@ -64,7 +66,8 @@ Background: Verify if user is logged in
     Given The user is on the Implementation using array Page
     When  The user clicks Try Here button in Queue Page
     Then  The user should be redirected to a Queue page having an tryEditor with a Run button to test   
-     
+   
+    @sanity    
  Scenario: Verify if user able to see the output in console
     Given The user is on the Queue tryEditor page 
     When  The User writes valid python code in Queue Page
@@ -89,7 +92,7 @@ Background: Verify if user is logged in
     When  The user clicks Try Here button in Queue Page
     Then  The user should be redirected to a Queue page having an tryEditor with a Run button to test   
 
-    
+   @sanity    
  Scenario: Verify if user able to see the output in console
     Given The user is on the Queue tryEditor page 
     When  The User writes valid python code in Queue Page

@@ -18,7 +18,8 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
     Given The user is in the Graph page 
     When  The user clicks Try Here button in the graph page
     Then  The user should be redirected to a graph page having an tryEditor with a Run button to test
-    
+  
+  @sanity  
  Scenario: Verify if user able to see the output in console
     Given The user is on the Graph tryEditor page 
     When  The User writes Valid python code in graph page
@@ -42,6 +43,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Try Here button in the graph page
    Then The user should be redirected to a graph page having an tryEditor with a Run button to test
   
+   @sanity  
    Scenario: Verify if user able to see the output in console
    Given The user is on the Graph representations tryEditor page
    When The User writes Valid python code in graph page

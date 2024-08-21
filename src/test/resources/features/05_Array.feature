@@ -1,6 +1,6 @@
 #Author: Anusuya Selvaraj and Mathumathi Balakrishnan
 
-@sanity
+
 @regression
 Feature: Array
 
@@ -19,7 +19,8 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
     Given The user is in the Arrays in Python page 
     When  The user clicks Try Here button in the Array page
     Then  The user should be redirected to a array page having an tryEditor with a Run button to test
-    
+ 
+ @sanity  
  Scenario: Verify if user able to see the output in console
     Given The user is on the Array tryEditor page 
     When  The User writes Valid python code in array page
@@ -43,6 +44,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Try Here button in the Array page
    Then The user should be redirected to a array page having an tryEditor with a Run button to test
   
+  @sanity
    Scenario: Verify if user able to see the output in console
    Given The user is on the Arrays Using List tryEditor page
    When The User writes Valid python code in array page
@@ -66,6 +68,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Try Here button in the Array page
    Then The user should be redirected to a array page having an tryEditor with a Run button to test
   
+  @sanity
    Scenario: Verify if user able to see the output in console
    Given The user is on the Basic Operations in Lists tryEditor page
    When The User writes Valid python code in array page
@@ -89,6 +92,7 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Try Here button in the Array page
    Then The user should be redirected to a array page having an tryEditor with a Run button to test
   
+  @sanity
    Scenario: Verify if user able to see the output in console
    Given The user is on the Applications of Array tryEditor page
    When The User writes Valid python code in array page
@@ -118,13 +122,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user clicks Search the Array link 
    Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
    
-  
+  @sanity
    Scenario: Verify if user able to see the output in console
    Given The user is on the Arrays practice page tryEditor page
    When The User writes Valid python code in array practice page page
    And  Click the Run button in array page
    Then User is able to see the output in console of Arrays practice page
    
+  
      Scenario: Verify if user able to see the output in console
    Given The user is on the Arrays practice page tryEditor page
    When The User writes Valid python code in array practice page page
@@ -149,12 +154,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Max Consecutive Ones link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Max Consecutive Ones array practice page
@@ -181,12 +188,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Find Numbers with Even Number of Digits link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
@@ -212,12 +221,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Squares of  a Sorted Array link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+ 
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
@@ -255,12 +266,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Search the Array link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
    Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in array practice page page
@@ -286,11 +299,13 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Max Consecutive Ones link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
+ 
  
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
@@ -318,12 +333,14 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Find Numbers with Even Number of Digits link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
@@ -349,11 +366,13 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user clicks Squares of  a Sorted Array link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
+ 
  
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
@@ -391,12 +410,14 @@ Scenario: Verify if user able to redirect to Practice page
   When The user clicks Search the Array link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
    Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in array practice page page
@@ -422,12 +443,14 @@ Scenario: Verify if user able to redirect to Practice page
   When The user clicks Max Consecutive Ones link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Max Consecutive Ones array practice page
@@ -454,12 +477,14 @@ Scenario: Verify if user able to redirect to Practice page
   When The user clicks Find Numbers with Even Number of Digits link
   Then The user should be redirected to array practice page having program question with tryEditor and a Run button to test
  
+
   Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
  
+
     Scenario: Verify if user able to see the output in console
   Given The user is on the Arrays practice page tryEditor page
   When The User writes Valid python code in Find Numbers with Even Number array practice page

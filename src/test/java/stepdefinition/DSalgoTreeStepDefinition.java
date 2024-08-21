@@ -69,7 +69,9 @@ public class DSalgoTreeStepDefinition {
 
 	@Then("The user should be redirected to a Tree page having an tryEditor with a Run button to test")
 	public void the_user_should_be_redirected_to_a_tree_page_having_an_try_editor_with_a_run_button_to_test() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Assessment");
+		LoggerLoad.info("User is in tryEditor page");
 	}
 
 	// Scenario: Verify if user able to see the output in console
@@ -95,6 +97,7 @@ public class DSalgoTreeStepDefinition {
 	@Then("User is able to see the output in console of Tree Page")
 	public void user_is_able_to_see_the_output_in_console_of_tree_page() {
 		treepage.outputconsole();
+		Assert.assertEquals(treepage.outputconsole(), "hello");
 		LoggerLoad.info("user validated valid code in Tree page");
 
 	}
@@ -109,6 +112,7 @@ public class DSalgoTreeStepDefinition {
 	@Then("User is able to see the error msg in  Tree Page pop up window")
 	public void user_is_able_to_see_the_error_msg_in_tree_page_pop_up_window() {
 		treepage.output();
+		Assert.assertNotNull(treepage.alert, "Alert is not present.");
 		LoggerLoad.info("user validated invalid code in Tree page");
 	}
 
@@ -404,20 +408,21 @@ public class DSalgoTreeStepDefinition {
 
 	}
 
-	//Scenario: Verify if user able to view practice page
-	 
+	// Scenario: Verify if user able to view practice page
 
-	  @When("The user clicks Trees Practice Questions link") 
-	  public void the_user_clicks_trees_practice_questions_link() {
-		  
-	 treepage.verifyPracticePage();
-	  
-	  }
-	  @Then ("The user is redirected to Trees Practice Questions page")
-	  public void the_user_is_redirected_to_trees_practice_questions_page() { 
-			System.out.println(driver.getTitle());
-			LoggerLoad.info("user redirected to trees Practice page");
+	@When("The user clicks Trees Practice Questions link")
+	public void the_user_clicks_trees_practice_questions_link() {
 
-	 }
+		treepage.verifyPracticePage();
+
+	}
+
+	@Then("The user is redirected to Trees Practice Questions page")
+	public void the_user_is_redirected_to_trees_practice_questions_page() {
+		System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Practice Questions");
+		LoggerLoad.info("user redirected to trees Practice page");
+
+	}
 
 }

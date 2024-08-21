@@ -11,8 +11,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class DatastructuresPage {
-	 WebDriver driver;
-	 WebDriverWait wait;
+	WebDriver driver;
+	WebDriverWait wait;
+	public Alert alert;
 
 	By timeComplexity = By.linkText("Time Complexity");
 	By practiceQues = By.linkText("Practice Questions");
@@ -27,8 +28,6 @@ public class DatastructuresPage {
 
 	}
 
-	
-
 	public void verifyTimeComplexity() {
 
 		WebElement element = driver.findElement(timeComplexity);
@@ -36,7 +35,7 @@ public class DatastructuresPage {
 		element.click();
 
 	}
-	
+
 	public void verifyPracticePage() {
 
 		WebElement element = driver.findElement(practiceQues);
@@ -65,34 +64,28 @@ public class DatastructuresPage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
-		
-	
+		return driver.findElement(output).getText();
+		// System.out.println(executed);
+
 	}
-	
-	
-	public void output()
-	{
+
+	public void output() {
 
 		try {
-          Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-          System.out.println("Alert message: " + alert.getText());
-          alert.accept();
-      } catch (Exception e) {
-          try {
-              wait.until(ExpectedConditions.visibilityOfElementLocated(output));
-              String codeOutput = driver.findElement(output).getText();
-              System.out.println("Code output: " + codeOutput);
-          } catch (Exception ex) {
-              System.out.println("No output element found or no output generated.");
-          }
-      }
+			alert = wait.until(ExpectedConditions.alertIsPresent());
+			System.out.println("Alert message: " + alert.getText());
+			alert.accept();
+		} catch (Exception e) {
+			try {
+				wait.until(ExpectedConditions.visibilityOfElementLocated(output));
+				String codeOutput = driver.findElement(output).getText();
+				System.out.println("Code output: " + codeOutput);
+			} catch (Exception ex) {
+				System.out.println("No output element found or no output generated.");
+			}
+		}
 	}
-	
-	
+
 }
-
-

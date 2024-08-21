@@ -1,6 +1,6 @@
 #Author: AnusuyaSelvaraj
 
-@sanity
+
 @regression
 Feature: SignIn Page 
    
@@ -36,7 +36,7 @@ Scenario: Verify if user able to signIn invalid username and valid "password"
     When  The user clicks login button after entering invalid username and valid "password"
     Then  The user should able to see an error message "Invalid Username and Password".
     
-              
+  @sanity            
 Scenario: Verify if user able to signIn valid username and valid password
 
     When  The user clicks login button after entering valid "username" and valid "password"

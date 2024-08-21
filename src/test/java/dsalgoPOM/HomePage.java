@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage {
+<<<<<<< HEAD
 	private WebDriver driver;
 	private WebDriverWait wait;
 
@@ -31,6 +32,30 @@ public class HomePage {
 		this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
 	}
 
+=======
+	public WebDriver driver;
+	WebDriverWait wait;
+	By prepareinterviestart = By.xpath("//a[@href='/home']");
+
+	By dataStructuresdrop = By.xpath("//a[@class='nav-link dropdown-toggle']");
+
+	By stackstart = By.xpath("//a[@href='stack']");
+	By queuestart = By.xpath("//a[@href='queue']");
+	By graphstart = By.xpath("//a[@href='graph']");
+	By arraystart = By.xpath("//a[@href='array']");
+	By linkedliststart = By.xpath("//a[@href='linked-list']");
+	By treestart = By.xpath("//a[@href='tree']");
+	By datastructurestart = By.xpath("//a[@href='data-structures-introduction']");
+
+	By signout = By.linkText("Sign out");
+	By register = By.xpath("//a[text()=' Register ']");
+
+	public HomePage(WebDriver driver) {
+		this.driver = driver;
+		this.wait = new WebDriverWait(driver, Duration.ofSeconds(5));
+	}
+
+>>>>>>> mathumathi
 	public void clickstart() {
 
 		WebElement prepstart = driver.findElement(prepareinterviestart);

@@ -14,6 +14,7 @@ public class QueuePage {
 
 	WebDriver driver;
 	WebDriverWait wait;
+	public Alert alert;
 
 	By queueTitle = By.xpath("//h4[text()='Queue']");
 	By ImplementationofQueue = By.linkText("Implementation of Queue in Python");
@@ -92,16 +93,16 @@ public class QueuePage {
 
 	}
 
-	public void outputconsole() {
+	public String outputconsole() {
 
-		String executed = driver.findElement(output).getText();
-		System.out.println(executed);
+		return driver.findElement(output).getText();
+		// System.out.println(executed);
 
 	}
 
 	public void output() {
 		try {
-			Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+			alert = wait.until(ExpectedConditions.alertIsPresent());
 			System.out.println("Alert message: " + alert.getText());
 			alert.accept();
 		} catch (Exception e) {

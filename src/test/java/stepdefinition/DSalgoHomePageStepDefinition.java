@@ -51,9 +51,9 @@ public class DSalgoHomePageStepDefinition {
 
 	@Then("The user should land on DSAlgo Homepage")
 	public void the_user_should_land_on_ds_algo_homepage() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "NumpyNinja");
 		LoggerLoad.info("user landed  DSAlgo Homepage");
-
 	}
 
 	// Scenario Outline: Verify if user able to select datastructure "option"
@@ -83,6 +83,7 @@ public class DSalgoHomePageStepDefinition {
 		String ActualMessage = ele.getText();
 		System.out.println(ActualMessage);
 		Assert.assertEquals(ActualMessage, invalidmessage);
+		LoggerLoad.info("error message validation");
 
 	}
 
@@ -108,7 +109,8 @@ public class DSalgoHomePageStepDefinition {
 
 	@Then("The user is redirected to login page")
 	public void the_user_is_redirected_to_login_page() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Login");
 		LoggerLoad.info("user landed  DSAlgo Signin Page");
 	}
 
@@ -122,8 +124,9 @@ public class DSalgoHomePageStepDefinition {
 
 	@Then("The user redirected to Registration page")
 	public void the_user_redirected_to_registration_page() {
-		System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
+		Assert.assertEquals(driver.getTitle(), "Registration");
 		LoggerLoad.info("user landed  DSAlgo Register Page");
-		
+
 	}
 }
