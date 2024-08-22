@@ -22,19 +22,11 @@ import dsalgoPOM.SignInPage;
 
 public class DSalgoSignInStepDefinition {
 
-<<<<<<< HEAD
-	private WebDriver driver;
-	ConfigReader configReader = new ConfigReader();
-	private WebDriverWait wait;
-	SignInPage signInPage;
-	private HomePage homepage;
-=======
 	WebDriver driver;
 	ConfigReader configReader = new ConfigReader();
 	WebDriverWait wait;
 	SignInPage signInPage;
 	HomePage homepage;
->>>>>>> mathumathi
 
 	public DSalgoSignInStepDefinition() {
 		driver = DriverManager.getDriver();
@@ -83,7 +75,6 @@ public class DSalgoSignInStepDefinition {
 //Scenario: Verify if user able to signIn with only password blank
 	@When("The user clicks login button after entering the {string} and leaves password textbox blank")
 	public void the_user_clicks_login_button_after_entering_the_and_leaves_password_textbox_blank(String username) {
-<<<<<<< HEAD
 
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
 		signInPage.enterUsername(configReader.getProperty("username"));
@@ -93,13 +84,6 @@ public class DSalgoSignInStepDefinition {
 				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
 		signInButton.click();
 
-=======
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@id='id_username']")));
-		signInPage.enterUsername(configReader.getProperty("username"));
-		WebElement signInButton = wait
-				.until(ExpectedConditions.elementToBeClickable(By.xpath("//input[@value='Login']")));
-		signInButton.click();
->>>>>>> mathumathi
 	}
 
 	@Then("The error message {string} appears below Pwd textbox")
@@ -244,11 +228,9 @@ public class DSalgoSignInStepDefinition {
 		String actualMessage = wait
 				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@role='alert']"))).getText();
 		System.out.println(actualMessage);
-<<<<<<< HEAD
-		// Assert.assertEquals(actualMessage,"You are logged in");
-=======
+
 		Assert.assertEquals(actualMessage, "You are logged in");
->>>>>>> mathumathi
+
 		LoggerLoad.info("user signed in successfully");
 
 	}

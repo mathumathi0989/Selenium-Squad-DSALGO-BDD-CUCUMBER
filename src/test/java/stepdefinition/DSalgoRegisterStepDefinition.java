@@ -33,16 +33,8 @@ public class DSalgoRegisterStepDefinition {
 		homepage = new HomePage(driver);
 	}
 
-<<<<<<< HEAD
-public DSalgoRegisterStepDefinition() {
-	 driver = DriverManager.getDriver();
-	    registerPage = new RegisterPage(driver);
-	    homepage = new HomePage(driver);
-}
-=======
 	@Given("The user is on the new user registration page")
 	public void the_user_is_on_the_new_user_registration_page() {
->>>>>>> mathumathi
 
 		driver.get(configReader.getProperty("baseUrl") + "/register");
 		wait = new WebDriverWait(driver, Duration.ofSeconds(10));

@@ -16,16 +16,17 @@ Background: Verify if user is logged in
  Scenario: Verify if user able to to redirect to a page having an tryEditor with a Run button to test
     Given The user is in the Overview of Trees Page
     When  The user clicks Try Here button in Tree Page
+      Then  The user should be redirected to a Tree page having an tryEditor with a Run button to test
   
    @sanity        
  Scenario: Verify if user able to see the output in console
-    Given The user is on the Tree tryEditor page 
+    Given The user is on the Tree tryEditor page
     When  The User writes valid python code in Tree Page
     And   Click the Run button in Tree Page
     Then  User is able to see the output in console of Tree Page
     
  Scenario: Verify if user able to see the error msg in pop up window
-   Given The user is on the Tree tryEditor page 
+   Given The user is on the Tree tryEditor page
    When  The user writes invalid python code in Tree Page
    And   Click the Run button in Tree Page
    Then  User is able to see the error msg in  Tree Page pop up window
@@ -51,7 +52,7 @@ Background: Verify if user is logged in
  Scenario: Verify if user able to see the error msg in pop up window
    Given The user is on the Tree tryEditor page 
    When  The user writes invalid python code in Tree Page
-   And   Click the Run button in Tree Page
+   And  Click the Run button in Tree Page
    Then  User is able to see the error msg in  Tree Page pop up window
         
 
