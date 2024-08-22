@@ -51,7 +51,7 @@ public class DSalgoLinkedListStepDefinition {
 	@Then("The user should be directed to Introduction Page")
 	public void the_user_should_be_directed_to_introduction_page() {
 
-		//System.out.println(driver.getTitle());
+		// System.out.println(driver.getTitle());
 		String actual = driver.findElement(By.xpath("//p[text()='Introduction']")).getText();
 		Assert.assertEquals(actual, "Introduction");
 		LoggerLoad.info("user redirected to Introduction page");
