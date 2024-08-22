@@ -1,1 +1,0 @@
-{"uuid":"a3cd2a6e-2ab5-4065-a3d1-457c3e62ed93","name":"Scenario: Verify if user able to register with valid username and valid password but other field empty","children":["4be4ad44-c839-45f9-9b06-4a7b2e658e66"],"befores":[],"afters":[],"start":1724224333195,"stop":1724224333211}
