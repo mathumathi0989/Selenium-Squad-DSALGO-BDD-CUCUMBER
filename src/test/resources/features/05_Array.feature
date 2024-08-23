@@ -128,11 +128,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The User writes Valid python code in array practice page page
    And  Click the Run button in array page
    Then User is able to see the output in console of Arrays practice page
-   
-  
-     Scenario: Verify if user able to see the output in console
-   Given The user is on the Arrays practice page tryEditor page
-   When The User writes Valid python code in array practice page page
    And  Click the Submit button in array page
    Then User is able to see the error msg in console
   
@@ -141,10 +136,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
    When The user writes invalid python code in array practice page page
    And  Click the Run button in array page
    Then User is able to see the error msg in Arrays practice page pop up window 
-   
-     Scenario: Verify if user to see the error msg in console
-   Given The user is on the Arrays practice page tryEditor page
-   When The user writes invalid python code in array practice page page
    And  Click the Submit button in array page
    Then User is able to see the error msg in console
   
@@ -160,11 +151,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -174,10 +160,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -194,11 +176,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -208,10 +185,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console  
  
@@ -227,11 +200,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -241,10 +209,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console 
  
@@ -272,11 +236,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -286,10 +245,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes invalid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes invalid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -305,11 +260,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -319,10 +269,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -339,11 +285,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -353,10 +294,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console  
  
@@ -372,11 +309,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -386,10 +318,6 @@ Scenario: Verify if user able to redirect to a page having an tryEditor with a R
   When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -416,11 +344,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -430,10 +353,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes invalid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes invalid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -449,11 +368,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -463,10 +377,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -483,11 +393,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -497,10 +402,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console  
  
@@ -515,10 +416,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -528,10 +425,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -557,10 +450,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -570,10 +459,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes invalid python code in array practice page page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes invalid python code in array practice page page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -588,10 +473,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -601,10 +482,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Max Consecutive Ones array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
  
@@ -620,10 +497,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -633,10 +506,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Find Numbers with Even Number array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console  
  
@@ -651,10 +520,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the output in console of Arrays practice page
- 
-    Scenario: Verify if user able to see the output in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The User writes Valid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
 
@@ -664,10 +529,6 @@ Scenario: Verify if user able to redirect to Practice page
   When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Run button in array page
   Then User is able to see the error msg in Arrays practice page pop up window
- 
-    Scenario: Verify if user to see the error msg in console
-  Given The user is on the Arrays practice page tryEditor page
-  When The user writes Invalid python code in Squares of  a Sorted Array array practice page
   And Click the Submit button in array page
   Then User is able to see the error msg in console
   
