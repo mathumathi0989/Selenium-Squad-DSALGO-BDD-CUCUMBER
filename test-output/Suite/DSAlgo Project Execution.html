@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>DSAlgo Project Execution</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>39/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>68/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Aug 22 17:35:51 IST 2024</td>
+<td>Started on:</td><td>Fri Aug 23 09:46:04 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>376 seconds (376576 ms)</td>
+<tr><td>Total time:</td><td>666 seconds (666506 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,33 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to register with valid data", "Register"</td>
-<td><div><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as gurdevdheena] but found [password_mismatch:The two password fields didn’t match.]
-	at stepdefinition.DSalgoRegisterStepDefinition.the_user_should_be_redirected_to_home_page_of_ds_algo_and_the_user_should_able_to_see_successful_message_on_the_ds_algo_home_page(DSalgoRegisterStepDefinition.java:196)
-	at ✽.The user should be redirected to Home Page of DS Algo and The user should able to see  successful message &quot;New Account Created. You are logged in as teamchallengers&quot;  on  the DS Algo Home Page(file:///Users/mathumathibalakrishnan/eclipse/Mathumathi_2024/cucumberdsAlgo/src/test/resources/features/01_DSAlgoRegister.feature:53)
-... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1495589210", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1495589210'><pre>java.lang.AssertionError: expected [New Account Created. You are logged in as gurdevdheena] but found [password_mismatch:The two password fields didn’t match.]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at stepdefinition.DSalgoRegisterStepDefinition.the_user_should_be_redirected_to_home_page_of_ds_algo_and_the_user_should_able_to_see_successful_message_on_the_ds_algo_home_page(DSalgoRegisterStepDefinition.java:196)
-	at ✽.The user should be redirected to Home Page of DS Algo and The user should able to see  successful message &quot;New Account Created. You are logged in as teamchallengers&quot;  on  the DS Algo Home Page(file:///Users/mathumathibalakrishnan/eclipse/Mathumathi_2024/cucumberdsAlgo/src/test/resources/features/01_DSAlgoRegister.feature:53)
-</pre></div></td>
-<td>55</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -103,199 +76,344 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user is on Home page and click on sign in", "Homepage"</td>
-<td></td>
-<td>79</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Graph"</td>
-<td></td>
-<td>126</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
-<td></td>
-<td>76</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
-<td></td>
-<td>76</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to signIn valid username and valid password", "SignIn Page"</td>
-<td></td>
-<td>56</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
-<td></td>
-<td>86</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
-<td></td>
-<td>83</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
-<td></td>
-<td>95</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
-<td></td>
-<td>84</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
-<td></td>
-<td>100</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to "signout"", "Signout"</td>
-<td></td>
-<td>59</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
-<td></td>
-<td>81</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Queue"</td>
-<td></td>
-<td>91</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
 <td></td>
 <td>104</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
 <td></td>
-<td>92</td>
+<td>78</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>89</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>94</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Squares of  a Sorted Array" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>75</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>105</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>112</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
 <td></td>
 <td>93</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Queue"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to direct to "Applications of Array" page", "Array"</td>
 <td></td>
-<td>83</td>
+<td>61</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Stack"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
 <td></td>
-<td>84</td>
+<td>91</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to Practice page", "Array"</td>
 <td></td>
-<td>80</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
-<td></td>
-<td>85</td>
+<td>55</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
 <td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
-<td></td>
-<td>98</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
 <td></td>
 <td>104</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Max Consecutive Ones"in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
 <td></td>
-<td>81</td>
+<td>73</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to Practice page", "Array"</td>
 <td></td>
-<td>76</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
-<td></td>
-<td>103</td>
+<td>75</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
 <td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
 <td></td>
-<td>109</td>
+<td>105</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Stack"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
 <td></td>
-<td>84</td>
+<td>91</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
-<td></td>
-<td>76</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Queue"</td>
-<td></td>
-<td>83</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
-<td></td>
-<td>99</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Queue"</td>
-<td></td>
-<td>83</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Stack"</td>
-<td></td>
-<td>88</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "LinkedList"</td>
-<td></td>
-<td>84</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Graph"</td>
-<td></td>
-<td>134</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Data Structures- Introduction"</td>
-<td></td>
-<td>100</td>
-<td>testrunner.TestRunner@2254127a</td></tr>
-<tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user is on Home page and click on Register", "Homepage"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
 <td></td>
 <td>79</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Find Numbers with Even Number of Digits" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
 <td></td>
-<td>76</td>
+<td>89</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Search the Array"in Array Practice page and redirect to  tryEditor page  with a Run button to test", "Array"</td>
 <td></td>
-<td>72</td>
+<td>75</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 <tr>
-<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Tree"</td>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
 <td></td>
-<td>83</td>
+<td>101</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>111</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Search the Array"in Array Practice page and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>78</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>111</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Max Consecutive Ones"in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>78</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to direct to "Arrays Using List" page", "Array"</td>
+<td></td>
+<td>81</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to a page having an tryEditor with a Run button to test", "Array"</td>
+<td></td>
+<td>99</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>113</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>79</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>116</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Squares of  a Sorted Array" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>78</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Squares of  a Sorted Array" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>73</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Find Numbers with Even Number of Digits" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>77</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>85</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>101</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>92</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>111</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>88</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Squares of  a Sorted Array" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>77</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>106</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>108</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>97</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Find Numbers with Even Number of Digits" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>77</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>104</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>93</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to direct to "Basic Operations in Lists" page", "Array"</td>
+<td></td>
+<td>82</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to a page having an tryEditor with a Run button to test", "Array"</td>
+<td></td>
+<td>101</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>105</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>96</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to a page having an tryEditor with a Run button to test", "Array"</td>
+<td></td>
+<td>100</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>136</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>97</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to Practice page", "Array"</td>
+<td></td>
+<td>67</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>80</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>95</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>112</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Search the Array"in Array Practice page and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>68</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Search the Array"in Array Practice page and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>97</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Find Numbers with Even Number of Digits" in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>77</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>130</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>93</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Max Consecutive Ones"in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>96</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to a page having an tryEditor with a Run button to test", "Array"</td>
+<td></td>
+<td>79</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>71</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to direct to "Arrays in Python" Page", "Array"</td>
+<td></td>
+<td>81</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user to see the error msg in pop up window", "Array"</td>
+<td></td>
+<td>52</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to select "Max Consecutive Ones"in Array Practice page  and redirect to  tryEditor page  with a Run button to test", "Array"</td>
+<td></td>
+<td>96</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to see the output in console", "Array"</td>
+<td></td>
+<td>96</td>
+<td>testrunner.TestRunner@2254127a</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify if user able to redirect to Practice page", "Array"</td>
+<td></td>
+<td>62</td>
 <td>testrunner.TestRunner@2254127a</td></tr>
 </table><p>
 </body>
