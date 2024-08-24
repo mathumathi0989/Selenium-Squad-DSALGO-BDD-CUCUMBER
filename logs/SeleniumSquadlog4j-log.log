@@ -1,0 +1,325 @@
+[INFO ] 2024-08-23 23:08:30.474 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:30.474 [TestNG-PoolService-3] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:08:30.474 [TestNG-PoolService-2] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:08:30.474 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:30.989 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:31.559 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:32.044 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:32.086 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:32.223 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:33.052 [TestNG-PoolService-3] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:08:33.185 [TestNG-PoolService-2] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:08:33.748 [TestNG-PoolService-3] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-23 23:08:33.931 [TestNG-PoolService-2] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-23 23:08:41.039 [TestNG-PoolService-8] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:08:41.299 [TestNG-PoolService-7] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:08:42.138 [TestNG-PoolService-5] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:08:42.221 [TestNG-PoolService-6] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:08:42.465 [TestNG-PoolService-4] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-23 23:08:46.650 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:46.806 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:48.054 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:48.838 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:50.744 [TestNG-PoolService-9] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:08:54.993 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:55.695 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:55.765 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:56.005 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:56.678 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:08:57.265 [TestNG-PoolService-1] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-23 23:08:58.065 [TestNG-PoolService-0] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-23 23:08:58.856 [TestNG-PoolService-2] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:08:59.689 [TestNG-PoolService-3] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:04.336 [TestNG-PoolService-8] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:05.419 [TestNG-PoolService-7] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:06.155 [TestNG-PoolService-4] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:06.788 [TestNG-PoolService-5] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:07.316 [TestNG-PoolService-6] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:09:11.992 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:12.413 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:12.443 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:14.076 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:14.969 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:17.950 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:18.143 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:18.146 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:18.626 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:19.247 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:20.772 [TestNG-PoolService-0] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-23 23:09:21.147 [TestNG-PoolService-9] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-23 23:09:21.774 [TestNG-PoolService-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-23 23:09:21.864 [TestNG-PoolService-2] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-23 23:09:25.071 [TestNG-PoolService-3] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-23 23:09:25.872 [TestNG-PoolService-7] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-23 23:09:26.664 [TestNG-PoolService-8] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-23 23:09:27.790 [TestNG-PoolService-5] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:28.655 [TestNG-PoolService-4] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:30.020 [TestNG-PoolService-6] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:34.113 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:35.067 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:37.098 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:37.989 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:41.131 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:41.675 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:42.480 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:43.371 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:43.879 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:44.048 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:45.096 [TestNG-PoolService-0] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:46.806 [TestNG-PoolService-9] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:49.112 [TestNG-PoolService-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:50.809 [TestNG-PoolService-2] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:51.496 [TestNG-PoolService-8] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:51.497 [TestNG-PoolService-3] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:52.340 [TestNG-PoolService-5] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:52.399 [TestNG-PoolService-6] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:52.449 [TestNG-PoolService-7] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:54.772 [TestNG-PoolService-4] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-23 23:09:55.843 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:09:56.574 [TestNG-PoolService-0] LoggerLoad - Logged out successfully
+[INFO ] 2024-08-23 23:09:56.576 [TestNG-PoolService-0] LoggerLoad - After logged out, user landed on Home Page
+[INFO ] 2024-08-23 23:19:04.364 [TestNG-PoolService-8] LoggerLoad - username textbox validation
+[INFO ] 2024-08-23 23:19:04.358 [TestNG-PoolService-9] LoggerLoad - password textbox validation
+[INFO ] 2024-08-23 23:19:04.358 [TestNG-PoolService-2] LoggerLoad - Confirm password textbox validation
+[INFO ] 2024-08-23 23:19:04.378 [TestNG-PoolService-6] LoggerLoad - password mismatch validation
+[INFO ] 2024-08-23 23:19:04.358 [TestNG-PoolService-1] LoggerLoad - password textbox validation
+[INFO ] 2024-08-23 23:19:04.358 [TestNG-PoolService-0] LoggerLoad - For logs verification
+[INFO ] 2024-08-23 23:19:22.556 [TestNG-PoolService-0] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:19:22.556 [TestNG-PoolService-2] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:19:22.556 [TestNG-PoolService-1] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:19:23.841 [TestNG-PoolService-9] LoggerLoad - User opens DS Algo portal link
+[INFO ] 2024-08-23 23:19:35.152 [TestNG-PoolService-9] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:19:35.329 [TestNG-PoolService-2] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:19:35.415 [TestNG-PoolService-0] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:19:35.936 [TestNG-PoolService-1] LoggerLoad - user landed  DSAlgo Homepage
+[INFO ] 2024-08-23 23:19:45.633 [TestNG-PoolService-0] LoggerLoad - user landed  DSAlgo Register Page
+[INFO ] 2024-08-23 23:19:46.332 [TestNG-PoolService-9] LoggerLoad - user landed  DSAlgo Signin Page
+[INFO ] 2024-08-23 23:19:51.125 [TestNG-PoolService-7] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-23 23:19:51.261 [TestNG-PoolService-5] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-23 23:19:51.541 [TestNG-PoolService-4] LoggerLoad - invalid error message validation
+[INFO ] 2024-08-23 23:19:51.807 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:19:52.063 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:19:55.251 [TestNG-PoolService-1] LoggerLoad - user clicks the DS Get Started link on homepage
+[INFO ] 2024-08-23 23:19:55.463 [TestNG-PoolService-1] LoggerLoad - error message validation
+[INFO ] 2024-08-23 23:19:55.994 [TestNG-PoolService-8] LoggerLoad - user redirected to Time Complexity Data Structures Page
+[INFO ] 2024-08-23 23:19:59.385 [TestNG-PoolService-2] LoggerLoad - user clicks the DS dropdown
+[INFO ] 2024-08-23 23:19:59.935 [TestNG-PoolService-3] LoggerLoad - username textbox validation
+[INFO ] 2024-08-23 23:19:59.953 [TestNG-PoolService-2] LoggerLoad - error message validation
+[INFO ] 2024-08-23 23:21:24.223 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.240 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.221 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.254 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.253 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.219 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.255 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:24.338 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:26.356 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:26.840 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:21:37.562 [TestNG-PoolService-2] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-23 23:21:37.561 [TestNG-PoolService-4] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-23 23:21:42.056 [TestNG-PoolService-5] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-23 23:21:44.576 [TestNG-PoolService-3] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:21:45.348 [TestNG-PoolService-9] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:21:46.228 [TestNG-PoolService-6] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:21:50.258 [TestNG-PoolService-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:21:54.522 [TestNG-PoolService-8] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-23 23:21:54.964 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in DataStructures page
+[INFO ] 2024-08-23 23:21:55.380 [TestNG-PoolService-0] LoggerLoad - user validated valid code in Datastructures page
+[INFO ] 2024-08-23 23:22:44.395 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.396 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.394 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.586 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.586 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.601 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:44.701 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:46.552 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:22:52.971 [TestNG-PoolService-1] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-23 23:22:53.247 [TestNG-PoolService-5] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-23 23:23:02.443 [TestNG-PoolService-8] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:23:08.162 [TestNG-PoolService-6] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-23 23:23:08.509 [TestNG-PoolService-0] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-23 23:23:09.576 [TestNG-PoolService-4] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:23:10.178 [TestNG-PoolService-7] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:23:10.254 [TestNG-PoolService-9] LoggerLoad - user validated valid code
+[INFO ] 2024-08-23 23:23:17.334 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:23:17.465 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:23:31.605 [TestNG-PoolService-3] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:23:39.618 [TestNG-PoolService-2] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-23 23:24:32.244 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.242 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.299 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.275 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.344 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.402 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.463 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:32.468 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:34.443 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:34.530 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:24:45.762 [TestNG-PoolService-1] LoggerLoad - user redirected to Arrays in Python page
+[INFO ] 2024-08-23 23:24:51.587 [TestNG-PoolService-1] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-23 23:25:01.288 [TestNG-PoolService-9] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:25:01.642 [TestNG-PoolService-5] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:25:01.909 [TestNG-PoolService-0] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:25:12.113 [TestNG-PoolService-8] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:25:18.845 [TestNG-PoolService-3] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:25:21.919 [TestNG-PoolService-4] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:26:36.825 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.825 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.825 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.825 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.825 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:37.017 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.983 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:37.028 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:36.976 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:37.234 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:26:48.979 [TestNG-PoolService-0] LoggerLoad - user redirected to Arrays Using List page
+[INFO ] 2024-08-23 23:26:53.871 [TestNG-PoolService-0] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-23 23:27:02.254 [TestNG-PoolService-6] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:27:02.274 [TestNG-PoolService-7] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:27:02.403 [TestNG-PoolService-1] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:27:09.087 [TestNG-PoolService-9] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:27:38.445 [TestNG-PoolService-2] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:27:54.393 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:27:54.390 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:27:54.394 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:27:54.471 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:27:54.729 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:28:04.219 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:28:04.546 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:28:08.614 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:28:08.653 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:28:15.680 [TestNG-PoolService-7] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:28:16.052 [TestNG-PoolService-9] LoggerLoad - user redirected to Basic Operations in Lists page
+[INFO ] 2024-08-23 23:28:22.263 [TestNG-PoolService-0] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:28:23.140 [TestNG-PoolService-9] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-23 23:28:33.728 [TestNG-PoolService-6] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:28:39.144 [TestNG-PoolService-8] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:28:39.376 [TestNG-PoolService-3] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:28:51.510 [TestNG-PoolService-5] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:28:59.840 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:02.643 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:04.700 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:11.236 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:31.662 [TestNG-PoolService-7] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:29:41.342 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:41.918 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:42.102 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:44.327 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:44.718 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:29:48.827 [TestNG-PoolService-0] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:29:59.446 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:06.726 [TestNG-PoolService-8] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:30:08.608 [TestNG-PoolService-3] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:30:16.339 [TestNG-PoolService-4] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:30:17.038 [TestNG-PoolService-6] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:30:30.601 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:38.466 [TestNG-PoolService-7] LoggerLoad - user redirected to Applications of Array page
+[INFO ] 2024-08-23 23:30:39.174 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:41.155 [TestNG-PoolService-7] LoggerLoad - user redirected to Practice page
+[INFO ] 2024-08-23 23:30:50.268 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:57.462 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:58.248 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:30:58.378 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:02.107 [TestNG-PoolService-2] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:31:23.182 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:23.408 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:24.828 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:30.863 [TestNG-PoolService-8] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:31:36.965 [TestNG-PoolService-5] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:37.313 [TestNG-PoolService-3] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:31:39.151 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:31:45.726 [TestNG-PoolService-0] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:31:48.473 [TestNG-PoolService-6] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:31:59.555 [TestNG-PoolService-1] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:32:05.973 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:07.275 [TestNG-PoolService-5] LoggerLoad - user redirected to array practice page with try editor
+[INFO ] 2024-08-23 23:32:24.423 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:43.015 [TestNG-PoolService-2] LoggerLoad - user validated valid code in console of Arrays practice page
+[INFO ] 2024-08-23 23:32:43.139 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:43.142 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:44.487 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:44.951 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:32:55.711 [TestNG-PoolService-6] LoggerLoad - user redirected to Graph page
+[INFO ] 2024-08-23 23:33:08.179 [TestNG-PoolService-3] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:33:11.299 [TestNG-PoolService-9] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-23 23:33:11.316 [TestNG-PoolService-0] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-23 23:33:12.110 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:33:20.030 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:33:20.396 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:33:27.684 [TestNG-PoolService-1] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:33:42.236 [TestNG-PoolService-7] LoggerLoad - user validated invalid code in graph page
+[INFO ] 2024-08-23 23:33:42.261 [TestNG-PoolService-4] LoggerLoad - user validated valid code in graph page
+[INFO ] 2024-08-23 23:35:14.435 [TestNG-PoolService-8] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.435 [TestNG-PoolService-4] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.405 [TestNG-PoolService-7] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.435 [TestNG-PoolService-2] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.496 [TestNG-PoolService-6] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.511 [TestNG-PoolService-9] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.653 [TestNG-PoolService-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.684 [TestNG-PoolService-3] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:14.697 [TestNG-PoolService-0] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-23 23:35:23.666 [TestNG-PoolService-3] LoggerLoad - user redirected to Creating Linked LIst page
+[INFO ] 2024-08-23 23:35:23.829 [TestNG-PoolService-1] LoggerLoad - user redirected to Implementation of Queue in Python Page
+[INFO ] 2024-08-23 23:35:24.021 [TestNG-PoolService-4] LoggerLoad - user is directed to Applications Stackpage
+[INFO ] 2024-08-23 23:35:24.805 [TestNG-PoolService-6] LoggerLoad - user redirected to Introduction page
+[INFO ] 2024-08-23 23:35:31.128 [TestNG-PoolService-2] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:35:31.308 [TestNG-PoolService-7] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:35:31.340 [TestNG-PoolService-8] LoggerLoad - User is in tryEditor page
+[INFO ] 2024-08-23 23:35:37.299 [TestNG-PoolService-9] LoggerLoad - user validated invalid code
+[INFO ] 2024-08-23 23:35:44.080 [TestNG-PoolService-0] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:30:07.087 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:30:27.968 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:30:44.461 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:31:04.523 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:31:20.564 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:31:42.759 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:31:59.292 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:32:14.435 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:32:31.905 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:32:48.296 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:33:03.307 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:33:22.138 [TestNG-tests-1] LoggerLoad - user validated valid code
+[INFO ] 2024-08-24 07:33:36.518 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:33:53.262 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-24 07:34:06.804 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:34:18.179 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-24 07:34:31.869 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:34:47.958 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-24 07:35:02.495 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:35:16.244 [TestNG-tests-1] LoggerLoad - user validated valid code in Queue page
+[INFO ] 2024-08-24 07:35:31.857 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:35:48.055 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-24 07:36:02.819 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:36:18.902 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-24 07:36:34.987 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:36:55.167 [TestNG-tests-1] LoggerLoad - user validated valid code in stack page
+[INFO ] 2024-08-24 07:37:10.796 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:37:32.144 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:37:46.368 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:37:59.834 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:38:16.493 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:38:30.327 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:38:43.957 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:39:00.680 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:39:15.498 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:39:29.297 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:39:43.746 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:40:01.546 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:40:15.788 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:40:34.273 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:40:48.514 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:41:01.385 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:41:16.929 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:41:32.830 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:41:47.186 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:42:05.950 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:42:21.078 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:42:43.739 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:42:58.458 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:43:14.320 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:43:29.134 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:43:46.972 [TestNG-tests-1] LoggerLoad - user validated valid code in Tree page
+[INFO ] 2024-08-24 07:44:02.651 [TestNG-tests-1] LoggerLoad - user signed in successfully
+[INFO ] 2024-08-24 07:44:04.853 [TestNG-tests-1] LoggerLoad - Logged out successfully
+[INFO ] 2024-08-24 07:44:04.864 [TestNG-tests-1] LoggerLoad - After logged out, user landed on Home Page
