@@ -8,13 +8,14 @@
 			<class name="testrunner.TestRunner"/>
 		</classes>
 	</test>
-<!--
+
 	<test name="DSAlgo Project Execution in firefox">
 		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="testrunner.TestRunner"/>
 		</classes>
 	</test>
+	<!--
 -->
 
 <!--
