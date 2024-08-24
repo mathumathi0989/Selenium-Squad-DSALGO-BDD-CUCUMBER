@@ -1,6 +1,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite" parallel="tests" thread-count="3">
+	
 	<test name="DSAlgo Project Execution in chrome">
 		<parameter name="browser" value="chrome" />
 		<classes>
@@ -15,6 +16,7 @@
 		</classes>
 	</test>
 -->
+
 <!--
 <test name="DSAlgo Project Execution in chrome">
 		<parameter name="browser" value="chrome" />
@@ -22,6 +24,7 @@
 			<class name="testrunner.FailedRunnerTests"/>
 		</classes>
 	</test>
+	
 	-->
 
 </suite>
