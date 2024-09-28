@@ -1,4 +1,4 @@
-# Selenium-Squad
+# Selenium-Squad BDD Cucumber
 DSALGO BDD Cucumber Project
 http://dsportalapp.herokuapp.com
 
